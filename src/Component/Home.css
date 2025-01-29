@@ -1,0 +1,147 @@
+.btn-custom {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.btn-demo {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+}
+
+.btn-start {
+    border: 2px solid #ff5722;
+    color: #ff5722;
+    background: transparent;
+}
+
+.card-custom {
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.card-custom h5 {
+    font-weight: bold;
+}
+
+.avatar-group img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: -10px;
+    border: 2px solid #fff;
+}
+
+.avatar-group span {
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+}
+
+.pin-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    font-size: 18px;
+}
+
+.section-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar th,
+.calendar td {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.calendar th {
+    background-color: #ddd;
+}
+
+.calendar .selected {
+    background-color: #343a40;
+    color: white;
+    border-radius: 5px;
+}
+
+.assignment-item {
+    margin-bottom: 15px;
+}
+
+.assignment-item .text-muted {
+    font-size: 14px;
+}
+
+.checkbox-custom {
+    margin-right: 10px;
+}
+
+.avatars img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: -5px;
+    border: 2px solid #fff;
+}
+
+.icon {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.section-box1 img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: -5px;
+    border: 2px solid #fff;
+}
+
+.calendar {
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.calendar-header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.calendar-body {
+    padding: 10px;
+}
+
+.day {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.day:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.current-day {
+    background-color: #343a40;
+    color: #fff;
+}

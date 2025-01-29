@@ -1,0 +1,10 @@
+.free-trial-section {
+    background-color: #F64242;
+    height: 70vh;
+    /* Full screen height */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
