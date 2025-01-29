@@ -2,7 +2,7 @@ import React from 'react'
 
 const SupportInboxMain = () => {
   return (
-    <div className="container-fluid mt-5">
+    <div className="container mt-5">
     <div className="row">
         <div className="col-md-6 d-flex align-items-center">
             <div className="text">

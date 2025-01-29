@@ -7,11 +7,11 @@ const HomeMain = () => {
     
     <div className="container mt-5">
       <div className="row">
-        <div className="col-md-6 ">
+        <div className="col-md-6 d-flex align-items-center">
           <div className="text">
             <h1 className="fw-bold">Home</h1>
             <p className="fs-5">
-              The home screen organises your day, workload, <br />
+              The home screen organises your day, workload,
               Task, And schedules. Your day, Simplified.
             </p>
           </div>
@@ -34,8 +34,8 @@ const HomeMain = () => {
           <div className="g-4 mt-5 mx-5 border rounded">
             <div>
               <div
-                className="section-box shadow-sm"
-                style={{ backgroundColor: "#edebe7" }}
+                className="section-box shadow-sm rounded"
+                style={{ backgroundColor: "#fff" }}
               >
                 <div className="text-center">
                   <span className="section-header badge bg-secondary mt-4">

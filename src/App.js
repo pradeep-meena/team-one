@@ -11,6 +11,7 @@ import Pricing from './Component/Pricing';
 import DashboardSummary from './DashboardSummary';
 import Home from './Component/Home';
 import IntegrationPage from './Component/IntegrationPage';
+import Contact from './Component/Contact';
 
 function Layout() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="dashboard" element={<DashboardSummary />} />
           <Route path="business-banner" element={<BusinessBanner />} />
           <Route path="fearture" element={<Fearture />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
    </Router>

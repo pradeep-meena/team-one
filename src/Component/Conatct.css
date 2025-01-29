@@ -1,0 +1,16 @@
+.office-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .office-list li {
+    margin-bottom: 10px;
+  }
+  .contact-info {
+    margin-top: 20px;
+  }
+  @media (max-width:768px){
+    .contact-section-img{
+        margin-top: 0px !important;
+        margin-bottom: 50px;
+    }
+  }

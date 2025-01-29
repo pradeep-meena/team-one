@@ -56,16 +56,17 @@ const Home = () => {
 
        
       <div className="container mt-5 mb-4 text-center">
-        <div className="logo mb-3 pt-4">
+        <div className="logo mb-3">
           <img
             src="https://i.ibb.co/7CmSk0R/Screenshot-2025-01-28-124002-removebg-preview-1.png"
             alt="Logo"
+            style={{width:"100px",height:"100px"}}
           />
         </div>
         <button className="btn btn-success rounded-pill btn-custom">
           Make a new project
         </button>
-        <button className="btn btn-success rounded-pill btn-custom">
+        <button className="btn btn-success rounded-pill btn-custom ms-2">
           Invite people
         </button>
         <p className="mt-3">
@@ -430,10 +431,10 @@ const Home = () => {
           <div className="row g-4 mt-3">
             <div className="col-md-6">
               <div
-                className="section-box shadow-sm"
+                className="section-box shadow-sm rounded"
                 style={{ backgroundColor: "#edebe7" }}
               >
-                <div className="text-center">
+                <div className="text-center pt-4">
                   <span className="section-header badge bg-secondary">
                     YOUR SCHEDULE
                   </span>
@@ -708,6 +709,15 @@ const Home = () => {
     </div>
     <div className="container right-side my-5">
       <div className="row mt-5">
+      <div className="col-md-6">
+          <img
+            src="https://i.ibb.co/61czt71/IMG-1517.jpg"
+            alt="IMG-1517"
+            loading="lazy"
+            width="100%"
+            className="shadow mt-3"
+          />
+        </div>
         <div className="col-md-6">
           <h2 className="mb-4 fw-bold">Let’s take a look.</h2>
           <p className="highlight">
@@ -733,15 +743,6 @@ const Home = () => {
             software is designed to scale, as our customers grow… We grow and
             behind all of this growth, is TeamOne Ops.
           </p>
-        </div>
-        <div className="col-md-6">
-          <img
-            src="https://i.ibb.co/61czt71/IMG-1517.jpg"
-            alt="IMG-1517"
-            loading="lazy"
-            width="100%"
-            className="shadow mt-3"
-          />
         </div>
       </div>
     </div>

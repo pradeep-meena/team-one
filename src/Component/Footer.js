@@ -77,7 +77,7 @@ const Footer = () => {
             </div>
         </div>
     </footer> */}
-     <div className="container-fluid pt-4 bg-light">
+     <div className="container-fluid pt-4 mt-5 bg-light">
       <div className="row">
         {/* Products Section */}
         <div className="col-md-3">

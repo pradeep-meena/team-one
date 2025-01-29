@@ -132,7 +132,7 @@ const Header = () => {
   return (
     <div className="container-fluid">
       <header className="mt-3 header d-flex justify-content-between align-items-center">
-        <div className="d-flex align-items-center">
+        <div className="d-flex justify-content-center align-items-center">
           <Link to="/home">
           <img 
             src="https://i.ibb.co/5Tq0pq6/Black-logo-no-background.png" 
@@ -144,20 +144,20 @@ const Header = () => {
         </div>
     
 
-        <div className='d-flex justify-content-between ' >
-          { toggleheader && !isMobile &&   <div className='d-flex align-items-center justify-content-between gap-2 mx-4 '>
-           <Link to="/features" ><p>Features</p> </Link>
-           <Link to="/pricing" ><p>Pricing</p> </Link>
-           <Link to="/integration" > <p>Integrations</p></Link>
-            <p>Contact</p>
+        <div className='d-flex justify-content-center align-items-center' >
+          { toggleheader && !isMobile &&   <div className='d-flex align-items-center justify-content-between gap-2 mx-4 ' style={{paddingTop: "10px"}}>
+           <Link to="/features"><p style={{backgroundColor: "#FAF8F1" , padding: "4px 14px" ,borderRadius: "5px",fontWeight: "500"}}>Features</p> </Link>
+           <Link to="/pricing" ><p style={{backgroundColor: "#FAF8F1" , padding: "4px 14px" ,borderRadius: "5px",fontWeight: "500"}}>Pricing</p> </Link>
+           <Link to="/integration" > <p style={{backgroundColor: "#FAF8F1" , padding: "4px 14px" ,borderRadius: "5px",fontWeight: "500"}}>Integrations</p></Link>
+           <Link to="/contact"> <p style={{backgroundColor: "#FAF8F1" , padding: "4px 14px" ,borderRadius: "5px",fontWeight: "500"}}>Contact</p></Link>
 
           </div>}
         <div className='d-flex sign_in'>
          
           <button className="btn btn-outline-dark ">Sign in</button>
-          <button className="btn btn-success">Sign up free</button>
+          <button className="btn btn-success ms-3">Sign up free</button>
         </div>
-          <i className="bi bi-list m-2" onClick={handleToggle}></i>
+          <i className="bi bi-list m-2" onClick={handleToggle} style={{cursor: "pointer"}}></i>
          
         </div>
       </header>
@@ -180,7 +180,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                 <Link to="/">
+                 <Link to="/contact">
                     Contacts
                     </Link>
                 </li>

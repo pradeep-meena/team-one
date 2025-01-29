@@ -32,7 +32,7 @@ const SupportMain = () => {
       <div className="section-header">
         <div
           className="section-box mx-5 border rounded mt-5"
-          style={{ backgroundColor: "#edebe7" }}
+          style={{ backgroundColor: "#fff" }}
         >
           <div className="row g-4 mt-3">
             <div className="col-md-12">

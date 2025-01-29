@@ -9,9 +9,8 @@ const SalesMain = () => {
           <div className="text">
             <h1 className="fw-bold">Sales</h1>
             <p className="fs-5">
-              All your sales data, organiged, analysed, and <br />
-              ready for you to take action. CRM, done <br />
-              properly.
+              All your sales data, organiged, analysed, and 
+              ready for you to take action. CRM, done properly.
             </p>
           </div>
         </div>
@@ -32,7 +31,7 @@ const SalesMain = () => {
         <div className="section-header">
           <div
             className="section-box mx-5 border rounded mt-5"
-            style={{ backgroundColor: "#edebe7" }}
+            style={{ backgroundColor: "#fff" }}
           >
             <div className="row g-4 mt-3">
               <div className="col-md-12">
@@ -42,7 +41,7 @@ const SalesMain = () => {
                       YOUR SCHEDULE
                     </span>
                   </div>
-                  <div className="calendar" style={{ backgroundColor: "#fff" }}>
+                  <div className="calendar">
                     <div className="calendar-header text-center">
                       <button className="btn btn-light btn-sm">‹</button>
                       <span>November</span>
