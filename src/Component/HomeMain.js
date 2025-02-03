@@ -11,8 +11,8 @@ const HomeMain = () => {
           <div className="text">
             <h1 className="fw-bold">Home</h1>
             <p className="fs-5">
-              The home screen organises your day, workload,
-              Task, And schedules. Your day, Simplified.
+            Your Home Screen – Designed for Productivity
+            The home screen is your central hub, helping you organize, prioritize, and stay on track throughout your day. With a clear overview of tasks, schedules, and workload, you can focus on what truly matters—getting things done efficiently.
             </p>
           </div>
         </div>
@@ -26,149 +26,96 @@ const HomeMain = () => {
       </div>
     </div>
     <div
-      className="base container shadow-sm pb-4 border mt-5 rounded"
-      style={{ backgroundColor: "#faf8f4" }}
-    >
-      <div className="container">
-        <div className="section-header">
-          <div className="g-4 mt-5 mx-5 border rounded">
-            <div>
-              <div
-                className="section-box shadow-sm rounded"
-                style={{ backgroundColor: "#fff" }}
-              >
-                <div className="text-center">
-                  <span className="section-header badge bg-secondary mt-4">
-                    YOUR SCHEDULE
-                  </span>
+    className="base container shadow-sm pb-4 pt-4 border mt-5 rounded"
+    style={{ backgroundColor: "#faf8f4" }}
+  >
+     
+     <div className="row g-4">
+        {/* Calendar Section - Left Column */}
+        <div className="col-md-6">
+          
+            <div className="text-center">
+              <span className="section-header badge bg-secondary">
+                YOUR SCHEDULE
+              </span>
+            </div>
+
+            {/* Calendar */}
+            <div className="calendar">
+              <div className="calendar-header text-center">
+                <button className="btn btn-light btn-sm">‹</button>
+                <span>November</span>
+                <button className="btn btn-light btn-sm">›</button>
+              </div>
+
+              <div className="calendar-body">
+                <div className="d-flex justify-content-between text-center">
+                  {["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"].map(
+                    (day) => (
+                      <div key={day} className="fw-bold">
+                        {day}
+                      </div>
+                    )
+                  )}
                 </div>
-                <div className="calendar" style={{ backgroundColor: "#fff" }}>
-                  <div className="calendar-header text-center">
-                    <button className="btn btn-light btn-sm">‹</button>
-                    <span>November</span>
-                    <button className="btn btn-light btn-sm">›</button>
-                  </div>
-                  <div className="calendar-body">
-                    <div className="d-flex justify-content-between text-center">
-                      <div className="fw-bold">SUN</div>
-                      <div className="fw-bold">MON</div>
-                      <div className="fw-bold">TUE</div>
-                      <div className="fw-bold">WED</div>
-                      <div className="fw-bold">THU</div>
-                      <div className="fw-bold">FRI</div>
-                      <div className="fw-bold">SAT</div>
+
+                <div className="d-flex flex-wrap justify-content-start mt-2">
+                  {[29, 30, 31, ...Array(30).keys()].map((day, index) => (
+                    <div
+                      key={index}
+                      className={`day ${day === 13 ? "current-day" : ""}`}
+                    >
+                      {day}
                     </div>
-                    <div className="d-flex flex-wrap justify-content-start mt-2">
-                      <div className="day text-muted">29</div>
-                      <div className="day text-muted">30</div>
-                      <div className="day text-muted">31</div>
-                      <div className="day">1</div>
-                      <div className="day">2</div>
-                      <div className="day">3</div>
-                      <div className="day">4</div>
-                      <div className="day">5</div>
-                      <div className="day">6</div>
-                      <div className="day">7</div>
-                      <div className="day">8</div>
-                      <div className="day">9</div>
-                      <div className="day">10</div>
-                      <div className="day">11</div>
-                      <div className="day">12</div>
-                      <div className="day current-day">13</div>
-                      <div className="day">14</div>
-                      <div className="day">15</div>
-                      <div className="day">16</div>
-                      <div className="day">17</div>
-                      <div className="day">18</div>
-                      <div className="day">19</div>
-                      <div className="day">20</div>
-                      <div className="day">21</div>
-                      <div className="day">22</div>
-                      <div className="day">23</div>
-                      <div className="day">24</div>
-                      <div className="day">25</div>
-                      <div className="day">26</div>
-                      <div className="day">27</div>
-                      <div className="day">28</div>
-                      <div className="day">29</div>
-                      <div className="day">30</div>
-                      <div className="day text-muted">1</div>
-                      <div className="day text-muted">2</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="datet d-flex justify-content-evenly">
-                  <p>
-                    <strong>
-                      <i className="fa-regular fa-calendar" /> WED, NOV 13
-                    </strong>
-                    <span className="px-3">Nothing's on the schedule</span>
-                  </p>
-                </div>
-                <div className="d-flex flex-column align-items-center p-3">
-                  <div className="d-flex">
-                    <p className="text-start">
-                      <strong>
-                        <i className="fa-regular fa-calendar" /> FRI, NOV 15
-                      </strong>
-                    </p>
-                    <div>
-                      <p className="fw-bold ps-4 d-flex">
-                        Marketing Team Call
-                        <img
-                          src="https://randomuser.me/api/portraits/men/1.jpg"
-                          alt="avatar"
-                          className="ms-2"
-                        />
-                        <img
-                          src="https://randomuser.me/api/portraits/women/2.jpg"
-                          alt="avatar"
-                        />
-                        <img
-                          src="https://randomuser.me/api/portraits/men/3.jpg"
-                          alt="avatar"
-                        />
-                      </p>
-                      <p className="ms-4">11:30am - 12:00pm</p>
-                      <p className="ms-4">Team: Marketing</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="d-flex flex-column align-items-center p-3">
-                  <div className="d-flex">
-                    <p className="text-start">
-                      <strong>
-                        <i className="fa-regular fa-calendar" /> TUE, NOV 19
-                      </strong>
-                    </p>
-                    <div>
-                      <p className="fw-bold ps-4 d-flex">
-                        Weekly Sync
-                        <img
-                          src="https://randomuser.me/api/portraits/men/1.jpg"
-                          alt="avatar"
-                          className="ms-2"
-                        />
-                        <img
-                          src="https://randomuser.me/api/portraits/women/2.jpg"
-                          alt="avatar"
-                        />
-                        <img
-                          src="https://randomuser.me/api/portraits/men/3.jpg"
-                          alt="avatar"
-                        />
-                      </p>
-                      <p className="ms-4">5:00am - 5:30am</p>
-                      <p className="ms-4">Listing-to-Offers Pipeline</p>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             </div>
+          
+        </div>
+
+        {/* Events Section - Right Column */}
+        <div className="col-md-6">
+          <div className="events-section">
+            {/* No Schedule Message */}
+            <div className="datet text-center">
+              <p>
+                <strong>
+                  <i className="fa-regular fa-calendar"></i> WED, NOV 13
+                </strong>
+                <span className="px-3">Nothing's on the schedule</span>
+              </p>
+            </div>
+
+            {/* Event Cards */}
+            <div className="events-section text-center d-flex flex-column align-items-center">
+  {[
+    { date: "FRI, NOV 15", title: "Marketing Team Call", time: "11:30am - 12:00pm", team: "Marketing" },
+    { date: "TUE, NOV 19", title: "Weekly Sync", time: "5:00am - 5:30am", team: "Listing-to-Offers Pipeline" }
+  ].map((event, index) => (
+    <div key={index} className="event-card mx-auto">
+      <p className="event-date">
+        <strong>
+          <i className="fa-regular fa-calendar"></i> {event.date}
+        </strong>
+      </p>
+      <div className="event-info">
+        <p className="fw-bold">{event.title}</p>
+        <div className="avatars d-flex justify-content-center">
+          <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="avatar" />
+          <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="avatar" />
+          <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="avatar" />
+        </div>
+        <p className="event-time">{event.time}</p>
+        <p className="event-team">{event.team}</p>
+      </div>
+    </div>
+  ))}
+</div>
           </div>
         </div>
       </div>
-    </div>
+  </div>
   </>
   )
 }
