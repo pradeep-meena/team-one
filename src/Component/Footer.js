@@ -116,18 +116,6 @@ const Footer = () => {
             href="#"
             style={{ textDecoration: "none", color: "black", display: "block" }}
           >
-            Mobile Apps
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            Blog
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
             Pricing
           </a>
         </div>
