@@ -35,7 +35,7 @@ const Home = () => {
             Get a demo of our software, or get started with free forever tools.
           </p>
           <div className="mt-4">
-            <button className="btn btn-custom btn-demo me-2">Get a demo</button>
+            <button className="btn btn-custom btn-img-color me-2">Get a demo</button>
             <button className="btn btn-custom btn-start">Get started free</button>
           </div>
         </div>
@@ -63,7 +63,7 @@ const Home = () => {
             style={{width:"100px",height:"100px"}}
           />
         </div>
-        <button className="btn btn-success rounded-pill btn-custom">
+        <button className="btn btn-img-color rounded-pill btn-custom ">
           Make a new project
         </button>
         <button className="btn btn-success rounded-pill btn-custom ms-2">

@@ -132,7 +132,7 @@ const Footer = () => {
           </a>
         </div>
         {/* share Section */}
-        <div className="col-md-1"> 
+        <div className="col-md-3"> 
           <h6 style={{ fontWeight: "bold" }}>Share</h6>
           <label for="email">Enter your email:</label>
           <input type="email" id="email" name="email"/>

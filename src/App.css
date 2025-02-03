@@ -45,3 +45,18 @@
   }
 
  }
+ .btn-img-color{
+  background-color: #26c7cd;
+  color: white;
+ }
+ .footer-share-icon a{
+  padding: 10px 15px;
+ }
+ .footer-share-icon img{
+  width: 30px;
+ }
+ .header-content-p p{
+  background-color: #78e5e8;
+  padding: 5px 10px;
+  margin-top: 10px;
+ }

@@ -31,19 +31,19 @@ const Header = () => {
           />
           </Link>
         </div>
-        <div className="nav-conten-men align-items-baseline">
+        <div className="nav-conten-men">
         <div className='d-flex justify-content-between ' >
-          <div className='d-flex align-items-center justify-content-between gap-2 mx-4 '>
-           <Link to="/features" ><p>Features</p> </Link>
-           <Link to="/pricing" ><p>Pricing</p> </Link>
-           <Link to="/integration" > <p>Integrations</p></Link>
-           <Link to="/contact" >  <p>Contact</p></Link>
+          <div className='d-flex align-items-center justify-content-between gap-2 mx-4 header-content-p'>
+           <Link className='header-content-p' to="/features" ><p>Features</p> </Link>
+           <Link className='header-content-p' to="/pricing" ><p>Pricing</p> </Link>
+           <Link className='header-content-p' to="/integration" > <p>Integrations</p></Link>
+           <Link className='header-content-p' to="/contact" >  <p>Contact</p></Link>
 
           </div>
         <div className='d-flex sign_in'>
          
           <button className="btn btn-outline-dark me-3">Sign in</button>
-          <button className="btn btn-signup">Sign up free</button>
+          <button className="btn btn-img-color">Sign up free</button>
           <i className="bi bi-list m-2" onClick={handleToggle}></i>
         </div>
           </div>
