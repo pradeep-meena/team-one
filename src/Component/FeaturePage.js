@@ -51,8 +51,8 @@ const FeaturePage = () => {
             padding: "10px 20px",
             fontSize: 16,
             color: "white",
-            backgroundColor: "red",
-            border: "2px solid red",
+            backgroundColor: "#26c7cd",
+            border: "2px solid #26c7cd",
             borderRadius: 30,
             textDecoration: "none",
             fontWeight: "bold"
@@ -183,10 +183,10 @@ const FeaturePage = () => {
             alt="Logo"
           />
         </div>
-        <button className="btn btn-success rounded-pill btn-custom">
+        <button className="btn btn-success rounded-pill btn-custom ">
           Make a new project
         </button>
-        <button className="btn btn-success rounded-pill btn-custom">
+        <button className="btn btn-success rounded-pill btn-custom " style={{marginLeft:'10px'}}>
           Invite people
         </button>
         <p className="mt-3">
