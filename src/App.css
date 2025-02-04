@@ -48,6 +48,7 @@
  .btn-img-color{
   background-color: #26c7cd;
   color: white;
+  border-radius: 10px !important;
  }
  .footer-share-icon a{
   padding: 10px 15px;
