@@ -23,11 +23,12 @@ const Header = () => {
   };
 
   return (
+   <header className="mt-3 ">
     <div className="container-fluid">
-   <header className="mt-3 header container-fluid">
       {/* Top row: Logo and Toggle Button */}
+      <div className='header-main-content d-flex justify-content-between align-items-center'>
       <div className="d-flex justify-content-between align-items-center">
-        <Link to="/home">
+        <Link to="/home"> 
           <img
             src="https://i.ibb.co/5Tq0pq6/Black-logo-no-background.png"
             alt="Logo"
@@ -60,42 +61,9 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>
-       {/* {toggleheader && isMobile && 
-                <ul className="navbar-nav ms-auto">
-                <li className="nav-item">
-                  <Link to='/features' >
-                    Features
-                  </Link>
-                </li>
-                <Link to='/pricing' >
-                <li className="nav-item">
-                    Pricing
-                </li>
-                </Link>
-                <li className="nav-item">
-                  <Link to="/integration">
-                    Integrations
-                  </Link>
-                </li>
-                <li className="nav-item">
-                 <Link to="/">
-                    Contacts
-                    </Link>
-                </li>
-               
-              </ul>          }  */}
-      {/* Render Navbar inline or as a sidebar */}
-      {/* {toggleheader && (
-        <div className={isMobile ? 
-          <div className="collapse navbar-collapse" id="navbarNav">
-        
-        </div>
-        : ""}>
-          <Navbar />
-        </div>
-      )} */}
+      </div>
     </div>
+    </header>
   );
 };
 
