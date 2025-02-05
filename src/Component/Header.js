@@ -24,7 +24,9 @@ const Header = () => {
 
   return (
     <div className="container-fluid">
+      
    <header className="mt-3 header container-fluid">
+    
       {/* Top row: Logo and Toggle Button */}
       <div className="d-flex justify-content-between align-items-center">
         <Link to="/home">
@@ -60,7 +62,9 @@ const Header = () => {
           </div>
         </div>
       </div>
+      
     </header>
+   
        {/* {toggleheader && isMobile && 
                 <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
