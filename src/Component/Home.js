@@ -568,7 +568,7 @@ const Home = () => {
                     <br />
                     <span
                       className="ms-4"
-                      style={{ position: "relative", left: 110 }}
+                      style={{ position: "relative", left: 100 }}
                     >
                       Listing-to-Offers Pipeline
                     </span>

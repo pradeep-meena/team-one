@@ -111,7 +111,7 @@ const Footer = () => {
             style={{ textDecoration: "none", color: "black", display: "block" }}
           >
             Integrations
-          </a>
+          </a>  
           <a
             href="#"
             style={{ textDecoration: "none", color: "black", display: "block" }}
