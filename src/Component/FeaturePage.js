@@ -129,7 +129,7 @@ const FeaturePage = () => {
               <i className="bi bi-boxes" />
             </div>
             <div className="discover-feature-content">
-              <div className="discover-feature-title">stock management</div>
+              <div className="discover-feature-title">Stock management</div>
               <small>Learn more</small>
             </div>
           </div>
@@ -827,21 +827,7 @@ const FeaturePage = () => {
         </div>
       </div>
     </div>
-{/* cUSTOMER rELATIONsHIP aMANAGEMENT */}
-   {/* <div>
-    <img src='https://ibb.co/Vc5kFQhd.jpg' alt="crm img"></img>
-    <p className='text-danger'>CUSTOMER RELATIONSHIP MANAGEMENT</p> 
-    <p className='font-bold'>Gain visibility into your entire sales pipeline.</p>
-
-    <p>
-     Close deals and successfully onboard
-     customers faster. Craft the sales
-     workflow so you can establish
-     consistent results.
-    </p>
-    <button>See CRM </button>
-   </div> */}
-
+{/* cUSTOMER rELATIONsHIP aMANAGEMENT */}             
     {/* There's More To Dic\scover */}
     <div className="container">
         <h1 className="discover-heading">There's more to discover</h1>
@@ -893,7 +879,7 @@ const FeaturePage = () => {
                 <i className="bi bi-boxes" />
               </div>
               <div className="discover-feature-content">
-                <div className="discover-feature-title">stock management</div>
+                <div className="discover-feature-title">Stock management</div>
                 <small>Learn more</small>
               </div>
             </div>
@@ -936,10 +922,11 @@ const FeaturePage = () => {
           </div>
         </div>
       </div>
-   
+
+
 </>
 
   )
 }
 
-export default FeaturePage
+export default FeaturePage     

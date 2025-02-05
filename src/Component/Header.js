@@ -1,18 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 960);
-
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 960);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
+        {/* Logo */}
         <Link className="navbar-brand" to="/home">
           <img
             src="https://i.ibb.co/5Tq0pq6/Black-logo-no-background.png"
@@ -21,6 +14,8 @@ const Header = () => {
             width="150"
           />
         </Link>
+
+        {/* Navbar Toggle Button (Bootstrap) */}
         <button
           className="navbar-toggler"
           type="button"
@@ -32,6 +27,8 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+
+        {/* Navbar Menu */}
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -55,7 +52,9 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <div className="d-flex">
+
+          {/* Sign In / Sign Up Buttons */}
+          <div className="d-flex mt-3 mt-lg-0">
             <button className="btn btn-outline-dark me-3" style={{ height: "35px" }}>
               Sign in
             </button>
@@ -64,10 +63,10 @@ const Header = () => {
             </button>
           </div>
         </div>
-
       </div>
     </nav>
   );
 };
 
 export default Header;
+     
