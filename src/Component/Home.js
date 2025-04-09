@@ -39,13 +39,19 @@ const Home = () => {
               <button className="btn btn-custom btn-start">Get started free</button>
             </div>
           </div>
-          <div className="col-md-6 shadow-sm border rounded ">
-            <video controls className="w-100 h-100 video-hover " autoPlay>
-              <source src="https://www.youtube.com/embed/D0UnqGm_miA" type="video/mp4" />
+          <div className="col-md-6 shadow-sm border rounded">
+            <video
+              autoPlay
+              muted
+              controls
+              loop
+              className="w-100 video-hover"
+            >
+              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            
           </div>
+
         </div>
       </div>
       {/* Features Page  */}
@@ -59,26 +65,44 @@ const Home = () => {
 
         <div className="container mt-5 mb-4 text-center">
           <div className="row g-4 mt-3">
-            <div className="col-md-6">
-              <video controls className="w-100 h-100 rounded shadow video-hover">
-                <source src="https://your-video-url.mp4" type="video/mp4" />
+            <div className="col-md-6 shadow-sm border rounded">
+              <video
+                autoPlay
+                muted
+                controls
+                loop
+                className="w-100 h-100 video-hover"
+              >
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
             <div className="col-md-6">
               <div className='row'>
                 <div className='col-md-12'>
-                  <div className="border rounded">
-                    <video controls className="w-100 rounded shadow video-hover">
-                      <source src="https://your-video-url.mp4" type="video/mp4" />
+                  <div className="col-md-12 shadow-sm border rounded">
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      className="w-100 video-hover"
+                    >
+                      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
                 </div>
                 <div className='col-md-12'>
-                  <div className="border rounded">
-                    <video controls className="w-100 rounded shadow video-hover">
-                      <source src="https://your-video-url.mp4" type="video/mp4" />
+                  <div className="col-md-12 shadow-sm border rounded">
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      className="w-100 video-hover"
+                    >
+                      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
