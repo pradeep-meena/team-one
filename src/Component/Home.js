@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState,useRef} from 'react'
 import './Home.css';
 import HomeMain from './HomeMain';
 import SalesMain from './SalesMain';
@@ -9,7 +9,13 @@ import InventoryMAin from './InventoryMAin';
 import Finance from './Finance';
 import SupportInboxMain from './SupportInboxMain';
 import MainLast from './MainLast';
+import ReactPlayer from 'react-player';
 const Home = () => {
+  const [playVideo, setPlayVideo] = useState(false);
+
+  const handlePlay = () => {
+    setPlayVideo(true);
+  };
   return (
     <>
       <div className="container mt-5">
@@ -41,9 +47,47 @@ const Home = () => {
           </div>
           <div className="col-md-6 shadow-sm border rounded ">
             <video controls className="w-100 h-100 video-hover " autoPlay>
-              <source src="https://www.youtube.com/embed/D0UnqGm_miA" type="video/mp4" />
+              <source src="https://youtu.be/D0UnqGm_miA?si=TlPHUAkC20VP58uU?autoplay=1" type="video/mp4" allowFullScreen />
               Your browser does not support the video tag.
             </video>
+
+            {!playVideo ? (
+        <button
+          onClick={handlePlay}
+          className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
+        >
+          Play YouTube Video
+        </button>
+      ) : (
+        <div className="aspect-video w-full max-w-xl">
+          <ReactPlayer
+            url="https://youtu.be/D0UnqGm_miA?si=TlPHUAkC20VP58uU" // Replace with your YouTube link
+            controls
+            playing
+            width="100%"
+            height="100%"
+          />
+        </div>
+      )}
+
+{!playVideo ? (
+        <button
+          onClick={handlePlay}
+          className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
+        >
+          Play YouTube Video
+        </button>
+      ) : (
+        <div className="aspect-video w-full max-w-xl">
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" // Replace with your YouTube link
+            controls
+            playing
+            width="100%"
+            height="100%"
+          />
+        </div>
+      )}
             
           </div>
         </div>
@@ -61,7 +105,7 @@ const Home = () => {
           <div className="row g-4 mt-3">
             <div className="col-md-6">
               <video controls className="w-100 h-100 rounded shadow video-hover">
-                <source src="https://your-video-url.mp4" type="video/mp4" />
+                <source src="https://your-https://youtu.be/D0UnqGm_miA?si=TlPHUAkC20VP58uU-url.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -70,7 +114,7 @@ const Home = () => {
                 <div className='col-md-12'>
                   <div className="border rounded">
                     <video controls className="w-100 rounded shadow video-hover">
-                      <source src="https://your-video-url.mp4" type="video/mp4" />
+                      <source src="https://youtu.be/D0UnqGm_miA?si=TlPHUAkC20VP58uU" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
