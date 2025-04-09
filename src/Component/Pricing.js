@@ -16,10 +16,10 @@ const Pricing = () => {
       </p>
       <p className="text-secondary">Up to a yearly saving of 25%</p>
       <div className="toggle-container">
-        <button className="toggle-btn active"  onClick={() => setActiveTab('annual')}>
+        <button className={`${activeTab === 'annual' ? 'toggle-btn active' : 'toggle-btn'}  `}  onClick={() => setActiveTab('annual')}>
           Annual
         </button>
-        <button className="toggle-btn"  onClick={() => setActiveTab('monthly')}>
+        <button className={`${activeTab === 'monthly' ? 'toggle-btn active' : 'toggle-btn'}`}  onClick={() => setActiveTab('monthly')}>
           Monthly
         </button>
       </div>
@@ -27,7 +27,9 @@ const Pricing = () => {
   </section>
   {/* pricing-section end */}
   {/* card-section */}
-  { activeTab === 'annual' &&  (  <div className="container py-5">
+  { activeTab === 'annual' && 
+  (  
+    <div className="container py-5">
     <div className="row g-4">
       <div className="col-md-4">
         <div className="pricing-card">
@@ -99,80 +101,89 @@ const Pricing = () => {
         </div>
       </div>
     </div>
-  </div>)}
-  <div className="container py-5">
-    <div className="row g-4">
-      <div className="col-md-4">
-        <div className="pricing-card">
-          <h5>
-            <strong>
-              Basecamp <span className="fw-bold fst-italic">FREE</span>
-            </strong>
-          </h5>
-          <p>Run one project at a time.</p>
-          <ul>
-            <li>Completely free</li>
-            <li>One project</li>
-            <li>1GB storage space</li>
-            <li>Upgrade later if you need more</li>
-          </ul>
-          <h6>
-            <strong>Free forever</strong>
-          </h6>
-          <button className="btn-green">Sign up free</button>
-        </div>
-      </div>
-      <div className="col-md-4">
-        <div className="pricing-card">
-          <h5>
-            <strong>
-              Basecamp <span className="highlight-text">PLUS</span>
-            </strong>
-          </h5>
-          <p>Ideal for freelancers, startups, and smaller teams.</p>
-          <ul>
-            
-            <li>Pay-per-user pricing</li>
-            <li>
-              <strong>Unlimited projects</strong>
-            </li>
-            <li>500GB storage space</li>
-            <li>24/7/365 support</li>
-          </ul>
-          <div className=' align-items-center'>
-          <h6 className=' textl-lg mb-2'>
-            <strong>$15/user per month</strong>
-          </h6>
-          <button className="btn-green ">Try it free for 30 days</button>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4">
-        <div className="pricing-card">
-          <h5>
-            <strong>
-              Basecamp <span className="highlight-text">PRO UNLIMITED</span>
-            </strong>
-          </h5>
-          <p>Top-of-the-line, fixed pricing for businesses.</p>
-          <ul>
-            <li>
-              <strong>Extended 75-day free trial</strong>
-            </li>
-            <li>
-              <strong>Fixed price</strong>, no per-user charges
-            </li>
-            <li>Unlimited projects</li>
-            <li>5TB storage space</li>
-          </ul>
-          <h6>
-            <strong>$299/month billed annually</strong>
-          </h6>
-          <button className="btn-green">Try it free for 75 days</button>
-        </div>
+  </div>
+  ) 
+}
+
+{ activeTab === 'monthly' && (
+
+<div className="container py-5">
+<div className="row g-4">
+  <div className="col-md-4">
+    <div className="pricing-card">
+      <h5>
+        <strong>
+          Basecamp <span className="fw-bold fst-italic">FREE</span>
+        </strong>
+      </h5>
+      <p>Run one project at a time.</p>
+      <ul>
+        <li>Completely free</li>
+        <li>One project</li>
+        <li>1GB storage space</li>
+        <li>Upgrade later if you need more</li>
+      </ul>
+      <h6>
+        <strong>Free forever</strong>
+      </h6>
+      <button className="btn-green">Sign up free</button>
+    </div>
+  </div>
+  <div className="col-md-4">
+    <div className="pricing-card">
+      <h5>
+        <strong>
+          Basecamp <span className="highlight-text">PLUS</span>
+        </strong>
+      </h5>
+      <p>Ideal for freelancers and small teams.</p>
+      <ul>
+        
+        <li>Pay-per-user pricing</li>
+        <li>
+          <strong>Unlimited projects</strong>
+        </li>
+        <li>500GB storage space</li>
+        <li>24/7/365 support</li>
+      </ul>
+      <div className=' align-items-center'>
+      <h6 className=' textl-lg mb-2'>
+        <strong>$15/user per month</strong>
+      </h6>
+      <button className="btn-green ">Try it free for 30 days</button>
       </div>
     </div>
   </div>
+  <div className="col-md-4">
+    <div className="pricing-card">
+      <h5>
+        <strong>
+          Basecamp <span className="highlight-text">PRO UNLIMITED</span>
+        </strong>
+      </h5>
+      <p>Top-of-the-line, fixed pricing for businesses.</p>
+      <ul>
+        <li>
+          <strong>Extended 75-day free trial</strong>
+        </li>
+        <li>
+          <strong>Fixed price</strong>, no per-user charges
+        </li>
+        <li>Unlimited projects</li>
+        <li>5TB storage space</li>
+      </ul>
+      <h6>
+        <strong>$299/month billed monthly</strong>
+      </h6>
+      <button className="btn-green">Try it free for 75 days</button>
+    </div>
+  </div>
+</div>
+</div>
+)}
+
+
+  
   {/* card-section end */}
   {/* pricing table */}
   <div className="container">
