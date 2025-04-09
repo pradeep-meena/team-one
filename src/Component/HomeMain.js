@@ -17,10 +17,16 @@ const HomeMain = () => {
             </div>
           </div>
           <div className="border rounded col-md-6">
-            <video controls className="w-100 h-100 rounded shadow video-hover">
-              <source src="https://your-video-url.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      className="w-100 video-hover"
+                    >
+                      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
           </div>
         </div>
       </div>
@@ -37,20 +43,32 @@ const HomeMain = () => {
 
             {/* Calendar */}
             <div className="border rounded col-md-12">
-              <video controls className="w-100 h-100 rounded shadow video-hover">
-                <source src="https://your-video-url.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+            <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      className="w-100 video-hover"
+                    >
+                      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
             </div>
 
           </div>
 
           {/* Events Section - Right Column */}
           <div className="border rounded col-md-6">
-            <video controls className="w-100 h-100 rounded shadow video-hover">
-              <source src="https://your-video-url.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      className="w-100 video-hover"
+                    >
+                      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
           </div>
         </div>
       </div>
