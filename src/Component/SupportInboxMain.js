@@ -9,9 +9,12 @@ const SupportInboxMain = () => {
                 <h1 className="fw-bold">Our Core apps keep your teams organised, and your operation is running smoothly. without sacrifice</h1>
             </div>
         </div>
-        <div className="col-md-6 shadow-sm border rounded">
-            <img src="https://i.ibb.co/HYgDbvJ/IMG-1521.jpg"  alt="Artboard-2-1536x1151" class="w-100"/>
-        </div>
+        <div className="border rounded col-md-6">
+                      <video controls className="w-100 h-100 rounded shadow video-hover">
+                        <source src="https://your-video-url.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
     </div>
 </div>
   )
