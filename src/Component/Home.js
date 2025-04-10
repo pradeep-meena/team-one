@@ -704,7 +704,7 @@ const Home = () => {
   )
 }
 
-// export default 
+export default Home;
 
 // import React, { useState, useRef } from 'react';
 // import './Home.css';
@@ -1139,6 +1139,6 @@ const Home = () => {
 //   );
 // };
 
-export default Home;
+// export default Home;
 
 
