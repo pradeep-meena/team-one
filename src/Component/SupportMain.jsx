@@ -57,7 +57,7 @@ const SupportMain = () => {
         </div>
       </div>
       <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>Have a Look At CRM  </span>
+          <span className='visual__figure'>Manage  support desk </span>
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/95cca3dd8ec54a9e/Support.mp4?Expires=1838890912&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nN3Upnp-59km9qfVb-6RRtsStsW3wNjskKM6EDYY187BT5EObKuNCt8C6wGGPkrNx~~4JfNHrrU~d3gtb~TWDE0M20iQsYEtszalHb5Ds3l-xCqqL8sVzd-7oRlabMYgeZUfhQdU7La8P2-d4nXVL~yLj5n9ITZGbIRiriTvHNvDIfncvq--xSjRXFeQDKoYLD5tP8lU4rxKlXgvXz9EQ42Jo-a7M23vRHBM1ZdrKCO~SZph1ZWudo8ZCZ-lwFM1YeVSjbeOEcCVUSyQMMr5aOZYMZ~YPhSVsdqbx2BMXOjqGHEvnZp1q1W1RdJ4InXi5O6KAT3iQjZcooMrSSvfWQ__")}
@@ -66,7 +66,7 @@ const SupportMain = () => {
               {/* Video thumbnail image */}
               
                 <img 
-                  src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
+                  src="https://media-hosting.imagekit.io/a8118176f4754700/screenshot_1744291990023.png?Expires=1838899992&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GIhCNfQDKlvHuuLh~sgP0~YJYxoai7tV3W6e4NVxAQKC7TfSPF3gCk-BWIUFeLP5VnxEUbgNRxljt3dPLR027rvR7d8BlRpZ3scI9ML1evNTJwCKy016WeXZcSiRpZdPfw0mOxRP7jENZ1K1lN3L7hkvTIsG4eW6KaVGqVOZaWjJIU6uQz5TwUkTmQ-zYI7LMWlqsPGrLc1hhJBFtOZnTxXrxF1x3xOtF-vXt4tI-2ncQSHKpr3fPmB5Quz9wDT1L0UNiGZ-DTDOoKURGtzIH10OzJaTmbIObgvf6prSRvtPHFkoMMSMJDz-OC~xkX~FvhvVtAbwLuqcJf65B28Xbw__" 
                   alt="Video thumbnail" 
                   className="w-100 h-90 rounded mt-8"
                 />

@@ -61,7 +61,7 @@ const ProjectMain = () => {
               {/* Video thumbnail image */}
               
                 <img 
-                  src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
+                  src="https://media-hosting.imagekit.io/1167384628334096/screenshot_1744291549815.png?Expires=1838899552&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=p5Sr-dYHad3HLAMeEiUxysHFxDKKPnPjqWEcQ-Hy28g2o1tx9OLmmFB5IIftpUm4f9JXv6yYhwynfG5vkIhzoDNb3-1RiEMSqdCE3vVeymLZeNg8QWGQZ~C3IijP~jPb-vot8eINCB8kAxDgOFiUk7rDmRN~W9nTsc66uJqRCojAmK~Ip6rLgecjrmrcmib47kGcNL8GYpbhDhd5H0Ekpn9ORoFMwKlF3v8JvWfhnQwLJzFIKEV3iaQsxa5u8fkOykzwBJ4zns~p-6CSuWnFb5TIUeRKJNca9QLN-YSmUqe8JG9CmquoO89zCjXBIjz0TfXmASVmolh3lzZimNilMA__" 
                   alt="Video thumbnail" 
                   className="w-100 h-100 rounded mt-8"
                 />

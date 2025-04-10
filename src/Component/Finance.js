@@ -63,7 +63,7 @@ const Finance = () => {
               {/* Video thumbnail image */}
               
                 <img 
-                  src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
+                  src="https://media-hosting.imagekit.io/2bae80abc05a44e9/screenshot_1744292362026.png?Expires=1838900367&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=R3zmV4rlAPMcqVfssT8dWBDiZSdaueCEo~hGOwrtrRph9MJ8NfD50WgwHKf5YXSBYfnE4gzToGMdQoipJvqLGudeWX3J-vZHS9Hj8nfRNZAYvTxXt32C0CMPkcRmWiB0PzgUgfXmVElCfupJPRbzNR2m~x8hM2wvD4Y1~Osyf0hXn7JdIrQ0aYWk57-3uxUtc~KC8zSiu3RAIopP9dfAQueB9wYtiJXeOqlmscD0AVWY3OgNN9gazTdAUFgvX6XszkUICgqJPIgoU-uRBj5vR-c3yYoMAMG4nX88C6TLQFFboLpqBJLXgcQ2nb2b2oKxlAYkdMLlXomTitrwQYc9ew__" 
                   alt="Video thumbnail" 
                   className="w-100 h-100 rounded mt-8"
                 />
