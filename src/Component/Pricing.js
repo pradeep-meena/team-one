@@ -2,12 +2,23 @@ import React, { useState } from 'react'
 import './Pricing.css'
 const Pricing = () => {
   const [activeTab, setActiveTab] = useState('annual');
+
+
+  const [openItems, setOpenItems] = useState({});
+
+  const toggleItem = (index) => {
+    setOpenItems((prev) => ({
+      ...prev,
+      [index]: !prev[index],
+    }));
+  };
+
   return (
     <div>
       <section className="pricing-section">
         <div className="container">
           <h1 className="fw-bold">
-            Heavy on <span className="text-dark">features</span>. Light on{" "}
+            Heavy on <span className="text-dark">features</span>. Light on{""}
             <span className="text-dark">price</span>.
           </h1>
           <p className="text-muted">
@@ -15,6 +26,7 @@ const Pricing = () => {
             software.
           </p>
           <p className="text-secondary">Up to a yearly saving of 25%</p>
+          <p>Unlock the full potential of your business with a powerful, all-inclusive PSA (Professional Services Automation) solution that brings enterprise-level functionality without the enterprise-level expense. Our software is designed with your business needs in mind—combining a rich array of features, intuitive design, and uncompromising affordability.</p>
           <div className="toggle-container">
             <button className={`${activeTab === 'annual' ? 'toggle-btn active' : 'toggle-btn'}  `} onClick={() => setActiveTab('annual')}>
               Annual
@@ -35,7 +47,7 @@ const Pricing = () => {
                 <div className="pricing-card">
                   <h5>
                     <strong>
-                      Basecamp <span className="fw-bold fst-italic">FREE</span>
+                      Basecamp <span className="highlight-text">FREE</span>
                     </strong>
                   </h5>
                   <p>Run one project at a time.</p>
@@ -218,17 +230,17 @@ const Pricing = () => {
           </tbody>
         </table>
       </div>
-
+        <br/>
+        <br/>
 
       <marquee className="bg-black text-white">
-        “Extremely user friendly”
+       <h3> “Extremely user friendly”
+       <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-
-         “Truly amazing!”
+        “Truly amazing!”
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
@@ -391,6 +403,10 @@ const Pricing = () => {
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         “Really great”
+       </h3>
+        
+
+        
       </marquee>
 
 
@@ -511,57 +527,148 @@ const Pricing = () => {
       </section>
       {/* assets-section end */}
       {/* faq question */}
-      <section className="faq-section">
-        <div className="container">
-          <div className="faq-title">Frequently Asked Questions</div>
-          <div className="row faq-container">
-            <div className="col-md-6">
-              <div className="faq-item">
-                <span className="faq-icon">▶</span>
-                What features are included?
-              </div>
-              <div className="faq-item">
-                <span className="faq-icon">▶</span>
-                Do we have to pay extra for assets?
-              </div>
-              <div className="faq-item">
-                <span className="faq-icon">▶</span>
-                Is there a cost per end user?
-              </div>
-              <div className="faq-item">
-                <span className="faq-icon">▶</span>
-                Do you offer a non-profit discount?
-              </div>
-              <div className="faq-item">
-                <span className="faq-icon">▶</span>
-                Are integrations included in the price?
-              </div>
+     <section className="faq-section py-5">
+  <div className="container">
+    <div className="faq-title">Frequently Asked Questions</div>
+    <div className="row faq-container">
+      <div className="col-md-6">
+        <div
+          className="faq-item"
+          onClick={() => toggleItem(0)}
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="faq-icon">{openItems[0] ? '▼' : '▶'}</span>
+          What features are included?
+          {openItems[0] && (
+            <div className="faq-answer mt-3">
+              Our product includes a comprehensive suite of features such as user management, reporting dashboards, real-time notifications, integrated analytics.
             </div>
-            <div className="col-md-6">
-              <div className="faq-item">
-                <span className="faq-icon">▶</span>
-                Can we request a demonstration of your software?
-              </div>
-              <div className="faq-item">
-                <span className="faq-icon">▶</span>
-                Do you offer professional services?
-              </div>
-              <div className="faq-item">
-                <span className="faq-icon">▶</span>
-                Do you offer scalable prices for larger service desks?
-              </div>
-              <div className="faq-item">
-                <span className="faq-icon">▶</span>
-                Do you offer long term contracts?
-              </div>
-              <div className="faq-item">
-                <span className="faq-icon">▶</span>
-                What support do you offer during the trial?
-              </div>
-            </div>
-          </div>
+          )}
         </div>
-      </section>
+        <div
+          className="faq-item"
+          onClick={() => toggleItem(1)}
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="faq-icon">{openItems[1] ? '▼' : '▶'}</span>
+          Do we have to pay extra for assets?
+          {openItems[1] && (
+            <div className="faq-answer mt-3">
+              All essential assets are included with your subscription. Premium assets may incur extra fees.
+            </div>
+          )}
+        </div>
+        <div
+          className="faq-item"
+          onClick={() => toggleItem(2)}
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="faq-icon">{openItems[2] ? '▼' : '▶'}</span>
+          Is there a cost per end user?
+          {openItems[2] && (
+            <div className="faq-answer mt-3">
+              Our pricing model does not charge per end user. Specific requirements may vary for larger deployments.
+            </div>
+          )}
+        </div>
+        <div
+          className="faq-item"
+          onClick={() => toggleItem(3)}
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="faq-icon">{openItems[3] ? '▼' : '▶'}</span>
+          Do you offer a non-profit discount?
+          {openItems[3] && (
+            <div className="faq-answer mt-3">
+              Yes, we offer discounts for non-profit organizations. Please contact support for details.
+            </div>
+          )}
+        </div>
+        <div
+          className="faq-item"
+          onClick={() => toggleItem(4)}
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="faq-icon">{openItems[4] ? '▼' : '▶'}</span>
+          Are integrations included in the price?
+          {openItems[4] && (
+            <div className="faq-answer mt-3">
+              Standard integrations are included. Custom integrations may incur additional fees.
+            </div>
+          )}
+        </div>
+      </div>
+      <div className="col-md-6">
+        <div
+          className="faq-item"
+          onClick={() => toggleItem(5)}
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="faq-icon">{openItems[5] ? '▼' : '▶'}</span>
+          Can we request a demonstration of your software?
+          {openItems[5] && (
+            <div className="faq-answer mt-3">
+              Yes, you can request a live demo via our demo booking page.
+            </div>
+          )}
+        </div>
+        <div
+          className="faq-item"
+          onClick={() => toggleItem(6)}
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="faq-icon">{openItems[6] ? '▼' : '▶'}</span>
+          Do you offer professional services?
+          {openItems[6] && (
+            <div className="faq-answer mt-3">
+              We offer professional services including implementation, custom development, and training.
+            </div>
+          )}
+        </div>
+        <div
+          className="faq-item"
+          onClick={() => toggleItem(7)}
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="faq-icon">{openItems[7] ? '▼' : '▶'}</span>
+          Do you offer scalable prices for larger service desks?
+          {openItems[7] && (
+            <div className="faq-answer mt-3">
+              Our pricing scales based on usage. Contact our sales team for custom pricing options.
+            </div>
+          )}
+        </div>
+        <div
+          className="faq-item"
+          onClick={() => toggleItem(8)}
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="faq-icon">{openItems[8] ? '▼' : '▶'}</span>
+          Do you offer long term contracts?
+          {openItems[8] && (
+            <div className="faq-answer mt-3">
+              Yes, we offer both short-term and long-term contracts with various benefits.
+            </div>
+          )}
+        </div>
+        <div
+          className="faq-item"
+          onClick={() => toggleItem(9)}
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="faq-icon">{openItems[9] ? '▼' : '▶'}</span>
+          What support do you offer during the trial?
+          {openItems[9] && (
+            <div className="faq-answer mt-3">
+              During the trial, we provide extensive support including live chat, documentation, and scheduled assistance calls.
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* faq question end */}
       {/* feature-question */}
       <section className="features-question-section">
@@ -646,7 +753,7 @@ const Pricing = () => {
         <div className="container">
           <h1 className="discover-heading">There's more to discover</h1>
           <p className="discover-subheading">
-            Easy setup and everything as standard. Learn more about TeamOnePSA.
+            Easy setup and everything as standard. Learn more about TeamOne.
           </p>
           <div className="row">
             <div className="col-md-4">
@@ -729,8 +836,8 @@ const Pricing = () => {
             </div>
             <div className="col-md-4">
               <img
-                src="discover-more.png"
-                alt="Discover more"
+                src="di"
+                alt="more"
                 className="img-fluid rounded shadow"
               />
             </div>
