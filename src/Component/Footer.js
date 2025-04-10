@@ -15,7 +15,7 @@ const Footer = () => {
                 alt="PSA"
                 className="footer-icon"
               />
-              <a href="#" className="footer-link">PSA</a>
+              <a href="#" className="footer-link"></a>
             </p>
             <p className="footer-item">
               <img

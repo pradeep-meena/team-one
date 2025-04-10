@@ -19,20 +19,16 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="https://halopsa.com/features/">
+              <a className="nav-link" href="/features">
                 Features
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://halopsa.com/pricing/">
+              <a className="nav-link" href="/pricing">
                 Pricing
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://halopsa.com/integrations/">
-                Integrations
-              </a>
-            </li>
+           
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
