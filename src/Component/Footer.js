@@ -6,7 +6,7 @@ const Footer = () => {
      <div className="container">
       <div className="row">
         {/* Products Section */}
-        <div className="col-md-3">
+        {/* <div className="col-md-3">
           <h6 style={{ fontWeight: "bold" }}>Products</h6>
           <p>
             <img
@@ -56,7 +56,7 @@ const Footer = () => {
               ITSM
             </a>
           </p>
-        </div>
+        </div> */}
         {/* Company Section */}
         <div className="col-md-3">
           <h6 style={{ fontWeight: "bold" }}>Company</h6>
