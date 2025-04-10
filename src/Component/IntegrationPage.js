@@ -13,7 +13,7 @@ const IntegrationPage = () => {
             </h1>
             <p style={{ color: "#444", fontSize: 18 }}>
               Connect with the tools you already use to have all your team’s work
-              in one place. Use HaloPSA Integrations to ensure you keep control of
+              in one place. Use TeamOne Integrations to ensure you keep control of
               all of your resources.
             </p>
             <button
@@ -60,7 +60,7 @@ const IntegrationPage = () => {
               <h5 className="fw-bold">CRMADDON</h5>
               <p style={{ color: "#555", fontSize: 16 }}>
                 Offer your customers optimal service with short processing times
-                with the flexible interface between HaloPSA and your CRM system.
+                with the flexible interface between TeamOne and your CRM system.
               </p>
               <a
                 href="#"
@@ -84,7 +84,7 @@ const IntegrationPage = () => {
               <h5 className="fw-bold">Perfect Project</h5>
               <p style={{ color: "#555", fontSize: 16 }}>
                 Easily manage and monitor your projects by integrating Moovila
-                Perfect Project with HaloPSA.
+                Perfect Project with TeamOne.
               </p>
               <a
                 href="#"
@@ -161,7 +161,7 @@ const IntegrationPage = () => {
               <h5 className="fw-bold">CRMADDON</h5>
               <p style={{ color: "#555", fontSize: 16 }}>
                 Offer your customers optimal service with short processing times
-                with the flexible interface between HaloPSA and your CRM system.
+                with the flexible interface between TeamOne and your CRM system.
               </p>
               <a
                 href="#"
@@ -185,7 +185,7 @@ const IntegrationPage = () => {
               <h5 className="fw-bold">Perfect Project</h5>
               <p style={{ color: "#555", fontSize: 16 }}>
                 Easily manage and monitor your projects by integrating Moovila
-                Perfect Project with HaloPSA.
+                Perfect Project with TeamOne
               </p>
               <a
                 href="#"
@@ -262,7 +262,7 @@ const IntegrationPage = () => {
               <h5 className="fw-bold">CRMADDON</h5>
               <p style={{ color: "#555", fontSize: 16 }}>
                 Offer your customers optimal service with short processing times
-                with the flexible interface between HaloPSA and your CRM system.
+                with the flexible interface between TeamOne and your CRM system.
               </p>
               <a
                 href="#"
@@ -286,7 +286,7 @@ const IntegrationPage = () => {
               <h5 className="fw-bold">Perfect Project</h5>
               <p style={{ color: "#555", fontSize: 16 }}>
                 Easily manage and monitor your projects by integrating Moovila
-                Perfect Project with HaloPSA.
+                Perfect Project with TeamOne.
               </p>
               <a
                 href="#"
@@ -351,7 +351,7 @@ const IntegrationPage = () => {
       <div className="container">
         <h1 className="discover-heading">There's more to discover</h1>
         <p className="discover-subheading">
-          Easy setup and everything as standard. Learn more about HaloPSA.
+          Easy setup and everything as standard. Learn more about TeamOne.
         </p>
         <div className="row">
           <div className="col-md-4">

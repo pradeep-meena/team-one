@@ -96,7 +96,7 @@ const Home = () => {
                 <img 
                   src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100 h-100 rounded mb-8"
                 />
               
               
@@ -148,7 +148,7 @@ const Home = () => {
                 {/* Video thumbnail image */}
                 <div className="video-thumbnail w-100 h-100">
                   <img 
-                    src="https://i.ibb.co/8gcDmzvb/image.png" 
+                    src="https://media-hosting.imagekit.io/db66dec2bd5e431c/screenshot_1744291136685.png?Expires=1838899139&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EkoJQMBGsUbTKuchjezAdAMez7uUlKaAAc9e9y2-an~gau0p3N9AW7H15WWYgJZFkNGU2gVM1yW5s8bLCyYq4~RU6ITCzlEbFKSYD8fCXj0Ya3DTUq~7vZMA0E6UG75jAxlbWd21GccQIyNsCS4-ajhnWnkR3dzA7tPDHtI~aD-1akP0Y5OQaxJfNYyuwXyOm1ZgOiGb1j9gdCrPTNt1ebHdpScgqDu2imZWl-XrjM35BK6EoWxOhaGVJD7IKPqHtOwkmhJvyT~h9Qfml5xolEdNI8GLyn0T~1Z09RFNGuwFDVFI-hUBson9N2lWeYMRGGeY6svEx3CLmWU--GJJEw__" 
                     alt="Video thumbnail" 
                     className="w-100 h-100 rounded ratio ratio-16x9"
                   />
@@ -186,8 +186,9 @@ const Home = () => {
             <div className="col-md-6">
               <div className='row'>
                 <div className='col-md-12'>
+                <span className='visual__figure'>Have a Look   </span>
                 <div className="col-md-12 shadow-sm border rounded">
-          <span className='visual__figure'>Have a Look   </span>
+       
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/d0d27d3aff7e4b5f/Files.mp4?Expires=1838892048&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Uf0bJxRHZr7Uy4WDVRbZHH0Z0Glu5962kkMxmSm96VM8ZXFRCl6gDmHo8dhsnkKwcNpzH9emtJxNse2U~wpkD0tV~R-LVHXkK6gfVtftyXIA2s1XrGGM-sKeHZB0XneSjoHcy5wwhiqqvcJhsIfVV85aOauyVDFq1XomgGG-pc-aChuBua4PQ6J02zOH2091x9CGfk6HGhuBftJANNWGaRb-H0KL3tzyVEQmCqssktPFVysdCDyQ0AP1BSdYkbLPcGWSGDkamKWE2RtG1Ze9lLEXYrpr6IBviNcR6VaKF4L8ICE-auAfZCZpv3J2Gd1ZoSH1FLJI2wQ9QIp7oMHovA__")}
@@ -198,7 +199,7 @@ const Home = () => {
                 <img 
                   src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100 h-100 rounded mt-8"
                 />
               
               
@@ -233,9 +234,9 @@ const Home = () => {
           </div>
                 </div>
                 <div className='col-md-12'>
-
+                <span className='visual__figure'>Have a Look At CRM  </span>
                 <div className="col-md-12 shadow-sm border rounded">
-          <span className='visual__figure'>Have a Look At CRM  </span>
+         
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/e91eb030aabe4dd6/Notess.mp4?Expires=1838892129&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Dv~SDnrWQ3kbJano96iNo1z-KZneKuKxGlOpoZvGFkD0SwA9xjX4OaUC3WeeGoRCNXtv1JGx~Wvtd5lNQV9bmNz6rHuEPiyn6TuXjI0kiekhOBAynwMqN7kankEad2D4zAAz8HYB4fb8c4~sGLfhwPq8gYWx2xIzjg4sLpviqOEA0GwuhxRrWgym1QNeQB48UAo3bHeTqYn-ScyQ00nXGq3Mgl71b9I-~Zq8-X3C93nMO1UPH9-nX1zFDvA-Npm3fB2X8KR6nk9L1g1c9HH7KOKoECcoboDndK18eOwgZGeT6vpP2W967dakfKlZiO2CM6y5dSgti6qp6O8Txztb-w__")}
@@ -244,9 +245,10 @@ const Home = () => {
               {/* Video thumbnail image */}
               
                 <img 
-                  src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
+                  src="https://i.ibb.co/zV53pnBt/image.png" 
+                  
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100 h-100 rounded mt-8"
                 />
               
               
@@ -414,7 +416,7 @@ const Home = () => {
                 <img 
                   src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100 h-100 rounded mt-8"
                 />
               
               

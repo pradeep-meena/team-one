@@ -1,176 +1,88 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className='footer-section py-4 bg-light mt-3'>
-     <div className="container">
-      <div className="row">
-        {/* Products Section */}
-        {/* <div className="col-md-3">
-          <h6 style={{ fontWeight: "bold" }}>Products</h6>
-          <p>
-            <img
-              src="https://i.ibb.co/MDP5fFCz/image-removebg-preview.png"
-              alt=""
-            />{" "}
-            <a
-              href="#"
-              style={{
-                textDecoration: "none",
-                color: "black",
-                fontWeight: "bold"
-              }}
-            >
-              PSA
-            </a>
-          </p>
-          <p>
-            <img
-              src="https://i.ibb.co/rGkHzWzq/image-removebg-preview-1.png"
-              alt=""
-            />{" "}
-            <a
-              href="#"
-              style={{
-                textDecoration: "none",
-                color: "black",
-                fontWeight: "bold"
-              }}
-            >
-              SERVICE DESK
-            </a>
-          </p>
-          <p>
-            <img
-              src="https://i.ibb.co/nNFc7mmk/image-removebg-preview-2.png"
-              alt=""
-            />{" "}
-            <a
-              href="#"
-              style={{
-                textDecoration: "none",
-                color: "black",
-                fontWeight: "bold"
-              }}
-            >
-              ITSM
-            </a>
-          </p>
-        </div> */}
-        {/* Company Section */}
-        <div className="col-md-3">
-          <h6 style={{ fontWeight: "bold" }}>Company</h6>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            Contact us
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            Events
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            Channel Partners
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            Technology Partners
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            Distributors
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            Referral Program
-          </a>
-        </div>
-        {/* HaloPSA Section */}
-        <div className="col-md-3">
-          <h6 style={{ fontWeight: "bold" }}>Our Services</h6>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            Features
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            Integrations
-          </a>  
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            Pricing
-          </a>
-        </div>
-        {/* share Section */}
-        <div className="col-md-3"> 
-          <h6 style={{ fontWeight: "bold" }}>Share</h6>
-          <label for="email">Enter your email:</label>
-          <input type="email" id="email" name="email"/>
-          <div className='footer-share-icon' style={{display:"flex",flexWrap:"nowrap"}}>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
-              alt="LinkedIn"
-              width={20}
-            />
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
-              alt="Twitter"
-              width={20}
-            />
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
-              alt="Facebook"
-              width={20}
-            />
-          </a>
-          <a
-            href="#"
-            style={{ textDecoration: "none", color: "black", display: "block" }}
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
-              alt="YouTube"
-              width={20}
-            />
-          </a>
+    <div className='footer-section py-5 bg-dark text-white mt-3'>
+      <div className="container">
+        <div className="row">
+          {/* Products Section */}
+          <div className="col-md-3 mb-4">
+            <h6 className="footer-title">Products</h6>
+            <p className="footer-item">
+              <img
+                src="https://i.ibb.co/MDP5fFCz/image-removebg-preview.png"
+                alt="PSA"
+                className="footer-icon"
+              />
+              <a href="#" className="footer-link"></a>
+            </p>
+            <p className="footer-item">
+              <img
+                src="https://i.ibb.co/rGkHzWzq/image-removebg-preview-1.png"
+                alt="Service Desk"
+                className="footer-icon"
+              />
+              <a href="#" className="footer-link">SERVICE DESK</a>
+            </p>
+            <p className="footer-item">
+              <img
+                src="https://i.ibb.co/nNFc7mmk/image-removebg-preview-2.png"
+                alt="ITSM"
+                className="footer-icon"
+              />
+              <a href="#" className="footer-link">ITSM</a>
+            </p>
           </div>
+
+          {/* Company Section */}
+          <div className="col-md-3 mb-4">
+            <h6 className="footer-title">Company</h6>
+            <a href="#" className="footer-link">Contact us</a>
+            <a href="#" className="footer-link">Events</a>
+            <a href="#" className="footer-link">Channel Partners</a>
+            <a href="#" className="footer-link">Technology Partners</a>
+            <a href="#" className="footer-link">Distributors</a>
+            <a href="#" className="footer-link">Referral Program</a>
+          </div>
+
+          {/* Services Section */}
+          <div className="col-md-3 mb-4">
+            <h6 className="footer-title">Our Services</h6>
+            <a href="#" className="footer-link">Features</a>
+            <a href="#" className="footer-link">Integrations</a>
+            <a href="#" className="footer-link">Pricing</a>
+          </div>
+
+          {/* Share Section */}
+          <div className="col-md-3 mb-4">
+            <h6 className="footer-title">Share</h6>
+            <label htmlFor="email" className="footer-label">Enter your email:</label>
+            <input type="email" id="email" name="email" className="footer-input"/>
+            <div className='footer-share-icon d-flex mt-3'>
+              <a href="#" className="footer-icon-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" className="footer-social-icon"/>
+              </a>
+              <a href="#" className="footer-icon-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" className="footer-social-icon"/>
+              </a>
+              <a href="#" className="footer-icon-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" className="footer-social-icon"/>
+              </a>
+              <a href="#" className="footer-icon-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" className="footer-social-icon"/>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Footer Bottom */}
+        <div className="text-center mt-5">
+          <p className="footer-bottom-text">© 2025 All rights reserved</p>
         </div>
       </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

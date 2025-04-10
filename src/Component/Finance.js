@@ -65,7 +65,7 @@ const Finance = () => {
                 <img 
                   src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100 h-100 rounded mt-8"
                 />
               
               

@@ -4,7 +4,7 @@ const BusinessBanner = () => {
   return (
     <div className="container text-center py-5">
       <h2 className="fw-bold">Everything you need, all in one place.</h2>
-      <p className="text-muted">Teams and organisations of all sizes use HaloPSA</p>
+      <p className="text-muted">Teams and organisations of all sizes use TeamOne</p>
       <div className="row justify-content-center">
         <div className="col-md-10">
           <img 
