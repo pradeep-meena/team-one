@@ -38,20 +38,21 @@ const Footer = () => {
           {/* Company Section */}
           <div className="col-md-3 mb-4">
             <h6 className="footer-title">Company</h6>
-            <a href="#" className="footer-link">Contact us</a>
-            <a href="#" className="footer-link">Events</a>
-            <a href="#" className="footer-link">Channel Partners</a>
-            <a href="#" className="footer-link">Technology Partners</a>
-            <a href="#" className="footer-link">Distributors</a>
-            <a href="#" className="footer-link">Referral Program</a>
+          
+            <div>  <a href="#" className="footer-link">Contact us</a></div>
+           <div>  <a href="#" className="footer-link">Events</a></div>
+            <div><a href="#" className="footer-link">Channel Partners</a></div>
+            <div><a href="#" className="footer-link">Technology Partners</a></div>
+            <div> <a href="#" className="footer-link">Distributors</a></div>
+            <div>  <a href="#" className="footer-link">Referral Program</a> </div>
           </div>
 
           {/* Services Section */}
           <div className="col-md-3 mb-4">
             <h6 className="footer-title">Our Services</h6>
-            <a href="#" className="footer-link">Features</a>
-            <a href="#" className="footer-link">Integrations</a>
-            <a href="#" className="footer-link">Pricing</a>
+            <div>   <a href="#" className="footer-link">Features</a></div>
+           <div>  <a href="#" className="footer-link">Integrations</a></div>
+            <div><a href="#" className="footer-link">Pricing</a></div>
           </div>
 
           {/* Share Section */}

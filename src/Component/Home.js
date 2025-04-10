@@ -150,7 +150,8 @@ const Home = () => {
                   <img 
                     src="https://media-hosting.imagekit.io/db66dec2bd5e431c/screenshot_1744291136685.png?Expires=1838899139&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EkoJQMBGsUbTKuchjezAdAMez7uUlKaAAc9e9y2-an~gau0p3N9AW7H15WWYgJZFkNGU2gVM1yW5s8bLCyYq4~RU6ITCzlEbFKSYD8fCXj0Ya3DTUq~7vZMA0E6UG75jAxlbWd21GccQIyNsCS4-ajhnWnkR3dzA7tPDHtI~aD-1akP0Y5OQaxJfNYyuwXyOm1ZgOiGb1j9gdCrPTNt1ebHdpScgqDu2imZWl-XrjM35BK6EoWxOhaGVJD7IKPqHtOwkmhJvyT~h9Qfml5xolEdNI8GLyn0T~1Z09RFNGuwFDVFI-hUBson9N2lWeYMRGGeY6svEx3CLmWU--GJJEw__" 
                     alt="Video thumbnail" 
-                    className="w-100 h-100 rounded ratio ratio-16x9"
+                    className=" rounded ratio ratio-16x9"
+                    style={{width:"900px", height:"800px"}}
                   />
                 </div>
                 

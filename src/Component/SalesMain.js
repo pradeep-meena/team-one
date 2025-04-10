@@ -64,7 +64,7 @@ const SalesMain = () => {
                 <img 
                   src="https://media-hosting.imagekit.io/d1551a159a36492f/screenshot_1744290890621.png?Expires=1838898893&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=o-tz~jYBf-0j2FXRKgLjDzk3yzNSU3bJ5S~rxR~o-0HkUVEqFks9eN4RKonj7HKvQmkWRuSDEQJvqY0H3vfUQUT860aUOXscIvF9AWMdST2bpelTs05L7nnmk7on1QBWL~vesZA9skrMjDqDBMmSrS07xFcuH7W~tN6lrLmTrL5ftmz7nGcv8n2bdsD80KHbfHoAQZRk5TQkYga9IQO4Etm3JEP~lhPZBcEBOsUDPr16~5RraL~mwNF6u7CYVhCm~Nv~nQvPwcJSRLjXW~1tsZYuZCPJbk5TizbAQZxOoWaC1qfBy4i~gM0xhZDvCkUcPGTSLaey2NlS0I310L-IGg__" 
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100 h-100 rounded mt-8"
                 />
               
               
@@ -122,7 +122,7 @@ const SalesMain = () => {
                 <img 
                   src="https://media-hosting.imagekit.io/e9cef1553f824624/screenshot_1744292670740.png?Expires=1838900677&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ze9u4HKff366lKpA4smkTiY-MPdDqlkZX1~7YuUDbb785Nn6aVKBnWBKrkSwtBdQREQiPYpOtGPMX0SBEuOld7p~7G5uKBbMwFbasMQQwRO8s9D~Z2grXeiTpiVSHIUiV3RaFKWmg8dPzMz3l4jSj6elvzGcYU1CoDAeLUvf6o9e-eRWtDRwtMKkwauAhpO4z8T5A6791cjOHM5G6-Jk327f4d0XhGFqFWCVw3LuYccsN6sfdAKkPYiyLVTe7DBmZYb5jfTIv1opGuaCgBYvW9W1ZQUGQVJvYPyNbmfHnKULixH5N4nsFIq3zSVcSSu~ox1vNijjum5Xo4n8XBbduw__" 
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100 h-100 rounded mt-8"
                 />
               
               
@@ -173,7 +173,7 @@ const SalesMain = () => {
                 <img 
                   src="https://media-hosting.imagekit.io/008802e5eb434fb6/screenshot_1744292842042.png?Expires=1838900850&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=afS3iRyBh3ZrMEOHbrfPHPI3FryPCdUp9ayG~8zjB~iZWvBCzhOGjPancPQXyI7nFW7pb~0RMxdrH0EZHB7q6gVBiIt7MIZCWQnzM42XvnSEBpFBvS1MDAYr4Mdh6NSvxYLN2ypj1vqf3ob86~aAsbY312JHLbeCXflZluKnhdTO2ZOx7jN6rOO1UU2N5V9tfEJHaA5OIUteYtzSeyFsK5vleSrliR-V5llxhjzpeRl7iiPGBH~hGM5uOIpQv2f622EoIe~4Rq8oe5JoFOSzjWN5BxekoBor4iuKN6uvzMzWUAaaA60G0-IjhcufOfImiboM3X-bw7M06Q01T3gBiQ__" 
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100 h-100 rounded mt-8"
                 />
               
               
