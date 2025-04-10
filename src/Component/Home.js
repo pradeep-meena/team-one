@@ -186,7 +186,7 @@ const Home = () => {
             <div className="col-md-6">
               <div className='row'>
                 <div className='col-md-12'>
-                <span className='visual__figure'>Have a Look   </span>
+                <span className='visual__figure'>Manage Docs and Files   </span>
                 <div className="col-md-12 shadow-sm border rounded">
        
             <div 
@@ -234,7 +234,7 @@ const Home = () => {
           </div>
                 </div>
                 <div className='col-md-12'>
-                <span className='visual__figure'>Have a Look At CRM  </span>
+                <span className='visual__figure'>What To-Do </span>
                 <div className="col-md-12 shadow-sm border rounded">
          
             <div 
