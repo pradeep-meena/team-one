@@ -1,18 +1,46 @@
 import React, { useState, useRef } from 'react';
 
 const ProjectMain = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [currentVideoSrc, setCurrentVideoSrc] = useState('');
+  const videoRef = useRef(null);
 
-   const [isPlaying, setIsPlaying] = useState(false);
-    const videoRef = useRef(null);
-  
-    const handlePlayVideo = () => {
-      setIsPlaying(true);
-      if (videoRef.current) {
-        videoRef.current.play();
-      }
-    };
+  // Function to open modal with video
+  const handleOpenVideoModal = (videoSrc) => {
+    setCurrentVideoSrc(videoSrc);
+    setShowModal(true);
+  };
+
+  // Function to close modal
+  const handleCloseModal = () => {
+    setShowModal(false);
+    setCurrentVideoSrc('');
+  };
+
   return (
     <>
+     {showModal && (
+        <div className="modal-backdrop" onClick={handleCloseModal}>
+          <div 
+            className="video-modal-content" 
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="close-modal-btn" onClick={handleCloseModal}>×</button>
+            <div className="modal-video-container">
+              <video
+                ref={videoRef}
+                className="w-100 h-100"
+                controls
+                autoPlay
+                playsInline
+              >
+                <source src={currentVideoSrc} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      )}
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6 d-flex align-items-center">
@@ -23,61 +51,50 @@ const ProjectMain = () => {
               </p>
             </div>
           </div>
-          <div className="border rounded col-md-6">
-          {!isPlaying && (
-              <div 
-                className="video-thumbnail-container position-relative" 
-                onClick={handlePlayVideo}
-                style={{ cursor: 'pointer' }}
-              >
-                {/* Video thumbnail image or first frame */}
-                <div className="video-thumbnail w-100 h-100">
-                  <img 
-                    src="https://i.ibb.co/8gcDmzvb/image.png" 
-                    alt="Video thumbnail" 
-                    className="w-100 h-100 rounded"
-                  />
-                </div>
-                
-                {/* Play button overlay */}
-                <div 
-                  className="play-button-overlay position-absolute"
-                  style={{
-                    top: '50%',
-                    left: '50%',
-                    transform: 'translate(-50%, -50%)',
-                    background: 'rgba(0,0,0,0.6)',
-                    borderRadius: '50%',
-                    width: '80px',
-                    height: '80px',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center'
-                  }}
-                >
-                  <div 
-                    style={{
-                      width: '0',
-                      height: '0',
-                      borderTop: '20px solid transparent',
-                      borderBottom: '20px solid transparent',
-                      borderLeft: '30px solid white',
-                      marginLeft: '8px'
-                    }}
-                  />
-                </div>
-              </div>
-            )}
-            <video
-              ref={videoRef}
-              className={`w-100 h-100 ${!isPlaying ? 'd-none' : ''}`}
-              controls={isPlaying}
-              muted={!isPlaying}
-              playsInline
+          <div className="col-md-6 shadow-sm border rounded">
+          <span className='visual__figure'>Hit Play to see TeamOne </span>
+            <div 
+              className=" video-thumbnail-container position-relative" 
+              onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/c2f660d48c974645/PRoject.mp4?Expires=1838812340&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=vz3DtuQjK8-pPYxAZ-A4cueAshegmpd~YNCsRbD7U2QCVwOm55ag2zHMcanY13mq9gEUSOjobD88fWQ4fIcuWX8HGcbFoNMufoTV57wJMhVTeJVJ4v9n~0UwJMt7PIaHDaxqkZ1twCv4S6wFu1PNurbTwmY2pFrI-LUuDr0a8wfICC8kk62HY7eK42AAopUnoUNzmbsuugKo-BL2klHQdEKNvB7N6LY5vxIZMXWvQRgue3g-pm7iFVf-dYWv6oNUHuwknSLRBpHenst0dEkwRx0eLAoamZk6cRg0F~ogzuwye8Ya1BlI~XldsUxf1A41EMdudTxFWPcBTczgHdhWpQ__")}
+              style={{ cursor: 'pointer' }}
             >
-              <source src="https://media-hosting.imagekit.io/5a87b2978ad7483e/WhatsApp%20Video%202025-04-09%20at%205.07.11%20PM.mp4?Expires=1838814505&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lsWDHy5YChycU9RT-VHDdq7HMiw-dHzw4U7caNBHqQXrIwarBNtVwZuCruAFP-morkDFr6b1syPR73GaJNF3~5ui1br6zfwkn1Vb3KVNcr2rYy2HcwlCu1sC2weDoGf8F~MgOgfZDi3XWFTjIOKenOwfGNmg26txxfeaLNUlzbz~~csf6yv~LqOv8oVqDehFmktZKOZZle6n~ttP-EOyKo-mHl9iigA4NiUjwdxaYJxqkMdnIKHnuiqwN4mHcp499JpRQUt6bJAmlRD8WyCLk7NXqxo4P0H74ouWhrBgxrYdK6T2UDi~llGVf1b2ySE3ET6da1HDR-0loKJqty0Jwg__" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+              {/* Video thumbnail image */}
+              
+                <img 
+                  src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
+                  alt="Video thumbnail" 
+                  className="w-100 h-100 rounded mt-8"
+                />
+              
+              
+              {/* Play button overlay */}
+              <div 
+                className="play-button-overlay position-absolute"
+                style={{
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%, -50%)',
+                  background: 'rgba(0,0,0,0.6)',
+                  borderRadius: '50%',
+                  width: '80px',
+                  height: '80px',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+              >
+                <div 
+                  style={{
+                    width: '0',
+                    height: '0',
+                    borderTop: '20px solid transparent',
+                    borderBottom: '20px solid transparent',
+                    borderLeft: '30px solid white',
+                    marginLeft: '8px'
+                  }}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -91,34 +108,12 @@ const ProjectMain = () => {
 
 
 
-          <div className="border rounded col-md-6">
-          <video
-                      autoPlay
-                      muted
-                      controls
-                      loop
-                      className="w-100 video-hover"
-                    >
-                      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-          </div>
+       
 
 
 
           {/* Events Section - Right Column */}
-          <div className="border rounded col-md-6">
-          <video
-                      autoPlay
-                      muted
-                      controls
-                      loop
-                      className="w-100 video-hover"
-                    >
-                      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-          </div>
+         
         </div>
       </div>
     </>

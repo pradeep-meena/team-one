@@ -148,28 +148,178 @@
     border: 4px solid gray; /* Hover state par border show hoga */
   }
   
-  .video-container {
+
+
+  /* Add these styles to your existing Home.css file */
+
+/* Modal backdrop */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+  }
+  
+  /* Modal content */
+  .video-modal-content {
     position: relative;
+    width: 90%;
+    max-width: 1000px;
+    background-color: #000;
+    border-radius: 8px;
     overflow: hidden;
   }
   
-  .video-bg {
+  /* Close button */
+  .close-modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1060;
+  }
+  
+  .close-modal-btn:hover {
+    background-color: rgba(61, 50, 50, 0.849);
+  }
+  
+  /* Modal video container */
+  .modal-video-container {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    position: relative;
+  }
+  
+  .modal-video-container video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    transition: filter 0.3s ease; /* Smooth blur transition */
-    z-index: 1;
   }
   
-  .video-hover {
+  /* Video thumbnail container */
+  .video-thumbnail-container {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+  }
+  
+  .video-thumbnail-container:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Avatar group styling */
+  .avatar-group img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: -10px;
+  }
+  
+  .avatar-group span {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  /* Card styling */
+  .card-custom {
     position: relative;
-    z-index: 2; /* Video upar dikhega background image ke upar */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
   }
   
-  .video-container:hover .video-bg {
-    filter: blur(5px); /* Hover state mein blur effect */
+  .card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   }
   
+  .pin-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-style: normal;
+  }
+  
+  /* Button styling */
+  .btn-custom {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-img-color {
+    background-color: #3e64ff;
+    color: white;
+  }
+  
+  .btn-start {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .btn-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Highlight text */
+  .highlight {
+    position: relative;
+    font-weight: 500;
+  }
+
+
+  .visual__figure  {
+    background: yellow;
+   
+    font-family: "Permanent Marker", cursive;
+    font-size: 21px;
+    font-variant-ligatures: none;
+    font-weight: 500;
+    
+    left: 0;
+    letter-spacing: .04em;
+    line-height: 1;
+    padding: .3em .5em .4em .5em;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    transform: rotate(-2deg) translate(-0.7625em, -0.975em);
+    white-space: nowrap;
+}
+
+
+
