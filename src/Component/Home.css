@@ -221,21 +221,50 @@
     width: 100%;
     height: 100%;
     aspect-ratio: 2 / 1;
-position: relative;
+    position: relative;
     cursor: pointer;
     overflow: hidden;
     border-radius: 4px;
     transition: transform 0.3s ease;
-    
-  
   }
   
   .video-thumbnail-container:hover {
     padding: 4;
     transform: scale(1.02);
-    border: 4px solid rgb(95, 128, 236) ;
+    border: 4px solid rgb(95, 128, 236);
     border-radius: 8px;
-
+  }
+  
+  /* Play button overlay - Hide by default */
+  .play-button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.6);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Hide by default */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Show play button on hover */
+  .video-thumbnail-container:hover .play-button-overlay {
+    opacity: 1;
+  }
+  
+  /* Play button triangle */
+  .play-button-triangle {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid white;
+    margin-left: 8px;
   }
 
   

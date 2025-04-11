@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
 
           {/* Share Section */}
-          <div className="col-md-3 mb-4">
+          <div className="col-md-3 mb-2">
             <h6 className="footer-title">Share</h6>
             <label htmlFor="email" className="footer-label">Enter your email:</label>
             <input type="email" id="email" name="email" className="footer-input"/>
@@ -73,13 +73,15 @@ const Footer = () => {
               <a href="#" className="footer-icon-link">
                 <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" className="footer-social-icon"/>
               </a>
+            
             </div>
+            <p className="">© 2025 All rights reserved</p>
           </div>
         </div>
 
         {/* Footer Bottom */}
-        <div className="text-center mt-5">
-          <p className="footer-bottom-text">© 2025 All rights reserved</p>
+        <div className="text-center">
+         
         </div>
       </div>
     </div>
