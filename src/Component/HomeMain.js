@@ -44,8 +44,7 @@ const HomeMain = () => {
       )}
 
       <div className="container mt-5">
-        <div className="row">
-          <div className="col-md-6 d-flex align-items-center">
+      <div className="col-md-12 d-flex align-items-center">
             <div className="text">
               <h1 className="fw-bold">Home</h1>
               <p className="fs-5">
@@ -54,6 +53,8 @@ const HomeMain = () => {
               </p>
             </div>
           </div>
+        <div className="row">
+          
           <div className="col-md-6 shadow-sm border rounded">
          
             <div 

@@ -783,8 +783,8 @@ const FeaturePage = () => {
           Easy setup and everything as standard. Learn more about TeamOne.
         </p>
         <div className="row">
-          <div className="col-md-12">
-            <div className="discover-feature-box ">
+       <div className="col-md-4">
+       <div className="discover-feature-box  ">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -809,7 +809,9 @@ const FeaturePage = () => {
                 )}
               </div>
             </div>
-            <div className="discover-feature-box ">
+       </div>
+       <div className="col-md-4">
+            <div className="discover-feature-box">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -834,7 +836,9 @@ const FeaturePage = () => {
                 )}
               </div>
             </div>
-            <div className="discover-feature-box ">
+            </div>
+            <div className="col-md-4">
+            <div className="discover-feature-box  ">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -859,133 +863,12 @@ const FeaturePage = () => {
                 )}
               </div>
             </div>
-            <div className="discover-feature-box">
-              <div className="discover-feature-icon">
-                <i className="bi bi-ticket-perforated" />
-              </div>
-              <div className="discover-feature-content">
-                <div className="discover-feature-title"> Project Management
-                </div>
-                <small
-                  style={{ cursor: "pointer", color: "blue", }}
-                  onClick={() => toggleDetails("serviceDesk")}
-                >
-                  Learn more
-                </small>
-                {visible.serviceDesk && (
-                  <div className="extra-details">
-                    Plan Smart. Execute Faster.
-                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
-                    Visualize timelines, set priorities, and collaborate across teams in real-time.
-                    Because great teams deliver great projects.
-
-                  </div>
-                )}
-              </div>
             </div>
-          </div>
-          <div className="col-md-4">
-            <div className="discover-feature-box">
-              <div className="discover-feature-icon">
-                <i className="bi bi-ticket-perforated" />
-              </div>
-              <div className="discover-feature-content">
-                <div className="discover-feature-title"> Project Management
-                </div>
-                <small
-                  style={{ cursor: "pointer", color: "blue", }}
-                  onClick={() => toggleDetails("serviceDesk")}
-                >
-                  Learn more
-                </small>
-                {visible.serviceDesk && (
-                  <div className="extra-details">
-                    Plan Smart. Execute Faster.
-                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
-                    Visualize timelines, set priorities, and collaborate across teams in real-time.
-                    Because great teams deliver great projects.
-
-                  </div>
-                )}
-              </div>
-            </div>
-            <div className="discover-feature-box">
-              <div className="discover-feature-icon">
-                <i className="bi bi-ticket-perforated" />
-              </div>
-              <div className="discover-feature-content">
-                <div className="discover-feature-title"> Project Management
-                </div>
-                <small
-                  style={{ cursor: "pointer", color: "blue", }}
-                  onClick={() => toggleDetails("serviceDesk")}
-                >
-                  Learn more
-                </small>
-                {visible.serviceDesk && (
-                  <div className="extra-details">
-                    Plan Smart. Execute Faster.
-                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
-                    Visualize timelines, set priorities, and collaborate across teams in real-time.
-                    Because great teams deliver great projects.
-
-                  </div>
-                )}
-              </div>
-            </div>
-            <div className="discover-feature-box">
-              <div className="discover-feature-icon">
-                <i className="bi bi-ticket-perforated" />
-              </div>
-              <div className="discover-feature-content">
-                <div className="discover-feature-title"> Project Management
-                </div>
-                <small
-                  style={{ cursor: "pointer", color: "blue", }}
-                  onClick={() => toggleDetails("serviceDesk")}
-                >
-                  Learn more
-                </small>
-                {visible.serviceDesk && (
-                  <div className="extra-details">
-                    Plan Smart. Execute Faster.
-                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
-                    Visualize timelines, set priorities, and collaborate across teams in real-time.
-                    Because great teams deliver great projects.
-
-                  </div>
-                )}
-              </div>
-            </div>
-            <div className="discover-feature-box">
-              <div className="discover-feature-icon">
-                <i className="bi bi-ticket-perforated" />
-              </div>
-              <div className="discover-feature-content">
-                <div className="discover-feature-title"> Project Management
-                </div>
-                <small
-                  style={{ cursor: "pointer", color: "blue", }}
-                  onClick={() => toggleDetails("serviceDesk")}
-                >
-                  Learn more
-                </small>
-                {visible.serviceDesk && (
-                  <div className="extra-details">
-                    Plan Smart. Execute Faster.
-                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
-                    Visualize timelines, set priorities, and collaborate across teams in real-time.
-                    Because great teams deliver great projects.
-
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
            
           </div>
-        </div>
+       
+      
+     
       </div>
 
 

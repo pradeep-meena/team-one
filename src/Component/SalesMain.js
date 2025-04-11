@@ -42,8 +42,7 @@ const SalesMain = () => {
         </div>
       )}
       <div className="container mt-5">
-        <div className="row">
-          <div className="col-md-6 d-flex align-items-center">
+      <div className="col-md-12">
             <div className="text">
               <h1 className="fw-bold">CRM</h1>
               <p className="fs-5">
@@ -51,6 +50,8 @@ const SalesMain = () => {
               </p>
             </div>
           </div>
+        <div className="row">
+          
           
                    <div className="col-md-6 shadow-sm border rounded">
          
@@ -98,20 +99,15 @@ const SalesMain = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div
-        className="base container shadow-sm pb-4 pt-4 border mt-5 rounded"
-        style={{ backgroundColor: "#faf8f4" }}
-      >
 
-        <div className="row g-4">
+          <div className='col-md-6 '>
+        <div className="">
           {/* Calendar Section - Left Column */}
 
 
 
 
-          <div className="col-md-6 shadow-sm border rounded">
+          <div className="col-md-12 shadow-sm border rounded">
           
             <div 
               className=" video-thumbnail-container position-relative" 
@@ -163,7 +159,7 @@ const SalesMain = () => {
 
           {/* Events Section - Right Column */}
 
-          <div className="col-md-6 shadow-sm border rounded">
+          <div className="col-md-12 shadow-sm border rounded">
          
             <div 
               className=" video-thumbnail-container position-relative" 
@@ -210,6 +206,14 @@ const SalesMain = () => {
             </div>
           </div>
         </div>
+        </div>
+        </div>
+      </div>
+      <div
+        className="base container shadow-sm pb-4 pt-4 border mt-5 rounded"
+        style={{ backgroundColor: "#faf8f4" }}
+      >
+     
 
       </div>
     </>

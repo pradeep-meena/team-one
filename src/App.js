@@ -12,12 +12,15 @@ import DashboardSummary from './DashboardSummary';
 import Home from './Component/Home';
 import IntegrationPage from './Component/IntegrationPage';
 import Contact from './Component/Contact';
+import AuthForm from './Component/auth/AuthPage';
 
 function Layout() {
   return (
     <>
       <Header />
+
       <Outlet />
+
       <Footer />
 
       
@@ -33,6 +36,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/login" element={<AuthForm />} />
           {/* <Route path="contact" element={<Contact />} /> */}
           <Route path="features" element={<FeaturePage />} />
           <Route path="pricing" element={<Pricing />} />

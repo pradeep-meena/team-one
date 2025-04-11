@@ -57,20 +57,38 @@ const Home = () => {
         </div>
       )}
 
-      <div className="container mt-5">
+      <div className="container mt-5 ">
         <div className="row">
-          <div className="col-md-6">
-            <h1 className="fw-bold">TeamOne Ops</h1>
-            <p className="fs-5">
-              Software that's powerful, Intuitive and scales well with your
-              business.
-              <br />
-              Sales. Projects. Field Service. Support. Finance. HR. Files.
-              Operations.
+          <div className="col-md-5">
+            <div className='text-center mt-5'>
+            <h1 className="fw-bold text-blue">TeamOne Ops</h1>
+
+            <h3 className='mt-2'> One Platform, All Solutions
+              <br /> Projects, HR, CRM, Finance & More</h3>
+            <p className="fs-9 my-auto">
+             No Switching Between Various  App,
+             <br/>
+             All in One Place
             </p>
-            <h3 className="fw-bold mt-4">The All In One Business Management OS</h3>
+
+           </div>           
+          </div>
+          <div className="col-md-7 " >
+            <div className="bg-yellow rounded shadow-sm border">
+            <img src="https://i.ibb.co/4ZYkx5fQ/Whats-App-Image-2025-04-11-at-3-10-16-PM.png"  alt="TeamOne Ops" className="w-100 h-100" />  
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mt-5 mx-auto">
+       
+
+
+          <div className='text-center'>
+            <h2 className="fw-bold mt-4">The All In One Business Management</h2>
             <p>
-              TeamOne OS brings together the most vital enterprise tools into one{" "}
+              TeamOne  brings together the most vital enterprise tools into one{" "}
               <br />
               operating system allowing businesses to stay efficient, stay
               productive, and <br />
@@ -83,14 +101,10 @@ const Home = () => {
               <button className="btn btn-custom btn-img-color me-2">Get a demo</button>
               <button className="btn btn-custom btn-start">Get started free</button>
             </div>
-          </div>
-          <div className="col-md-6 " >
-            <div className="bg-yellow rounded shadow-sm border">
-            <img src="https://i.ibb.co/4ZYkx5fQ/Whats-App-Image-2025-04-11-at-3-10-16-PM.png"  alt="TeamOne Ops" className="w-100 h-100" />  
             </div>
-          </div>
-        </div>
-      </div>
+            </div>
+       
+        
 
       {/* Features Page  */}
       <div
@@ -99,7 +113,7 @@ const Home = () => {
       >
         <div className="container mt-5 mb-4 text-center">
           <div className="row g-4 mt-3 justify-content-between">
-            <div className="col-md-6 shadow-sm border rounded">
+            <div className="col-md-8 shadow-sm border rounded">
               <div 
                 className="video-thumbnail-container position-relative" 
                 onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/c2f660d48c974645/PRoject.mp4?Expires=1838812340&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=vz3DtuQjK8-pPYxAZ-A4cueAshegmpd~YNCsRbD7U2QCVwOm55ag2zHMcanY13mq9gEUSOjobD88fWQ4fIcuWX8HGcbFoNMufoTV57wJMhVTeJVJ4v9n~0UwJMt7PIaHDaxqkZ1twCv4S6wFu1PNurbTwmY2pFrI-LUuDr0a8wfICC8kk62HY7eK42AAopUnoUNzmbsuugKo-BL2klHQdEKNvB7N6LY5vxIZMXWvQRgue3g-pm7iFVf-dYWv6oNUHuwknSLRBpHenst0dEkwRx0eLAoamZk6cRg0F~ogzuwye8Ya1BlI~XldsUxf1A41EMdudTxFWPcBTczgHdhWpQ__")}
@@ -143,11 +157,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-4">
               <div className='row'>
                 <div className='col-md-12'>
               
-                <div className="col-md-12 shadow-sm border rounded">
+                <div className=" shadow-sm border rounded">
        
             <div 
               className=" video-thumbnail-container position-relative" 
@@ -252,16 +266,16 @@ const Home = () => {
             Make a new project
           </button>
           <button className="btn btn-success rounded-pill btn-custom ms-2 mt-4">
-            Invite people
+            Assign people
           </button>
           <p className="mt-3">
-            Pinned &amp; recent projects below -{" "}
+         Schedule . 
             <a href="#" className="text-decoration-none text-dark">
               View all in a list
             </a>{" "}
             ·{" "}
             <a href="#" className="text-decoration-none text-dark">
-              View templates
+              Different views
             </a>
           </p>
         </div>
@@ -365,7 +379,33 @@ const Home = () => {
 
       <div className="container right-side my-5">
         <div className="row mt-5">
-        <div className="col-md-6 shadow-sm border rounded">
+        <div className="col-md-12">
+            <h2 className="mb-4 fw-bold">Let's take a look.</h2>
+            <p className="highlight">
+              The home screen is your daily go-to, It gives you the information you
+              need each day to do the work you need to do.
+            </p>
+            <p className="highlight">
+              Most CRM, CPQ, Project management and support desk software's are
+              either overkill, bombard you with functionality you don't use, or
+              straight up miss vital functionality, causing problems with adoption
+              and bringing layers of complexity to business operations.
+            </p>
+            <p>
+              It can be tough for small to medium size businesses to build their
+              internal processes, and then find a number of software solutions that
+              will fit their requirements, be scalable, and support them from seed
+              level all the way through to enterprise and beyond.
+            </p>
+            <p className="highlight">
+              Luckily, there's TeamOne Ops. Our business management software hits
+              the spot between enterprise-level functionality, ease of use and
+              sensible honest pricing.We are here to help businesses grow, and our
+              software is designed to scale, as our customers grow… We grow and
+              behind all of this growth, is TeamOne Ops.
+            </p>
+          </div>
+        <div className="col-md-9 shadow-sm border rounded mx-auto">
        
             <div 
               className=" video-thumbnail-container position-relative" 
@@ -411,32 +451,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            <h2 className="mb-4 fw-bold">Let's take a look.</h2>
-            <p className="highlight">
-              The home screen is your daily go-to, It gives you the information you
-              need each day to do the work you need to do.
-            </p>
-            <p className="highlight">
-              Most CRM, CPQ, Project management and support desk software's are
-              either overkill, bombard you with functionality you don't use, or
-              straight up miss vital functionality, causing problems with adoption
-              and bringing layers of complexity to business operations.
-            </p>
-            <p>
-              It can be tough for small to medium size businesses to build their
-              internal processes, and then find a number of software solutions that
-              will fit their requirements, be scalable, and support them from seed
-              level all the way through to enterprise and beyond.
-            </p>
-            <p className="highlight">
-              Luckily, there's TeamOne Ops. Our business management software hits
-              the spot between enterprise-level functionality, ease of use and
-              sensible honest pricing.We are here to help businesses grow, and our
-              software is designed to scale, as our customers grow… We grow and
-              behind all of this growth, is TeamOne Ops.
-            </p>
-          </div>
+         
+
+          
         </div>
       </div>
 

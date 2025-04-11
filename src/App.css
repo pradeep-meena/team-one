@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Roboto", "Permanent Marker", sans-serif;
 }
 
 .App-logo {
@@ -21,6 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: 'Roboto ', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
 }
 

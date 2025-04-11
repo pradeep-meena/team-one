@@ -1,9 +1,15 @@
 import React from "react";
 import { useState } from 'react';
 import { Link } from "react-router-dom";
+import AuthForm from "./auth/AuthPage";
 
 const Header = () => {
+  const [isModal, setIsModal] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleModal = () => {
+    setIsModal(!isModal);
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -53,15 +59,24 @@ const Header = () => {
           </ul>
 
           <div className="d-flex mt-3 mt-lg-0">
-            <button className="btn btn-outline-dark me-3" style={{ height: "35px" }}>
+            <button className="btn btn-outline-dark me-3" style={{ height: "35px" }} onClick={handleModal}>
               Sign in
             </button>
-            <button className="btn btn-primary" style={{ height: "35px" }}>
+            <button className="btn btn-primary" style={{ height: "35px" }} onClick={handleModal}>
               Sign up free
             </button>
           </div>
         </div>
       </div>
+
+      {isModal && (
+        <div className="modal-backdrop" onClick={handleModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-modal-btn" onClick={handleModal}>×</button>
+            <AuthForm />
+          </div>
+        </div>
+      )}
     </nav>
   );
 };
