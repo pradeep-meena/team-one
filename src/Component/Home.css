@@ -214,22 +214,30 @@
     width: 100%;
     height: 100%;
   }
+
   
   /* Video thumbnail container */
   .video-thumbnail-container {
     width: 100%;
     height: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 2 / 1;
 
     cursor: pointer;
     overflow: hidden;
     border-radius: 4px;
     transition: transform 0.3s ease;
+    
+  
   }
   
   .video-thumbnail-container:hover {
+    padding: 4;
     transform: scale(1.02);
+    border: 4px solid rgb(95, 128, 236) ;
+    border-radius: 8px;
+
   }
+
   
   /* Avatar group styling */
   .avatar-group img {
@@ -303,7 +311,6 @@
 
   .visual__figure  {
     background: yellow;
-   
     font-family: "Permanent Marker", cursive;
     font-size: 21px;
     font-variant-ligatures: none;
@@ -313,7 +320,7 @@
     letter-spacing: .04em;
     line-height: 1;
     padding: .3em .5em .4em .5em;
-    position: relative;
+    position: absolute;
     text-align: center;
     text-transform: uppercase;
     top: 0;

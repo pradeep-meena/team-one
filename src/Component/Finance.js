@@ -43,17 +43,7 @@ const Finance = () => {
       )}
       <div className="container mt-5">
         <div className="row">
-          <div className="col-md-6 d-flex align-items-center">
-            <div className="text">
-              <h1 className="fw-bold">Finance</h1>
-              <p className="fs-5">
-                Your business finance, Analysed, Sorted and housed under one roof.
-                Quoting, invoicing, payments. All the tools you need to pay, and get
-                paid.Take full control of your business finances with an all-in-one solution designed to streamline your cash flow. From quoting and invoicing to payments and expense tracking, we provide all the tools you need to pay and get paid—quickly, securely, and effortlessly.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-6 shadow-sm border rounded">
+        <div className="col-md-6 shadow-sm border rounded">
           <span className='visual__figure'>Finance </span>
             <div 
               className=" video-thumbnail-container position-relative" 
@@ -98,6 +88,17 @@ const Finance = () => {
               </div>
             </div>
           </div>
+          <div className="col-md-6 d-flex align-items-center">
+            <div className="text">
+              <h1 className="fw-bold">Finance</h1>
+              <p className="fs-5">
+                Your business finance, Analysed, Sorted and housed under one roof.
+                Quoting, invoicing, payments. All the tools you need to pay, and get
+                paid.Take full control of your business finances with an all-in-one solution designed to streamline your cash flow. From quoting and invoicing to payments and expense tracking, we provide all the tools you need to pay and get paid—quickly, securely, and effortlessly.
+              </p>
+            </div>
+          </div>
+          
         </div>
       
       </div>

@@ -306,7 +306,7 @@ const Home = () => {
         </div>
         
         {/* Project cards section */}
-        <div className="container">
+        {/* <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-4 mb-4">
               <div className="card card-custom p-3 border">
@@ -398,20 +398,20 @@ const Home = () => {
             </div>
           </div>
           
-          {/* Recently visited section and other sections remain the same... */}
-          {/* Only the video elements have been changed to use the modal */}
-        </div>
+   
+        </div> */}
       </div>
 
       <div className="container right-side my-5">
         <div className="row mt-5">
         <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>Let's take a look </span>
+       
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0bac5df3e6054c01/TeamOne.mp4?Expires=1838883851&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=uSEOc0tsHEYn1YbleEtn2-iSYSyGAsY2OGdPHbOyOljWPs2DvHLUqnjzPxdDzFDtx3GGwWnC~yMJZdGbISRe921DjVBbMlHgTUN0b6066vqaxNH9XODn6CUBCN4EM4sIZJczeHgYrcGmvktQ94m8NlWY3B6iIcG9rJAx9-T8AyZm-zyXlDoamatk~N8qf7f1TNxlQb1T6JyAi8vDrRLm7ZFNh-4v3vqXMc1TWG1oN~Cyg1-ElyHap8DXclC7WbisHdU7tRtpseFQdtKbqCNzXI14DiuPd44ShnzNICo~J7GSmi9lSCNnkqFrNH1SbE7GAHn2AuT4vxtg3k03JTRyuA__")}
               style={{ cursor: 'pointer' }}
             >
+                 <span className='visual__figure'>Let's take a look </span>
               {/* Video thumbnail image */}
               
                 <img 
@@ -428,7 +428,7 @@ const Home = () => {
                   top: '50%',
                   left: '50%',
                   transform: 'translate(-50%, -50%)',
-                  background: 'rgba(0,0,0,0.6)',
+                  background: 'rgba(70, 86, 223, 0.6)',
                   borderRadius: '50%',
                   width: '80px',
                   height: '80px',
@@ -487,7 +487,7 @@ const Home = () => {
       <SupportMain />
       <InventoryMAin />
       <Finance />
-      <SupportInboxMain />
+      {/* <SupportInboxMain /> */}
       <MainLast />
     </>
   );

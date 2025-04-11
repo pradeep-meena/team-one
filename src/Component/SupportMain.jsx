@@ -45,18 +45,7 @@ const SupportMain = () => {
       )}
   <div className="container mt-5">
     <div className="row">
-      <div className="col-md-6 d-flex align-items-center">
-        <div className="text">
-          <h1 className="fw-bold">Support Desk</h1>
-          <p className="fs-5">
-          Enterprise support desk management, helping you organise, triage
-                and <br /> close tickets tickets within SLA, every time.
-                Enterprise Support Desk Management – Organize, Triage & Resolve with Precision
-                Deliver exceptional customer service with our enterprise-grade support desk management solution. Efficiently organize, prioritize, and resolve support tickets while ensuring compliance with SLAs—every single time. Whether handling IT requests, customer inquiries, or internal support, our system keeps everything running smoothly.
-          </p>
-        </div>
-      </div>
-      <div className="col-md-6 shadow-sm border rounded">
+    <div className="col-md-6 shadow-sm border rounded gap-2">
           <span className='visual__figure'>Manage  support desk </span>
             <div 
               className=" video-thumbnail-container position-relative" 
@@ -101,6 +90,18 @@ const SupportMain = () => {
               </div>
             </div>
           </div>
+      <div className="col-md-6 d-flex align-items-center">
+        <div className="text">
+          <h1 className="fw-bold">Support Desk</h1>
+          <p className="fs-5">
+          Enterprise support desk management, helping you organise, triage
+                and <br /> close tickets tickets within SLA, every time.
+                Enterprise Support Desk Management – Organize, Triage & Resolve with Precision
+                Deliver exceptional customer service with our enterprise-grade support desk management solution. Efficiently organize, prioritize, and resolve support tickets while ensuring compliance with SLAs—every single time. Whether handling IT requests, customer inquiries, or internal support, our system keeps everything running smoothly.
+          </p>
+        </div>
+      </div>
+      
     </div>
   </div>
   <div
