@@ -44,7 +44,7 @@ const MainLast = () => {
       )}
         <div class="row">
         <div className='col-md-6 shadow-sm border rounded gap-2'>
-                <span className='visual__figure'>Manage Files   </span>
+                
                 <div className="col-md-12 shadow-sm border rounded">
        
             <div 
@@ -52,6 +52,7 @@ const MainLast = () => {
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/d0d27d3aff7e4b5f/Files.mp4?Expires=1838892048&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Uf0bJxRHZr7Uy4WDVRbZHH0Z0Glu5962kkMxmSm96VM8ZXFRCl6gDmHo8dhsnkKwcNpzH9emtJxNse2U~wpkD0tV~R-LVHXkK6gfVtftyXIA2s1XrGGM-sKeHZB0XneSjoHcy5wwhiqqvcJhsIfVV85aOauyVDFq1XomgGG-pc-aChuBua4PQ6J02zOH2091x9CGfk6HGhuBftJANNWGaRb-H0KL3tzyVEQmCqssktPFVysdCDyQ0AP1BSdYkbLPcGWSGDkamKWE2RtG1Ze9lLEXYrpr6IBviNcR6VaKF4L8ICE-auAfZCZpv3J2Gd1ZoSH1FLJI2wQ9QIp7oMHovA__")}
               style={{ cursor: 'pointer' }}
             >
+              <span className='visual__figure'>Manage Files   </span>
               {/* Video thumbnail image */}
               
                 <img 

@@ -53,12 +53,13 @@ const SalesMain = () => {
           </div>
           
                    <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>Have a Look At CRM  </span>
+         
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0f737392eecc4dc2/CRM.mp4?Expires=1838890309&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=t7xxybAtzUS3Ans4i5ufUax2EB3MMXw1J2egx7r-vRgovujmhZcBHRJruU-DSCHll657YpGZJOjkGGzGIPwHJ7yaEwy92Hc0Edw-Jy8Wn2v-VVk0qqouD~wb~lEW0Nol77xBwKotHG0sa~Ft9TJ5IgFXUJNDeBPtt-XDo0iD8BeIfrNhiWIBQB9wX0-yK7ZqAJxtwyo26PtEdYz397Rqj3MrapJWdH427iY~7vkm0dKayz2MAJ5nl7ye72407nXJnAm15E34YHDbz-1x7gkHES-FmnoEdkCqWmgyEmjFq4~2cPuf4tndnGIz0I3sdtQNYBCG6c8jOshRM40~5SyTXg__")}
               style={{ cursor: 'pointer' }}
             >
+               <span className='visual__figure'>Have a Look At CRM  </span>
               {/* Video thumbnail image */}
               
                 <img 
@@ -111,12 +112,13 @@ const SalesMain = () => {
 
 
           <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>Analytics </span>
+          
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0f737392eecc4dc2/CRM.mp4?Expires=1838890309&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=t7xxybAtzUS3Ans4i5ufUax2EB3MMXw1J2egx7r-vRgovujmhZcBHRJruU-DSCHll657YpGZJOjkGGzGIPwHJ7yaEwy92Hc0Edw-Jy8Wn2v-VVk0qqouD~wb~lEW0Nol77xBwKotHG0sa~Ft9TJ5IgFXUJNDeBPtt-XDo0iD8BeIfrNhiWIBQB9wX0-yK7ZqAJxtwyo26PtEdYz397Rqj3MrapJWdH427iY~7vkm0dKayz2MAJ5nl7ye72407nXJnAm15E34YHDbz-1x7gkHES-FmnoEdkCqWmgyEmjFq4~2cPuf4tndnGIz0I3sdtQNYBCG6c8jOshRM40~5SyTXg__")}
               style={{ cursor: 'pointer' }}
             >
+              <span className='visual__figure'>Analytics </span>
               {/* Video thumbnail image */}
               
                 <img 
@@ -162,12 +164,13 @@ const SalesMain = () => {
           {/* Events Section - Right Column */}
 
           <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>StreamLine Your Sales  </span>
+         
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0f737392eecc4dc2/CRM.mp4?Expires=1838890309&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=t7xxybAtzUS3Ans4i5ufUax2EB3MMXw1J2egx7r-vRgovujmhZcBHRJruU-DSCHll657YpGZJOjkGGzGIPwHJ7yaEwy92Hc0Edw-Jy8Wn2v-VVk0qqouD~wb~lEW0Nol77xBwKotHG0sa~Ft9TJ5IgFXUJNDeBPtt-XDo0iD8BeIfrNhiWIBQB9wX0-yK7ZqAJxtwyo26PtEdYz397Rqj3MrapJWdH427iY~7vkm0dKayz2MAJ5nl7ye72407nXJnAm15E34YHDbz-1x7gkHES-FmnoEdkCqWmgyEmjFq4~2cPuf4tndnGIz0I3sdtQNYBCG6c8jOshRM40~5SyTXg__")}
               style={{ cursor: 'pointer' }}
             >
+               <span className='visual__figure'>StreamLine Your Sales  </span>
               {/* Video thumbnail image */}
               
                 <img 
