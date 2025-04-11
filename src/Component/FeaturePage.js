@@ -124,7 +124,7 @@ const FeaturePage = () => {
         {/* Image Section */}
         <div className="row justify-content-center mb-4">
         
-          <div className="col-md-6 shadow-sm border rounded">
+          <div className="col-md-10 shadow-sm border rounded">
       
       <div 
         className=" video-thumbnail-container position-relative" 
@@ -361,7 +361,7 @@ const FeaturePage = () => {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         className="base container shadow-sm pb-4 border mt-5 rounded"
         style={{ backgroundColor: "#faf8f4" }}
       >
@@ -773,7 +773,7 @@ const FeaturePage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* cUSTOMER rELATIONsHIP aMANAGEMENT */}
       {/* There's More To Dic\scover */}
       <div className="container">
