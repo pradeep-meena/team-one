@@ -783,8 +783,8 @@ const FeaturePage = () => {
           Easy setup and everything as standard. Learn more about TeamOne.
         </p>
         <div className="row">
-          <div className="col-md-4">
-            <div className="discover-feature-box">
+          <div className="d-flex gap-2">
+            <div className="discover-feature-box col-md-4">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -800,8 +800,8 @@ const FeaturePage = () => {
                 </small>
                 {visible.Files && (
                   <div className="extra-details">
-                    Smart Storage. Easy Access.
-                    Upload, manage, and share documents securely. Set permissions, track versions, and keep everything organized with tags and folders.
+                   <b> Smart Storage. Easy Access.</b><br/>
+                    Upload, manage, and share documents securely.<br/> Set permissions, track versions,<br/> and keep everything organized with tags and folders.<br/>
                     Your digital workspace, uncluttered.
 
 
@@ -809,7 +809,7 @@ const FeaturePage = () => {
                 )}
               </div>
             </div>
-            <div className="discover-feature-box">
+            <div className="discover-feature-box col-md-4">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -825,8 +825,8 @@ const FeaturePage = () => {
                 </small>
                 {visible.Social && (
                   <div className="extra-details">
-                    Keep the Culture Alive.
-                    Celebrate wins, share announcements, recognize peers, and spark engagement with a private social feed for your team.
+                   <b> Keep the Culture Alive.</b><br/>
+                    Celebrate wins, share announcements,<br/> recognize peers, and spark engagement<br/> with a private social feed for your team.<br/>
                     Where work meets community.
 
 
@@ -834,7 +834,7 @@ const FeaturePage = () => {
                 )}
               </div>
             </div>
-            <div className="discover-feature-box">
+            <div className="discover-feature-box col-md-4">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -850,9 +850,9 @@ const FeaturePage = () => {
                 </small>
                 {visible.Administration && (
                   <div className="extra-details">
-                    Plan Smart. Execute Faster.
-                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
-                    Visualize timelines, set priorities, and collaborate across teams in real-time.
+                    <b>Plan Smart. Execute Faster.</b><br/>
+                    Manage multiple projects, assign tasks,<br/> track progress, and meet deadlines <br/>with ease.
+                    Visualize timelines, <br/>set priorities, and collaborate across <br/>teams in real-time.<br/>
                     Because great teams deliver great projects.
 
                   </div>
@@ -982,8 +982,9 @@ const FeaturePage = () => {
               </div>
             </div>
           </div>
-          
-          
+          <div className="col-md-4">
+           
+          </div>
         </div>
       </div>
 

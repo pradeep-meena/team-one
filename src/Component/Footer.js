@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className='footer-section py-5 bg-dark text-white mt-3'>
+    <div className='footer-section   text-white py-4'>
       <div className="container">
         <div className="row">
           {/* Products Section */}

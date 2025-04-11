@@ -812,7 +812,7 @@ const Pricing = () => {
       </section>
       {/* relatable-section end */}
       {/* discover-section */}
-      <section className="discover-section">
+      {/* <section className="discover-section">
         <div className="container">
           <h1 className="discover-heading">There's more to discover</h1>
           <p className="discover-subheading">
@@ -906,7 +906,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
