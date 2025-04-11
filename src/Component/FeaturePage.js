@@ -1,6 +1,22 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
+
 
 const FeaturePage = () => {
+    const [showModal, setShowModal] = useState(false);
+    const [currentVideoSrc, setCurrentVideoSrc] = useState('');
+    const videoRef = useRef(null);
+  
+    // Function to open modal with video
+    const handleOpenVideoModal = (videoSrc) => {
+      setCurrentVideoSrc(videoSrc);
+      setShowModal(true);
+    };
+  
+    // Function to close modal
+    const handleCloseModal = () => {
+      setShowModal(false);
+      setCurrentVideoSrc('');
+    };
 
 
   const [visible, setVisible] = useState({});
@@ -13,6 +29,28 @@ const FeaturePage = () => {
     <>
       {/* Hello world */}
       <div className="container text-center mt-5">
+      {showModal && (
+        <div className="modal-backdrop" onClick={handleCloseModal}>
+          <div 
+            className="video-modal-content" 
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="close-modal-btn" onClick={handleCloseModal}>×</button>
+            <div className="modal-video-container">
+              <video
+                ref={videoRef}
+                className="w-100 h-100"
+                controls
+                autoPlay
+                playsInline
+              >
+                <source src={currentVideoSrc} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      )}
         <div className="row">
           <div className="col">
             <h1 style={{ fontWeight: "bold", color: "black", fontSize: 70 }}>
@@ -84,27 +122,63 @@ const FeaturePage = () => {
           </div>
         </div>
         {/* Image Section */}
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mb-4">
+        
           <div className="col-md-6 shadow-sm border rounded">
-            <video
-              autoPlay
-              muted
-              controls
-              loop
-              className="w-100 video-hover"
-            >
-              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+      
+      <div 
+        className=" video-thumbnail-container position-relative" 
+        onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0bac5df3e6054c01/TeamOne.mp4?Expires=1838883851&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=uSEOc0tsHEYn1YbleEtn2-iSYSyGAsY2OGdPHbOyOljWPs2DvHLUqnjzPxdDzFDtx3GGwWnC~yMJZdGbISRe921DjVBbMlHgTUN0b6066vqaxNH9XODn6CUBCN4EM4sIZJczeHgYrcGmvktQ94m8NlWY3B6iIcG9rJAx9-T8AyZm-zyXlDoamatk~N8qf7f1TNxlQb1T6JyAi8vDrRLm7ZFNh-4v3vqXMc1TWG1oN~Cyg1-ElyHap8DXclC7WbisHdU7tRtpseFQdtKbqCNzXI14DiuPd44ShnzNICo~J7GSmi9lSCNnkqFrNH1SbE7GAHn2AuT4vxtg3k03JTRyuA__")}
+        style={{ cursor: 'pointer' }}
+      >
+            <span className='visual__figure'>Hit Play to see TeamOne </span>
+        {/* Video thumbnail image */}
+        
+          <img 
+            src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
+            alt="Video thumbnail" 
+            className="w-100 h-100 rounded mb-8"
+          />
+        
+        
+        {/* Play button overlay */}
+        <div 
+          className="play-button-overlay position-absolute"
+          style={{
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            background: 'rgba(0,0,0,0.6)',
+            borderRadius: '50%',
+            width: '80px',
+            height: '80px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          <div 
+            style={{
+              width: '0',
+              height: '0',
+              borderTop: '20px solid transparent',
+              borderBottom: '20px solid transparent',
+              borderLeft: '30px solid white',
+              marginLeft: '8px'
+            }}
+          />
+        </div>
+      </div>
+    </div>
         </div>
         <div className="row justify-content-center">
           <div className="col-md-10">
             <img
-              src="https://halopsa.wpenginepowered.com/wp-content/uploads/2020/10/HaloPSA-Hero-V9-1536x853.jpg"
+              src="https://i.ibb.co/4ZYkx5fQ/Whats-App-Image-2025-04-11-at-3-10-16-PM.png"
               alt="PSA Dashboard"
-              style={{ width: "100%", borderRadius: 10 }}
+              style={{ width: "100%", height: "100%", borderRadius: 10, backgroundColor: "#e2edf7" }}
             />
+           
           </div>
         </div>
       </div>
@@ -908,11 +982,7 @@ const FeaturePage = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <img
-              src="https://i.ibb.co/grvPyV9/image.png"
-              alt="Discover more"
-              className="img-fluid rounded shadow"
-            />
+           
           </div>
         </div>
       </div>
