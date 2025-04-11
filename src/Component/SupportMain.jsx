@@ -46,12 +46,13 @@ const SupportMain = () => {
   <div className="container mt-5">
     <div className="row">
     <div className="col-md-6 shadow-sm border rounded gap-2">
-          <span className='visual__figure'>Manage  support desk </span>
+         
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/95cca3dd8ec54a9e/Support.mp4?Expires=1838890912&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nN3Upnp-59km9qfVb-6RRtsStsW3wNjskKM6EDYY187BT5EObKuNCt8C6wGGPkrNx~~4JfNHrrU~d3gtb~TWDE0M20iQsYEtszalHb5Ds3l-xCqqL8sVzd-7oRlabMYgeZUfhQdU7La8P2-d4nXVL~yLj5n9ITZGbIRiriTvHNvDIfncvq--xSjRXFeQDKoYLD5tP8lU4rxKlXgvXz9EQ42Jo-a7M23vRHBM1ZdrKCO~SZph1ZWudo8ZCZ-lwFM1YeVSjbeOEcCVUSyQMMr5aOZYMZ~YPhSVsdqbx2BMXOjqGHEvnZp1q1W1RdJ4InXi5O6KAT3iQjZcooMrSSvfWQ__")}
               style={{ cursor: 'pointer' }}
             >
+               <span className='visual__figure'>Manage  support desk </span>
               {/* Video thumbnail image */}
               
                 <img 

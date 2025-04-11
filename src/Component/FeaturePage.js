@@ -221,9 +221,9 @@ const FeaturePage = () => {
                   </small>
                   {visible.serviceDesk && (
                     <div className="extra-details">
-                      Plan Smart. Execute Faster.
-                      Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
-                      Visualize timelines, set priorities, and collaborate across teams in real-time.
+                      <b>Plan Smart. Execute Faster.</b><br/>
+                      Manage multiple projects, assign tasks, <br/> track progress, and meet deadlines with ease.<br/>
+                      Visualize timelines, set priorities,<br/> and collaborate across teams in real-time.<br/>
                       Because great teams deliver great projects.
 
                     </div>
@@ -244,9 +244,9 @@ const FeaturePage = () => {
                   </small>
                   {visible.contracts && (
                     <div className="extra-details">
-                      Build Stronger Client Relationships.
-                      Capture leads, track deals, manage contacts, and automate your follow-ups.
-                      Empower your sales team with structured pipelines and smart reminders.
+                     <b> Build Stronger Client Relationships.</b><br/>
+                      Capture leads, track deals,<br/> manage contacts,<br/> and automate your follow-ups.<br/>
+                      Empower your sales team with<br/> structured pipelines and smart reminders.<br/>
                       Turn conversations into conversions.
 
                     </div>
@@ -260,7 +260,7 @@ const FeaturePage = () => {
                   <i className="bi bi-boxes" />
                 </div>
                 <div className="discover-feature-content">
-                  <div className="discover-feature-title">HRM Human Resource Management
+                  <div className="discover-feature-title">HRM
                   </div>
                   <small
                     style={{ cursor: "pointer", color: "blue", }}
@@ -270,9 +270,9 @@ const FeaturePage = () => {
                   </small>
                   {visible.stockManagement1 && (
                     <div className="extra-details">
-                      Simplify People Operations.
-                      Onboard new hires, track attendance, approve leaves, and manage employee lifecycle in one place.
-                      Performance reviews, department analytics, and employee profiles—made simple.
+                     <b> Simplify People Operations.</b><br/>
+                     Onboard new hires, track attendance,<br/> approve leaves, and manage <br/>employee lifecycle in one place.<br/>
+                      Performance reviews,<br/> department analytics,<br/> and employee profiles—made simple.<br/>
                       HR, the way it should be.
 
                     </div>
@@ -296,9 +296,9 @@ const FeaturePage = () => {
                   </small>
                   {visible.billableTimeTracking1 && (
                     <div className="extra-details">
-                      Payroll That Runs Itself.
-                      Process salaries, reimbursements, and tax deductions without spreadsheets.
-                      Generate payslips, manage expenses, and sync finance data with HR in real time.
+                     <b> Payroll That Runs Itself.</b><br/>
+                      Process salaries, reimbursements,<br/> and tax deductions without spreadsheets.<br/>
+                      Generate payslips, manage expenses,<br/> and sync finance data with HR in real time.<br/>
                       Transparent, compliant, and effortless.
 
                     </div>
@@ -322,9 +322,9 @@ const FeaturePage = () => {
                   </small>
                   {visible.stockManagement2 && (
                     <div className="extra-details">
-                      Know What’s In. Know What’s Out.
-                      Track stock levels, purchase orders, supplier info, and consumption rates.
-                      Perfect for managing IT assets, office supplies, or industry-specific materials.
+                     <b> Know What’s In. Know What’s Out.</b><br/>
+                      Track stock levels, purchase orders,<br/> supplier info, and consumption rates.<br/>
+                      Perfect for managing IT assets,<br/> office supplies, or industry-specific <br/> materials.
                       Inventory intelligence built in.
 
                     </div>
@@ -348,9 +348,9 @@ const FeaturePage = () => {
                   </small>
                   {visible.billableTimeTracking2 && (
                     <div className="extra-details">
-                      Internal Helpdesk That Gets Things Done.
-                      Raise, assign, and resolve support tickets across departments.
-                      With status tracking, SLAs, and automated routing, resolution is just a few clicks away.
+                     <b> Internal Helpdesk That Gets Things Done.</b><br/>
+                      Raise, assign, and resolve support<br/> tickets across departments.<br/>
+                      With status tracking, SLAs,<br/>and automated routing, resolution is just a <br/>few clicks away.
                       Empower your team with faster support.
 
                     </div>

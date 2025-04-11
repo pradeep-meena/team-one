@@ -64,7 +64,7 @@ const Pricing = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="pricing-card">
+                <div className="pricing-card border: 2px solid #000;">
                   <h5>
                     <strong>
                       Basecamp <span className="highlight-text">PLUS</span>
