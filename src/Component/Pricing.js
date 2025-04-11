@@ -234,179 +234,179 @@ const Pricing = () => {
         <br/>
 
       <marquee className="bg-black text-white">
-       <h3> “Extremely user friendly”
-       <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Truly amazing!”
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
+        <h3> “Extremely user friendly”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Truly amazing!”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
 
 
-        “A godsend for our org”
+          “A godsend for our org”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Simple, quick, powerful”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Simple, quick, powerful”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “So glad I found Basecamp”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “So glad I found Basecamp”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “The perfect solution”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “The perfect solution”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Really great”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Really great”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Outstanding”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Outstanding”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Best app for teams”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Best app for teams”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Awesome service”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Awesome service”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Gets better and better”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Gets better and better”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Great collaboration tool”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Great collaboration tool”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Great software”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Great software”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Gold standard PM app”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Gold standard PM app”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Brilliant solution”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Brilliant solution”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Clean and easy to use”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Clean and easy to use”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Fantastic app”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Fantastic app”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Organized and on point”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Organized and on point”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Extremely user friendly”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Extremely user friendly”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Truly amazing!”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Truly amazing!”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “A godsend for our org”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “A godsend for our org”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Simple, quick, powerful”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Simple, quick, powerful”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “So glad I found Basecamp”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “So glad I found Basecamp”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “The perfect solution”
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “The perfect solution”
 
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        “Really great”
-       </h3>
-        
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          “Really great”
+        </h3>
 
-        
+
+
       </marquee>
 
 
@@ -434,15 +434,16 @@ const Pricing = () => {
               <div className="feature-icon">
                 <i className="bi bi-bar-chart-fill" />
               </div>
-              <div className="feature-title">Service Desk</div>
+              <div className="feature-title">Project Management
+              </div>
               <ul className="feature-list">
-                <li>Email &amp; Social Ticketing</li>
-                <li>Knowledge Base</li>
-                <li>Automations</li>
-                <li>Collision Detection</li>
-                <li>SLA Management</li>
-                <li>Round-robin Routing</li>
-                <li>Full Portal Rebrand</li>
+                <li>Create projects, sprints, or workflows
+                </li>
+                <li>Assign tasks, track time, manage priorities</li>
+                <li>Gantt charts, Kanban boards, and milestones</li>
+                <li>Budgeting, resource allocation & progress tracking</li>
+                <li>Internal chat and file attachments on tasks</li>
+
               </ul>
             </div>
             <div className="col-md-4 feature-box">
@@ -451,28 +452,34 @@ const Pricing = () => {
               </div>
               <div className="feature-title">CRM</div>
               <ul className="feature-list">
-                <li>Deal pipeline</li>
-                <li>Quotes</li>
-                <li>Sales Orders</li>
-                <li>Purchase Orders</li>
-                <li>Sales analytics</li>
-                <li>Required fields</li>
-                <li>Email Scheduling</li>
+                <li>Lead capture from email, forms, and imports
+                </li>
+                <li>Pipeline stages, custom workflows & follow-ups</li>
+                <li>Contact activity timelines & notes
+                </li>
+                <li>Email integration & notifications
+                </li>
+                <li>Deal tracking, forecasting & conversion analytics</li>
+              
               </ul>
             </div>
             <div className="col-md-4 feature-box">
               <div className="feature-icon">
                 <i className="bi bi-currency-dollar" />
               </div>
-              <div className="feature-title">Billing</div>
+              <div className="feature-title"> HRM</div>
               <ul className="feature-list">
-                <li>Automated time tracking</li>
-                <li>Charge Rates</li>
-                <li>Billing Plan Combinations</li>
-                <li>Surcharges and Multipliers</li>
-                <li>Incremental time</li>
-                <li>Dynamic service plan billing</li>
-                <li>Third party accounts integration</li>
+                <li>Employee onboarding & document management
+                </li>
+                <li>Daily attendance tracking (web, mobile, biometric)
+                </li>
+                <li>Leave requests, holidays, and shift rosters
+                </li>
+                <li>Employee directory & department structure
+                </li>
+                <li>Performance appraisals & feedback cycles
+                </li>
+              
               </ul>
             </div>
           </div>
@@ -487,39 +494,52 @@ const Pricing = () => {
               <div className="assets-icon-box">
                 <i className="bi bi-boxes" />
               </div>
-              <div className="assets-title-box">Assets and Stock</div>
+              <div className="assets-title-box"> Finance & Payroll
+              </div>
               <ul className="assets-list-box">
-                <li>Asset Management</li>
-                <li>Stock/Inventory Management</li>
-                <li>Custom Fields</li>
-                <li>Issue stock to jobs to bill customers</li>
-                <li>Start remote session from customer assets</li>
-                <li>Automated asset discovery available</li>
+                <li>Auto-calculate salaries, TDS, PF, ESI, etc.
+                </li>
+                <li>Set up pay structures, bonuses, reimbursements
+                </li>
+                <li>Auto-generate payslips and bank files
+                </li>
+                <li>Expense management and approval flows
+                </li>
+                <li>Financial reports for audit-readiness
+                </li>
+                
               </ul>
             </div>
             <div className="col-md-4 assets-card-box">
               <div className="assets-icon-box">
                 <i className="bi bi-hdd-stack" />
               </div>
-              <div className="assets-title-box">Reporting</div>
+              <div className="assets-title-box">Inventory Management</div>
               <ul className="assets-list-box">
-                <li>200+ out of the box reports</li>
-                <li>Graph engine</li>
-                <li>Create custom reports</li>
-                <li>Automated report delivery</li>
-                <li>Configurable TV/Browser Dashboards</li>
-                <li>Further free 1000+ reports available via reports library</li>
+                <li>Stock levels, issue logs, and location-wise tracking</li>
+                <li>Low-stock alerts and reorder points
+                </li>
+                <li>Purchase orders, supplier records, and cost centers
+                </li>
+                <li>Asset tagging and maintenance logs</li>
+                <li>Usage tracking per department or employee</li>
+                
               </ul>
             </div>
             <div className="col-md-4 assets-card-box">
               <div className="assets-icon-box">
                 <i className="bi bi-cookie" />
               </div>
-              <div className="assets-title-box">Support</div>
+              <div className="assets-title-box">Support Desk
+              </div>
               <ul className="assets-list-box">
-                <li>Unlimited phone, chat and email support</li>
-                <li>24/7 support hours</li>
-                <li>Onboarding and consultancy packages available</li>
+                <li>Raise tickets via web, mobile, or email</li>
+                <li>Categorize, tag, and auto-assign tickets</li>
+                <li>Define SLAs, priority levels, and escalation rules</li>
+                <li>Resolution tracking, status updates & agent notes
+                </li>
+                <li>Full ticket history and analytics
+                </li>
               </ul>
             </div>
           </div>
@@ -570,147 +590,147 @@ const Pricing = () => {
       </section>
       {/* assets-section end */}
       {/* faq question */}
-     <section className="faq-section py-5">
-  <div className="container">
-    <div className="faq-title">Frequently Asked Questions</div>
-    <div className="row faq-container">
-      <div className="col-md-6">
-        <div
-          className="faq-item"
-          onClick={() => toggleItem(0)}
-          style={{ cursor: 'pointer' }}
-        >
-          <span className="faq-icon">{openItems[0] ? '▼' : '▶'}</span>
-          What features are included?
-          {openItems[0] && (
-            <div className="faq-answer mt-3">
-              Our product includes a comprehensive suite of features such as user management, reporting dashboards, real-time notifications, integrated analytics.
+      <section className="faq-section py-5">
+        <div className="container">
+          <div className="faq-title">Frequently Asked Questions</div>
+          <div className="row faq-container">
+            <div className="col-md-6">
+              <div
+                className="faq-item"
+                onClick={() => toggleItem(0)}
+                style={{ cursor: 'pointer' }}
+              >
+                <span className="faq-icon">{openItems[0] ? '▼' : '▶'}</span>
+                What features are included?
+                {openItems[0] && (
+                  <div className="faq-answer mt-3">
+                    Our product includes a comprehensive suite of features such as user management, reporting dashboards, real-time notifications, integrated analytics.
+                  </div>
+                )}
+              </div>
+              <div
+                className="faq-item"
+                onClick={() => toggleItem(1)}
+                style={{ cursor: 'pointer' }}
+              >
+                <span className="faq-icon">{openItems[1] ? '▼' : '▶'}</span>
+                Do we have to pay extra for assets?
+                {openItems[1] && (
+                  <div className="faq-answer mt-3">
+                    All essential assets are included with your subscription. Premium assets may incur extra fees.
+                  </div>
+                )}
+              </div>
+              <div
+                className="faq-item"
+                onClick={() => toggleItem(2)}
+                style={{ cursor: 'pointer' }}
+              >
+                <span className="faq-icon">{openItems[2] ? '▼' : '▶'}</span>
+                Is there a cost per end user?
+                {openItems[2] && (
+                  <div className="faq-answer mt-3">
+                    Our pricing model does not charge per end user. Specific requirements may vary for larger deployments.
+                  </div>
+                )}
+              </div>
+              <div
+                className="faq-item"
+                onClick={() => toggleItem(3)}
+                style={{ cursor: 'pointer' }}
+              >
+                <span className="faq-icon">{openItems[3] ? '▼' : '▶'}</span>
+                Do you offer a non-profit discount?
+                {openItems[3] && (
+                  <div className="faq-answer mt-3">
+                    Yes, we offer discounts for non-profit organizations. Please contact support for details.
+                  </div>
+                )}
+              </div>
+              <div
+                className="faq-item"
+                onClick={() => toggleItem(4)}
+                style={{ cursor: 'pointer' }}
+              >
+                <span className="faq-icon">{openItems[4] ? '▼' : '▶'}</span>
+                Are integrations included in the price?
+                {openItems[4] && (
+                  <div className="faq-answer mt-3">
+                    Standard integrations are included. Custom integrations may incur additional fees.
+                  </div>
+                )}
+              </div>
             </div>
-          )}
-        </div>
-        <div
-          className="faq-item"
-          onClick={() => toggleItem(1)}
-          style={{ cursor: 'pointer' }}
-        >
-          <span className="faq-icon">{openItems[1] ? '▼' : '▶'}</span>
-          Do we have to pay extra for assets?
-          {openItems[1] && (
-            <div className="faq-answer mt-3">
-              All essential assets are included with your subscription. Premium assets may incur extra fees.
+            <div className="col-md-6">
+              <div
+                className="faq-item"
+                onClick={() => toggleItem(5)}
+                style={{ cursor: 'pointer' }}
+              >
+                <span className="faq-icon">{openItems[5] ? '▼' : '▶'}</span>
+                Can we request a demonstration of your software?
+                {openItems[5] && (
+                  <div className="faq-answer mt-3">
+                    Yes, you can request a live demo via our demo booking page.
+                  </div>
+                )}
+              </div>
+              <div
+                className="faq-item"
+                onClick={() => toggleItem(6)}
+                style={{ cursor: 'pointer' }}
+              >
+                <span className="faq-icon">{openItems[6] ? '▼' : '▶'}</span>
+                Do you offer professional services?
+                {openItems[6] && (
+                  <div className="faq-answer mt-3">
+                    We offer professional services including implementation, custom development, and training.
+                  </div>
+                )}
+              </div>
+              <div
+                className="faq-item"
+                onClick={() => toggleItem(7)}
+                style={{ cursor: 'pointer' }}
+              >
+                <span className="faq-icon">{openItems[7] ? '▼' : '▶'}</span>
+                Do you offer scalable prices for larger service desks?
+                {openItems[7] && (
+                  <div className="faq-answer mt-3">
+                    Our pricing scales based on usage. Contact our sales team for custom pricing options.
+                  </div>
+                )}
+              </div>
+              <div
+                className="faq-item"
+                onClick={() => toggleItem(8)}
+                style={{ cursor: 'pointer' }}
+              >
+                <span className="faq-icon">{openItems[8] ? '▼' : '▶'}</span>
+                Do you offer long term contracts?
+                {openItems[8] && (
+                  <div className="faq-answer mt-3">
+                    Yes, we offer both short-term and long-term contracts with various benefits.
+                  </div>
+                )}
+              </div>
+              <div
+                className="faq-item"
+                onClick={() => toggleItem(9)}
+                style={{ cursor: 'pointer' }}
+              >
+                <span className="faq-icon">{openItems[9] ? '▼' : '▶'}</span>
+                What support do you offer during the trial?
+                {openItems[9] && (
+                  <div className="faq-answer mt-3">
+                    During the trial, we provide extensive support including live chat, documentation, and scheduled assistance calls.
+                  </div>
+                )}
+              </div>
             </div>
-          )}
+          </div>
         </div>
-        <div
-          className="faq-item"
-          onClick={() => toggleItem(2)}
-          style={{ cursor: 'pointer' }}
-        >
-          <span className="faq-icon">{openItems[2] ? '▼' : '▶'}</span>
-          Is there a cost per end user?
-          {openItems[2] && (
-            <div className="faq-answer mt-3">
-              Our pricing model does not charge per end user. Specific requirements may vary for larger deployments.
-            </div>
-          )}
-        </div>
-        <div
-          className="faq-item"
-          onClick={() => toggleItem(3)}
-          style={{ cursor: 'pointer' }}
-        >
-          <span className="faq-icon">{openItems[3] ? '▼' : '▶'}</span>
-          Do you offer a non-profit discount?
-          {openItems[3] && (
-            <div className="faq-answer mt-3">
-              Yes, we offer discounts for non-profit organizations. Please contact support for details.
-            </div>
-          )}
-        </div>
-        <div
-          className="faq-item"
-          onClick={() => toggleItem(4)}
-          style={{ cursor: 'pointer' }}
-        >
-          <span className="faq-icon">{openItems[4] ? '▼' : '▶'}</span>
-          Are integrations included in the price?
-          {openItems[4] && (
-            <div className="faq-answer mt-3">
-              Standard integrations are included. Custom integrations may incur additional fees.
-            </div>
-          )}
-        </div>
-      </div>
-      <div className="col-md-6">
-        <div
-          className="faq-item"
-          onClick={() => toggleItem(5)}
-          style={{ cursor: 'pointer' }}
-        >
-          <span className="faq-icon">{openItems[5] ? '▼' : '▶'}</span>
-          Can we request a demonstration of your software?
-          {openItems[5] && (
-            <div className="faq-answer mt-3">
-              Yes, you can request a live demo via our demo booking page.
-            </div>
-          )}
-        </div>
-        <div
-          className="faq-item"
-          onClick={() => toggleItem(6)}
-          style={{ cursor: 'pointer' }}
-        >
-          <span className="faq-icon">{openItems[6] ? '▼' : '▶'}</span>
-          Do you offer professional services?
-          {openItems[6] && (
-            <div className="faq-answer mt-3">
-              We offer professional services including implementation, custom development, and training.
-            </div>
-          )}
-        </div>
-        <div
-          className="faq-item"
-          onClick={() => toggleItem(7)}
-          style={{ cursor: 'pointer' }}
-        >
-          <span className="faq-icon">{openItems[7] ? '▼' : '▶'}</span>
-          Do you offer scalable prices for larger service desks?
-          {openItems[7] && (
-            <div className="faq-answer mt-3">
-              Our pricing scales based on usage. Contact our sales team for custom pricing options.
-            </div>
-          )}
-        </div>
-        <div
-          className="faq-item"
-          onClick={() => toggleItem(8)}
-          style={{ cursor: 'pointer' }}
-        >
-          <span className="faq-icon">{openItems[8] ? '▼' : '▶'}</span>
-          Do you offer long term contracts?
-          {openItems[8] && (
-            <div className="faq-answer mt-3">
-              Yes, we offer both short-term and long-term contracts with various benefits.
-            </div>
-          )}
-        </div>
-        <div
-          className="faq-item"
-          onClick={() => toggleItem(9)}
-          style={{ cursor: 'pointer' }}
-        >
-          <span className="faq-icon">{openItems[9] ? '▼' : '▶'}</span>
-          What support do you offer during the trial?
-          {openItems[9] && (
-            <div className="faq-answer mt-3">
-              During the trial, we provide extensive support including live chat, documentation, and scheduled assistance calls.
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       {/* faq question end */}
       {/* feature-question */}

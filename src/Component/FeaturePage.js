@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useState } from "react";
 
 const FeaturePage = () => {
+
+
+  const [visible, setVisible] = useState({});
+
+  const toggleDetails = (feature) => {
+    setVisible((prev) => ({ ...prev, [feature]: !prev[feature] }));
+  };
+
   return (
     <>
       {/* Hello world */}
@@ -83,7 +91,7 @@ const FeaturePage = () => {
               muted
               controls
               loop
-              className="w-100 video-hover" 
+              className="w-100 video-hover"
             >
               <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
               Your browser does not support the video tag.
@@ -105,6 +113,21 @@ const FeaturePage = () => {
         <div className="container">
           <h1 className="discover-heading">Explore the modules of TeamOne</h1>
           <p className="discover-subheading">
+            Features:
+
+            Real-time messaging and chat rooms
+
+            Video conferencing and virtual meetings
+
+            Discussion boards and forums
+
+            Notifications and announcements
+
+            Purpose:
+            To facilitate seamless interaction among team members, ensuring that ideas, updates, and feedback are shared efficiently.
+
+            Benefits:
+            Reduced communication gaps, faster decision-making, and improved team cohesion.
             Easy setup and everything as standard. Learn more about TeamOne.
           </p>
           <div className="row">
@@ -114,8 +137,23 @@ const FeaturePage = () => {
                   <i className="bi bi-ticket-perforated" />
                 </div>
                 <div className="discover-feature-content">
-                  <div className="discover-feature-title">Service desk</div>
-                  <small>Learn more</small>
+                  <div className="discover-feature-title"> Project Management
+                  </div>
+                  <small
+                    style={{ cursor: "pointer", color: "blue", }}
+                    onClick={() => toggleDetails("serviceDesk")}
+                  >
+                    Learn more
+                  </small>
+                  {visible.serviceDesk && (
+                    <div className="extra-details">
+                      Plan Smart. Execute Faster.
+                      Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
+                      Visualize timelines, set priorities, and collaborate across teams in real-time.
+                      Because great teams deliver great projects.
+
+                    </div>
+                  )}
                 </div>
               </div>
               <div className="discover-feature-box">
@@ -123,8 +161,22 @@ const FeaturePage = () => {
                   <i className="bi bi-lightning-fill" />
                 </div>
                 <div className="discover-feature-content">
-                  <div className="discover-feature-title">Contracts</div>
-                  <small>Learn more</small>
+                  <div className="discover-feature-title">CRM</div>
+                  <small
+                    style={{ cursor: "pointer", color: "blue", }}
+                    onClick={() => toggleDetails("contracts")}
+                  >
+                    Learn more
+                  </small>
+                  {visible.contracts && (
+                    <div className="extra-details">
+                      Build Stronger Client Relationships.
+                      Capture leads, track deals, manage contacts, and automate your follow-ups.
+                      Empower your sales team with structured pipelines and smart reminders.
+                      Turn conversations into conversions.
+
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -134,8 +186,23 @@ const FeaturePage = () => {
                   <i className="bi bi-boxes" />
                 </div>
                 <div className="discover-feature-content">
-                  <div className="discover-feature-title">Stock management</div>
-                  <small>Learn more</small>
+                  <div className="discover-feature-title">HRM Human Resource Management
+                  </div>
+                  <small
+                    style={{ cursor: "pointer", color: "blue", }}
+                    onClick={() => toggleDetails("stockManagement1")}
+                  >
+                    Learn more
+                  </small>
+                  {visible.stockManagement1 && (
+                    <div className="extra-details">
+                      Simplify People Operations.
+                      Onboard new hires, track attendance, approve leaves, and manage employee lifecycle in one place.
+                      Performance reviews, department analytics, and employee profiles—made simple.
+                      HR, the way it should be.
+
+                    </div>
+                  )}
                 </div>
               </div>
               <div className="discover-feature-box">
@@ -144,9 +211,24 @@ const FeaturePage = () => {
                 </div>
                 <div className="discover-feature-content">
                   <div className="discover-feature-title">
-                    Billable time tracking
+                    Finance & Payroll
+
                   </div>
-                  <small>Learn more</small>
+                  <small
+                    style={{ cursor: "pointer", color: "blue", }}
+                    onClick={() => toggleDetails("billableTimeTracking1")}
+                  >
+                    Learn more
+                  </small>
+                  {visible.billableTimeTracking1 && (
+                    <div className="extra-details">
+                      Payroll That Runs Itself.
+                      Process salaries, reimbursements, and tax deductions without spreadsheets.
+                      Generate payslips, manage expenses, and sync finance data with HR in real time.
+                      Transparent, compliant, and effortless.
+
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -156,8 +238,23 @@ const FeaturePage = () => {
                   <i className="bi bi-boxes" />
                 </div>
                 <div className="discover-feature-content">
-                  <div className="discover-feature-title">stock management</div>
-                  <small>Learn more</small>
+                  <div className="discover-feature-title">Inventory Management
+                  </div>
+                  <small
+                    style={{ cursor: "pointer", color: "blue", }}
+                    onClick={() => toggleDetails("stockManagement2")}
+                  >
+                    Learn more
+                  </small>
+                  {visible.stockManagement2 && (
+                    <div className="extra-details">
+                      Know What’s In. Know What’s Out.
+                      Track stock levels, purchase orders, supplier info, and consumption rates.
+                      Perfect for managing IT assets, office supplies, or industry-specific materials.
+                      Inventory intelligence built in.
+
+                    </div>
+                  )}
                 </div>
               </div>
               <div className="discover-feature-box">
@@ -166,9 +263,24 @@ const FeaturePage = () => {
                 </div>
                 <div className="discover-feature-content">
                   <div className="discover-feature-title">
-                    Billable time tracking
+                    Support Desk
+
                   </div>
-                  <small>Learn more</small>
+                  <small
+                    style={{ cursor: "pointer", color: "blue", }}
+                    onClick={() => toggleDetails("billableTimeTracking2")}
+                  >
+                    Learn more
+                  </small>
+                  {visible.billableTimeTracking2 && (
+                    <div className="extra-details">
+                      Internal Helpdesk That Gets Things Done.
+                      Raise, assign, and resolve support tickets across departments.
+                      With status tracking, SLAs, and automated routing, resolution is just a few clicks away.
+                      Empower your team with faster support.
+
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -561,28 +673,28 @@ const FeaturePage = () => {
             </div>
             <div className="row g-4 mt-3">
               <div className="col-md-6">
-              <video
-              autoPlay
-              muted
-              controls
-              loop
-              className="w-100 video-hover" 
-            >
-              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+                <video
+                  autoPlay
+                  muted
+                  controls
+                  loop
+                  className="w-100 video-hover"
+                >
+                  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
               <div className="col-md-6">
-              <video
-              autoPlay
-              muted
-              controls
-              loop
-              className="w-100 video-hover" 
-            >
-              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+                <video
+                  autoPlay
+                  muted
+                  controls
+                  loop
+                  className="w-100 video-hover"
+                >
+                  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
           </div>
@@ -602,75 +714,196 @@ const FeaturePage = () => {
                 <i className="bi bi-ticket-perforated" />
               </div>
               <div className="discover-feature-content">
-                <div className="discover-feature-title">Service desk</div>
-                <small>Learn more</small>
+                <div className="discover-feature-title">  Files & Documents
+
+                </div>
+                <small
+                  style={{ cursor: "pointer", color: "blue", }}
+                  onClick={() => toggleDetails("Files")}
+                >
+                  Learn more
+                </small>
+                {visible.Files && (
+                  <div className="extra-details">
+                    Smart Storage. Easy Access.
+                    Upload, manage, and share documents securely. Set permissions, track versions, and keep everything organized with tags and folders.
+                    Your digital workspace, uncluttered.
+
+
+                  </div>
+                )}
               </div>
             </div>
             <div className="discover-feature-box">
               <div className="discover-feature-icon">
-                <i className="bi bi-lightning-fill" />
+                <i className="bi bi-ticket-perforated" />
               </div>
               <div className="discover-feature-content">
-                <div className="discover-feature-title">Contracts</div>
-                <small>Learn more</small>
+                <div className="discover-feature-title"> Social Feed
+
+                </div>
+                <small
+                  style={{ cursor: "pointer", color: "blue", }}
+                  onClick={() => toggleDetails("Social")}
+                >
+                  Learn more
+                </small>
+                {visible.Social && (
+                  <div className="extra-details">
+                    Keep the Culture Alive.
+                    Celebrate wins, share announcements, recognize peers, and spark engagement with a private social feed for your team.
+                    Where work meets community.
+
+
+                  </div>
+                )}
               </div>
             </div>
             <div className="discover-feature-box">
               <div className="discover-feature-icon">
-                <i className="bi bi-currency-dollar" />
+                <i className="bi bi-ticket-perforated" />
               </div>
               <div className="discover-feature-content">
-                <div className="feature-title">Billing</div>
-                <small>Learn more</small>
+                <div className="discover-feature-title"> Administration Panel
+
+                </div>
+                <small
+                  style={{ cursor: "pointer", color: "blue", }}
+                  onClick={() => toggleDetails("Administration")}
+                >
+                  Learn more
+                </small>
+                {visible.Administration && (
+                  <div className="extra-details">
+                    Plan Smart. Execute Faster.
+                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
+                    Visualize timelines, set priorities, and collaborate across teams in real-time.
+                    Because great teams deliver great projects.
+
+                  </div>
+                )}
               </div>
             </div>
             <div className="discover-feature-box">
               <div className="discover-feature-icon">
-                <i className="bi bi-currency-dollar" />
+                <i className="bi bi-ticket-perforated" />
               </div>
               <div className="discover-feature-content">
-                <div className="discover-feature-title">Sales CRM</div>
-                <small>Learn more</small>
+                <div className="discover-feature-title"> Project Management
+                </div>
+                <small
+                  style={{ cursor: "pointer", color: "blue", }}
+                  onClick={() => toggleDetails("serviceDesk")}
+                >
+                  Learn more
+                </small>
+                {visible.serviceDesk && (
+                  <div className="extra-details">
+                    Plan Smart. Execute Faster.
+                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
+                    Visualize timelines, set priorities, and collaborate across teams in real-time.
+                    Because great teams deliver great projects.
+
+                  </div>
+                )}
               </div>
             </div>
           </div>
           <div className="col-md-4">
             <div className="discover-feature-box">
               <div className="discover-feature-icon">
-                <i className="bi bi-boxes" />
+                <i className="bi bi-ticket-perforated" />
               </div>
               <div className="discover-feature-content">
-                <div className="discover-feature-title">Stock management</div>
-                <small>Learn more</small>
-              </div>
-            </div>
-            <div className="discover-feature-box">
-              <div className="discover-feature-icon">
-                <i className="bi bi-clock" />
-              </div>
-              <div className="discover-feature-content">
-                <div className="discover-feature-title">
-                  Billable time tracking
+                <div className="discover-feature-title"> Project Management
                 </div>
-                <small>Learn more</small>
+                <small
+                  style={{ cursor: "pointer", color: "blue", }}
+                  onClick={() => toggleDetails("serviceDesk")}
+                >
+                  Learn more
+                </small>
+                {visible.serviceDesk && (
+                  <div className="extra-details">
+                    Plan Smart. Execute Faster.
+                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
+                    Visualize timelines, set priorities, and collaborate across teams in real-time.
+                    Because great teams deliver great projects.
+
+                  </div>
+                )}
               </div>
             </div>
             <div className="discover-feature-box">
               <div className="discover-feature-icon">
-                <i className="bi bi-kanban" />
+                <i className="bi bi-ticket-perforated" />
               </div>
               <div className="discover-feature-content">
-                <div className="discover-feature-title">project management</div>
-                <small>Learn more</small>
+                <div className="discover-feature-title"> Project Management
+                </div>
+                <small
+                  style={{ cursor: "pointer", color: "blue", }}
+                  onClick={() => toggleDetails("serviceDesk")}
+                >
+                  Learn more
+                </small>
+                {visible.serviceDesk && (
+                  <div className="extra-details">
+                    Plan Smart. Execute Faster.
+                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
+                    Visualize timelines, set priorities, and collaborate across teams in real-time.
+                    Because great teams deliver great projects.
+
+                  </div>
+                )}
               </div>
             </div>
             <div className="discover-feature-box">
               <div className="discover-feature-icon">
-                <i className="bi bi-database" />
+                <i className="bi bi-ticket-perforated" />
               </div>
               <div className="discover-feature-content">
-                <div className="feature-title">reporting suite</div>
-                <small>Learn more</small>
+                <div className="discover-feature-title"> Project Management
+                </div>
+                <small
+                  style={{ cursor: "pointer", color: "blue", }}
+                  onClick={() => toggleDetails("serviceDesk")}
+                >
+                  Learn more
+                </small>
+                {visible.serviceDesk && (
+                  <div className="extra-details">
+                    Plan Smart. Execute Faster.
+                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
+                    Visualize timelines, set priorities, and collaborate across teams in real-time.
+                    Because great teams deliver great projects.
+
+                  </div>
+                )}
+              </div>
+            </div>
+            <div className="discover-feature-box">
+              <div className="discover-feature-icon">
+                <i className="bi bi-ticket-perforated" />
+              </div>
+              <div className="discover-feature-content">
+                <div className="discover-feature-title"> Project Management
+                </div>
+                <small
+                  style={{ cursor: "pointer", color: "blue", }}
+                  onClick={() => toggleDetails("serviceDesk")}
+                >
+                  Learn more
+                </small>
+                {visible.serviceDesk && (
+                  <div className="extra-details">
+                    Plan Smart. Execute Faster.
+                    Manage multiple projects, assign tasks, track progress, and meet deadlines with ease.
+                    Visualize timelines, set priorities, and collaborate across teams in real-time.
+                    Because great teams deliver great projects.
+
+                  </div>
+                )}
               </div>
             </div>
           </div>

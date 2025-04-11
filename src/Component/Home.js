@@ -79,7 +79,7 @@ const Home = () => {
             <p>
               Get a demo of our software, or get started with free forever tools.
             </p>
-            <div className="mt-4">
+            <div className="mb-5">
               <button className="btn btn-custom btn-img-color me-2">Get a demo</button>
               <button className="btn btn-custom btn-start">Get started free</button>
             </div>
@@ -138,7 +138,7 @@ const Home = () => {
         style={{ backgroundColor: "#faf8f4" }}
       >
         <div className="container mt-5 mb-4 text-center">
-          <div className="row g-4 mt-3">
+          <div className="row g-4 mt-3 justify-content-between">
             <div className="col-md-6 shadow-sm border rounded">
               <div 
                 className="video-thumbnail-container position-relative" 
@@ -184,7 +184,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <div className='row'>
                 <div className='col-md-12'>
                 <span className='visual__figure'>Manage Docs and Files   </span>
