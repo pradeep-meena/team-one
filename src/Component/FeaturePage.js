@@ -783,8 +783,8 @@ const FeaturePage = () => {
           Easy setup and everything as standard. Learn more about TeamOne.
         </p>
         <div className="row">
-          <div className="d-flex gap-2">
-            <div className="discover-feature-box col-md-4">
+          <div className="col-md-12">
+            <div className="discover-feature-box ">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -809,7 +809,7 @@ const FeaturePage = () => {
                 )}
               </div>
             </div>
-            <div className="discover-feature-box col-md-4">
+            <div className="discover-feature-box ">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -834,7 +834,7 @@ const FeaturePage = () => {
                 )}
               </div>
             </div>
-            <div className="discover-feature-box col-md-4">
+            <div className="discover-feature-box ">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
