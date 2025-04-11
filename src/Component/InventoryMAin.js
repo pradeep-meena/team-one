@@ -56,7 +56,7 @@ const InventoryMAin = () => {
             </div>
           </div>
           <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>Have a Look At CRM  </span>
+          <span className='visual__figure'>Inventory  </span>
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/01064bd0fabb44a2/Inventory.mp4?Expires=1838891684&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=H10R3SMyUTpK-AbR2pKij6fLMC2SFpb1wbKp8bslECzU-F2fhV6UCtDrq-VQQYAQKPfV1A6rtrEKHDFczvN~4kxMxYOncqYBC8W32HBFp2PwJEV~AboluaSJDnD7K1qJg6d~4T266DlCa9BUkUKY~uSA-KwN-X-XmnDEITIJ9uO3ZYZruyoWNxpC-UkLT4btX70mf0RYiHEjTYZKa8Zh7B~TaCvF187E6mkkTBLw27rvc4sX1VjTGXYACaO~K1dXUEn7yZsNgOtYWxquKyWMerfgQuN0-gaDE6bHfVCgAEVDdziLp-16GJLcEn9qBG1T03mq9qYKOY~aTp7nTPGpEw__")}

@@ -198,7 +198,7 @@ const Pricing = () => {
 
       {/* card-section end */}
       {/* pricing table */}
-      <div className="container">
+      {/* <div className="container">
         <table className="table table-bordered">
           <thead>
             <tr>
@@ -229,9 +229,9 @@ const Pricing = () => {
             </tr>
           </tbody>
         </table>
-      </div>
-      <br />
-      <br />
+      </div> */}
+        <br/>
+        <br/>
 
       <marquee className="bg-black text-white">
         <h3> “Extremely user friendly”
@@ -540,6 +540,49 @@ const Pricing = () => {
                 </li>
                 <li>Full ticket history and analytics
                 </li>
+              </ul>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-4 assets-card-box">
+              <div className="assets-icon-box">
+                <i className="bi bi-boxes" />
+              </div>
+              <div className="assets-title-box">Project Management</div>
+              <ul className="assets-list-box">
+                <li>Project Management</li>
+                
+                <li>Manage WorkLoad</li>
+                <li>Custom Fields</li>
+                <li>Efficient Schedule and Precise Proect Scheduling </li>
+                <li>Assign tasks to team members</li>
+                <li>Automated asset discovery available</li>
+              </ul>
+            </div>
+            <div className="col-md-4 assets-card-box">
+              <div className="assets-icon-box">
+                <i className="bi bi-hdd-stack" />
+              </div>
+              <div className="assets-title-box">HR </div>
+              <ul className="assets-list-box">
+                <li>Manamge Employee database</li>
+                <li>Manage Recruitment efficiently</li>
+                <li>Reports and Visualised Records</li>
+                <li>Automated report delivery</li>
+              
+              </ul>
+            </div>
+            <div className="col-md-4 assets-card-box">
+              <div className="assets-icon-box">
+                <i className="bi bi-cookie" />
+              </div>
+              <div className="assets-title-box">Finance</div>
+              <ul className="assets-list-box">
+                <li>Manage Finance </li>
+                <li>Manage Incoming and outgoing payments</li>
+                <li>Manage Remittance </li>
+                <li>Manage Invoices</li>
+                <li>Reports and Analytics</li>
               </ul>
             </div>
           </div>

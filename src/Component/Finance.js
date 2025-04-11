@@ -54,7 +54,7 @@ const Finance = () => {
             </div>
           </div>
           <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>Hit Play to see TeamOne </span>
+          <span className='visual__figure'>Finance </span>
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/2f79c0edb0134261/Finance.mp4?Expires=1838892908&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ca3ieENVL04RXyl4mIyvci02XdBcwb1zvl8NA0nmLF0wWax1PSWDitCEJt72er8cA~W3wdF8Q8swQR-Wz0f1BFw4ntixRKazoINa5aVvP3CbL17ydIzSZi-s7HG~rOtIDccvuLEnL4afXtNUynYbcOky02vC6P9zcOUKmy80MU0c-vA10tpiJ2WUUub3u4sCmURii40xTLuX2w6SD5Mf9MbI-gSb8jXqQn8andM5rf8pnENBywCskGA3kGnE1MEEy0LS6ZX0I~VWdoQSgMbNCP8NiGfanqIAG5cQvXtkisw-aMtmR0X7lWt9zrJxqA7NPNA4K9K0XJJyWARWR2jzCQ__")}

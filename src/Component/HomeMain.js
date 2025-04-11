@@ -55,7 +55,7 @@ const HomeMain = () => {
             </div>
           </div>
           <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>Hit Play to see TeamOne </span>
+          <span className='visual__figure'>Home </span>
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/4ce6bf08c91c4e10/calendar.mp4?Expires=1838890092&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GDBeocg~UhQe49EMXsLLwKhrwNQRQrEy7lSTxdl~X1BtCPLHmFq7WIfFBncEAN1IQI~6MVXcHu4s46EYX-cRuyGtlLakQ90hO4YwPyCtw5PNcLIwOMJtC1md1Z3tLFGrcGpj0JdpPHAzLTkOdq3EvT824U5sVNjXdZfT08F22Ifqg91slAyldeGesMEXjRuFfVNk4TIPXsjh1iAfK34OJiH6C6obiYsrXqLseUdBNzmF0hEy5aSO52HmCsQetGK4mf1LsAjY4uYNYHe1jpMyWflUU6C-Drg7f13EOUSFNo~R5ycevHwj0h1sd92UOmZ0lIx3xL8qgG1aZSzc834Qqw__")}
@@ -109,7 +109,7 @@ const HomeMain = () => {
         <div className="row g-4">
           {/* Calendar Section - Left Column */}
           <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>Hit Play to see TeamOne </span>
+          <span className='visual__figure'>To DO</span>
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/e91eb030aabe4dd6/Notess.mp4?Expires=1838892129&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Dv~SDnrWQ3kbJano96iNo1z-KZneKuKxGlOpoZvGFkD0SwA9xjX4OaUC3WeeGoRCNXtv1JGx~Wvtd5lNQV9bmNz6rHuEPiyn6TuXjI0kiekhOBAynwMqN7kankEad2D4zAAz8HYB4fb8c4~sGLfhwPq8gYWx2xIzjg4sLpviqOEA0GwuhxRrWgym1QNeQB48UAo3bHeTqYn-ScyQ00nXGq3Mgl71b9I-~Zq8-X3C93nMO1UPH9-nX1zFDvA-Npm3fB2X8KR6nk9L1g1c9HH7KOKoECcoboDndK18eOwgZGeT6vpP2W967dakfKlZiO2CM6y5dSgti6qp6O8Txztb-w__")}
