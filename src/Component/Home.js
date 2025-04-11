@@ -85,12 +85,13 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>Hit Play to see TeamOne </span>
+      
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0bac5df3e6054c01/TeamOne.mp4?Expires=1838883851&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=uSEOc0tsHEYn1YbleEtn2-iSYSyGAsY2OGdPHbOyOljWPs2DvHLUqnjzPxdDzFDtx3GGwWnC~yMJZdGbISRe921DjVBbMlHgTUN0b6066vqaxNH9XODn6CUBCN4EM4sIZJczeHgYrcGmvktQ94m8NlWY3B6iIcG9rJAx9-T8AyZm-zyXlDoamatk~N8qf7f1TNxlQb1T6JyAi8vDrRLm7ZFNh-4v3vqXMc1TWG1oN~Cyg1-ElyHap8DXclC7WbisHdU7tRtpseFQdtKbqCNzXI14DiuPd44ShnzNICo~J7GSmi9lSCNnkqFrNH1SbE7GAHn2AuT4vxtg3k03JTRyuA__")}
               style={{ cursor: 'pointer' }}
             >
+                  <span className='visual__figure'>Hit Play to see TeamOne </span>
               {/* Video thumbnail image */}
               
                 <img 
@@ -187,7 +188,7 @@ const Home = () => {
             <div className="col-md-5">
               <div className='row'>
                 <div className='col-md-12'>
-                <span className='visual__figure'>Manage Docs and Files   </span>
+              
                 <div className="col-md-12 shadow-sm border rounded">
        
             <div 
@@ -195,6 +196,7 @@ const Home = () => {
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/d0d27d3aff7e4b5f/Files.mp4?Expires=1838892048&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Uf0bJxRHZr7Uy4WDVRbZHH0Z0Glu5962kkMxmSm96VM8ZXFRCl6gDmHo8dhsnkKwcNpzH9emtJxNse2U~wpkD0tV~R-LVHXkK6gfVtftyXIA2s1XrGGM-sKeHZB0XneSjoHcy5wwhiqqvcJhsIfVV85aOauyVDFq1XomgGG-pc-aChuBua4PQ6J02zOH2091x9CGfk6HGhuBftJANNWGaRb-H0KL3tzyVEQmCqssktPFVysdCDyQ0AP1BSdYkbLPcGWSGDkamKWE2RtG1Ze9lLEXYrpr6IBviNcR6VaKF4L8ICE-auAfZCZpv3J2Gd1ZoSH1FLJI2wQ9QIp7oMHovA__")}
               style={{ cursor: 'pointer' }}
             >
+                <span className='visual__figure'>Manage Docs and Files   </span>
               {/* Video thumbnail image */}
               
                 <img 
@@ -235,7 +237,7 @@ const Home = () => {
           </div>
                 </div>
                 <div className='col-md-12'>
-                <span className='visual__figure'>What To-Do </span>
+                
                 <div className="col-md-12 shadow-sm border rounded">
          
             <div 
@@ -243,6 +245,7 @@ const Home = () => {
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/e91eb030aabe4dd6/Notess.mp4?Expires=1838892129&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Dv~SDnrWQ3kbJano96iNo1z-KZneKuKxGlOpoZvGFkD0SwA9xjX4OaUC3WeeGoRCNXtv1JGx~Wvtd5lNQV9bmNz6rHuEPiyn6TuXjI0kiekhOBAynwMqN7kankEad2D4zAAz8HYB4fb8c4~sGLfhwPq8gYWx2xIzjg4sLpviqOEA0GwuhxRrWgym1QNeQB48UAo3bHeTqYn-ScyQ00nXGq3Mgl71b9I-~Zq8-X3C93nMO1UPH9-nX1zFDvA-Npm3fB2X8KR6nk9L1g1c9HH7KOKoECcoboDndK18eOwgZGeT6vpP2W967dakfKlZiO2CM6y5dSgti6qp6O8Txztb-w__")}
               style={{ cursor: 'pointer' }}
             >
+              <span className='visual__figure'>What To-Do </span>
               {/* Video thumbnail image */}
               
                 <img 

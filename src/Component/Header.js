@@ -13,11 +13,14 @@ const Header = () => {
       <div className="container-fluid">
         <Link className="navbar-brand" to="/home">
           <img
-            src="https://i.ibb.co/5Tq0pq6/Black-logo-no-background.png"
+            // src="https://i.ibb.co/5Tq0pq6/Black-logo-no-background.png"
+            src="https://i.ibb.co/Qjm3yG7L/img.png"
             alt="Logo"
             className="me-2"
-            width="150"
+            width="200"
+            height="50"
           />
+        
         </Link>
 
         <button

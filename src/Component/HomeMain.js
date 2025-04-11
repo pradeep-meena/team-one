@@ -55,12 +55,13 @@ const HomeMain = () => {
             </div>
           </div>
           <div className="col-md-6 shadow-sm border rounded">
-          <span className='visual__figure'>Home </span>
+         
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/4ce6bf08c91c4e10/calendar.mp4?Expires=1838890092&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GDBeocg~UhQe49EMXsLLwKhrwNQRQrEy7lSTxdl~X1BtCPLHmFq7WIfFBncEAN1IQI~6MVXcHu4s46EYX-cRuyGtlLakQ90hO4YwPyCtw5PNcLIwOMJtC1md1Z3tLFGrcGpj0JdpPHAzLTkOdq3EvT824U5sVNjXdZfT08F22Ifqg91slAyldeGesMEXjRuFfVNk4TIPXsjh1iAfK34OJiH6C6obiYsrXqLseUdBNzmF0hEy5aSO52HmCsQetGK4mf1LsAjY4uYNYHe1jpMyWflUU6C-Drg7f13EOUSFNo~R5ycevHwj0h1sd92UOmZ0lIx3xL8qgG1aZSzc834Qqw__")}
               style={{ cursor: 'pointer' }}
             >
+               <span className='visual__figure'>Home </span>
               {/* Video thumbnail image */}
               
                 <img 

@@ -221,7 +221,7 @@
     width: 100%;
     height: 100%;
     aspect-ratio: 2 / 1;
-
+position: relative;
     cursor: pointer;
     overflow: hidden;
     border-radius: 4px;
@@ -315,7 +315,7 @@
     font-size: 21px;
     font-variant-ligatures: none;
     font-weight: 500;
-    
+    z-index: 99 ;
     left: 0;
     letter-spacing: .04em;
     line-height: 1;
@@ -324,9 +324,51 @@
     text-align: center;
     text-transform: uppercase;
     top: 0;
-    transform: rotate(-2deg) translate(-0.7625em, -0.975em);
+    /* transform: rotate(-1deg) translate(-0.7625em, -0.875em); */
     white-space: nowrap;
 }
 
+/* .visual__figure {
+  background: yellow; 
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont,"Permanent Marker", cursive, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 6px 12px;
+  border-radius: 4px;
+  position: absolute;
+  display: inline-block;
+  margin-bottom: 8px;
+  transform: rotate(-2deg) translate(-0.7625em, -0.975em);
+  text-transform: none; 
+  white-space: normal;
+  top: auto;
+  left: auto;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+} */
 
+/* Optional: Add a small triangle pointer */
 
+/* .visual__figure {
+  background: yellow;
+  font-family: "Permanent Marker", cursive;
+  font-size: 21px;
+  font-variant-ligatures: none;
+  font-weight: 500;
+  
+  left: 0;
+  letter-spacing: .04em;
+  line-height: 1;
+  padding: .3em .5em .4em .5em;
+
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+ 
+  white-space: nowrap;
+  
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+} */
