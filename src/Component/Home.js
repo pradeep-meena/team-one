@@ -84,50 +84,9 @@ const Home = () => {
               <button className="btn btn-custom btn-start">Get started free</button>
             </div>
           </div>
-          <div className="col-md-6 shadow-sm border rounded">
-      
-            <div 
-              className=" video-thumbnail-container position-relative" 
-              onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0bac5df3e6054c01/TeamOne.mp4?Expires=1838883851&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=uSEOc0tsHEYn1YbleEtn2-iSYSyGAsY2OGdPHbOyOljWPs2DvHLUqnjzPxdDzFDtx3GGwWnC~yMJZdGbISRe921DjVBbMlHgTUN0b6066vqaxNH9XODn6CUBCN4EM4sIZJczeHgYrcGmvktQ94m8NlWY3B6iIcG9rJAx9-T8AyZm-zyXlDoamatk~N8qf7f1TNxlQb1T6JyAi8vDrRLm7ZFNh-4v3vqXMc1TWG1oN~Cyg1-ElyHap8DXclC7WbisHdU7tRtpseFQdtKbqCNzXI14DiuPd44ShnzNICo~J7GSmi9lSCNnkqFrNH1SbE7GAHn2AuT4vxtg3k03JTRyuA__")}
-              style={{ cursor: 'pointer' }}
-            >
-                  <span className='visual__figure'>Hit Play to see TeamOne </span>
-              {/* Video thumbnail image */}
-              
-                <img 
-                  src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
-                  alt="Video thumbnail" 
-                  className="w-100 h-100 rounded mb-8"
-                />
-              
-              
-              {/* Play button overlay */}
-              <div 
-                className="play-button-overlay position-absolute"
-                style={{
-                  top: '50%',
-                  left: '50%',
-                  transform: 'translate(-50%, -50%)',
-                  background: 'rgba(0,0,0,0.6)',
-                  borderRadius: '50%',
-                  width: '80px',
-                  height: '80px',
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center'
-                }}
-              >
-                <div 
-                  style={{
-                    width: '0',
-                    height: '0',
-                    borderTop: '20px solid transparent',
-                    borderBottom: '20px solid transparent',
-                    borderLeft: '30px solid white',
-                    marginLeft: '8px'
-                  }}
-                />
-              </div>
+          <div className="col-md-6 " >
+            <div className="bg-yellow rounded shadow-sm border">
+            <img src="https://i.ibb.co/4ZYkx5fQ/Whats-App-Image-2025-04-11-at-3-10-16-PM.png"  alt="TeamOne Ops" className="w-100 h-100" />  
             </div>
           </div>
         </div>
@@ -146,7 +105,7 @@ const Home = () => {
                 onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/c2f660d48c974645/PRoject.mp4?Expires=1838812340&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=vz3DtuQjK8-pPYxAZ-A4cueAshegmpd~YNCsRbD7U2QCVwOm55ag2zHMcanY13mq9gEUSOjobD88fWQ4fIcuWX8HGcbFoNMufoTV57wJMhVTeJVJ4v9n~0UwJMt7PIaHDaxqkZ1twCv4S6wFu1PNurbTwmY2pFrI-LUuDr0a8wfICC8kk62HY7eK42AAopUnoUNzmbsuugKo-BL2klHQdEKNvB7N6LY5vxIZMXWvQRgue3g-pm7iFVf-dYWv6oNUHuwknSLRBpHenst0dEkwRx0eLAoamZk6cRg0F~ogzuwye8Ya1BlI~XldsUxf1A41EMdudTxFWPcBTczgHdhWpQ__")}
                 style={{ cursor: 'pointer' }}
               >
-                {/* Video thumbnail image */}
+              
                 <div className="video-thumbnail w-100 h-100">
                   <img 
                     src="https://media-hosting.imagekit.io/db66dec2bd5e431c/screenshot_1744291136685.png?Expires=1838899139&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EkoJQMBGsUbTKuchjezAdAMez7uUlKaAAc9e9y2-an~gau0p3N9AW7H15WWYgJZFkNGU2gVM1yW5s8bLCyYq4~RU6ITCzlEbFKSYD8fCXj0Ya3DTUq~7vZMA0E6UG75jAxlbWd21GccQIyNsCS4-ajhnWnkR3dzA7tPDHtI~aD-1akP0Y5OQaxJfNYyuwXyOm1ZgOiGb1j9gdCrPTNt1ebHdpScgqDu2imZWl-XrjM35BK6EoWxOhaGVJD7IKPqHtOwkmhJvyT~h9Qfml5xolEdNI8GLyn0T~1Z09RFNGuwFDVFI-hUBson9N2lWeYMRGGeY6svEx3CLmWU--GJJEw__" 
@@ -155,8 +114,7 @@ const Home = () => {
                     style={{width:"900px", height:"800px"}}
                   />
                 </div>
-                
-                {/* Play button overlay */}
+               
                 <div 
                   className="play-button-overlay position-absolute"
                   style={{
