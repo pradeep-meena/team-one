@@ -777,7 +777,7 @@ const FeaturePage = () => {
       {/* cUSTOMER rELATIONsHIP aMANAGEMENT */}
       {/* There's More To Dic\scover */}
       <div className="container text-center mt-5">
-      <div className="container">
+
         <h1 className="discover-heading">There's more to discover</h1>
         <p className="discover-subheading">
           Easy setup and everything as standard. Learn more about TeamOne.
@@ -986,7 +986,7 @@ const FeaturePage = () => {
           
         </div>
       </div>
-      </div>
+
 
       
 
