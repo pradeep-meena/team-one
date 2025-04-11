@@ -982,9 +982,8 @@ const FeaturePage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
-           
-          </div>
+          
+          
         </div>
       </div>
       </div>
