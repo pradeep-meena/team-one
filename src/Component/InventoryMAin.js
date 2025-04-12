@@ -93,7 +93,7 @@ const InventoryMAin = () => {
                 <img 
                   src="https://media-hosting.imagekit.io/8e930580e3b84248/screenshot_1744292137677.png?Expires=1838900140&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ru0bsBU~pwisI11olnrHLQQIXlOqVJrEHzMizP40tIRGGtGcBSKCOL~3oObQ-yme7VfyArkXDFbXIrSLOTR8Ze1~VwqmFFphwl4r9onQNGriJb6kiX1CFBfMCsoUJ8LP3zA7vJo68pkgodKRjfG021-cdOvJWNhn5BRR2vjyNlI~ZgQ8uZDgYqgAwokRTZQ-qhjVYvH6UZKlRYgBOfmTQQr2P~DIMBXI8Moajm2wJspz3Hlevs~CMB8FJvEqF6iuOK9Y6A~deDF4GHozFaAD6WLs-JHq2lC0u~uQ83wI7VzPRtMYdSeR2u-taoydWuNmLkrVgJi~IeJ6nI44rVItVA__" 
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100 h-100 rounded mt-8"
                 />
               
               

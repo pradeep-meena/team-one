@@ -15,7 +15,7 @@ const VideoContainer = ({ thumbnail ,span_title ,url}) => {
                 <img 
                   src={`${thumbnail}`}
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100  rounded mt-8"
                 />
               
               

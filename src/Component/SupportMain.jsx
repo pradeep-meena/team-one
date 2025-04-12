@@ -98,7 +98,7 @@ const SupportMain = () => {
                 <img 
                   src="https://media-hosting.imagekit.io/a8118176f4754700/screenshot_1744291990023.png?Expires=1838899992&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GIhCNfQDKlvHuuLh~sgP0~YJYxoai7tV3W6e4NVxAQKC7TfSPF3gCk-BWIUFeLP5VnxEUbgNRxljt3dPLR027rvR7d8BlRpZ3scI9ML1evNTJwCKy016WeXZcSiRpZdPfw0mOxRP7jENZ1K1lN3L7hkvTIsG4eW6KaVGqVOZaWjJIU6uQz5TwUkTmQ-zYI7LMWlqsPGrLc1hhJBFtOZnTxXrxF1x3xOtF-vXt4tI-2ncQSHKpr3fPmB5Quz9wDT1L0UNiGZ-DTDOoKURGtzIH10OzJaTmbIObgvf6prSRvtPHFkoMMSMJDz-OC~xkX~FvhvVtAbwLuqcJf65B28Xbw__" 
                   alt="Video thumbnail" 
-                  className="w-100 h-90 rounded mt-8"
+                  className="w-100 h-100 rounded mt-8"
                 />
               
               

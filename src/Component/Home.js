@@ -55,11 +55,11 @@ const Home = () => {
         </div>
       )} 
 
-<div className="container mt-5 mb-4">
+<div className="container mt-3 mb-4">
   <div className="row align-items-center">
     {/* Text Section */}
     <div className="col-md-6">
-      <div className="text-center mt-3 animate__animated animate__fadeInLeft">
+      <div className="text-center mt-5 animate__animated animate__fadeInLeft">
         <h1 className="fw-bold text-blue mb-3">TeamOne Ops</h1>
         <h3 className="mt-2 text-dark">
           One Platform, All Solutions
@@ -84,11 +84,11 @@ const Home = () => {
 
     {/* Image Section */}
     <div className="col-md-6">
-      <div className="bg-yellow rounded shadow-sm border animate__animated animate__zoomIn">
+      <div className="bg-yellow rounded shadow-sm border animate__animated animate__zoomIn mt-3">
         <img
-          src="https://i.ibb.co/4ZYkx5fQ/Whats-App-Image-2025-04-11-at-3-10-16-PM.png"
+        src="https://i.ibb.co/1JPcx4sX/Whats-App-Image-2025-04-12-at-1-14-22-PM.jpg" alt="TeamOne Ops" 
           alt="TeamOne Ops"
-          className="w-100 h-100 rounded hover-scale"
+          className="w-100 rounded hover-scale"
           style={{ transition: 'transform 0.5s ease-in-out' }}
         />
       </div>

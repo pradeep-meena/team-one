@@ -127,7 +127,7 @@ const NewSection = () => {
           </div>
         </div>
       </div>
-      <div className="row">
+      {/* <div className="row">
         <div className="col-md-4 col-lg-4 mb-4">
           <div className="feature-card p-4 d-flex flex-column">
             <h3 style={{ fontSize: 32}}>
@@ -151,12 +151,12 @@ const NewSection = () => {
             }}
           >
                 <div 
-              className=" video-thumbnail-container position-relative" 
+              className=" position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/e91eb030aabe4dd6/Notess.mp4?Expires=1838892129&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Dv~SDnrWQ3kbJano96iNo1z-KZneKuKxGlOpoZvGFkD0SwA9xjX4OaUC3WeeGoRCNXtv1JGx~Wvtd5lNQV9bmNz6rHuEPiyn6TuXjI0kiekhOBAynwMqN7kankEad2D4zAAz8HYB4fb8c4~sGLfhwPq8gYWx2xIzjg4sLpviqOEA0GwuhxRrWgym1QNeQB48UAo3bHeTqYn-ScyQ00nXGq3Mgl71b9I-~Zq8-X3C93nMO1UPH9-nX1zFDvA-Npm3fB2X8KR6nk9L1g1c9HH7KOKoECcoboDndK18eOwgZGeT6vpP2W967dakfKlZiO2CM6y5dSgti6qp6O8Txztb-w__")}
               style={{ cursor: 'pointer' }}
             >
                 <span className='visual__figure'>To DO</span>
-              {/* Video thumbnail image */}
+            
               
                 <img 
                   src="https://i.ibb.co/zV53pnBt/image.png" border="0" 
@@ -164,8 +164,7 @@ const NewSection = () => {
                   className=" "
                 />
               
-              
-              {/* Play button overlay */}
+            
               <div 
                 className="play-button-overlay position-absolute"
                 style={{
@@ -211,7 +210,7 @@ const NewSection = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
      
     </div>
   </div>
