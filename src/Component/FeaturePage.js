@@ -1,22 +1,23 @@
 import React, { useRef, useState } from "react";
+import "./Feature.css";
 
 
 const FeaturePage = () => {
-    const [showModal, setShowModal] = useState(false);
-    const [currentVideoSrc, setCurrentVideoSrc] = useState('');
-    const videoRef = useRef(null);
-  
-    // Function to open modal with video
-    const handleOpenVideoModal = (videoSrc) => {
-      setCurrentVideoSrc(videoSrc);
-      setShowModal(true);
-    };
-  
-    // Function to close modal
-    const handleCloseModal = () => {
-      setShowModal(false);
-      setCurrentVideoSrc('');
-    };
+  const [showModal, setShowModal] = useState(false);
+  const [currentVideoSrc, setCurrentVideoSrc] = useState('');
+  const videoRef = useRef(null);
+
+  // Function to open modal with video
+  const handleOpenVideoModal = (videoSrc) => {
+    setCurrentVideoSrc(videoSrc);
+    setShowModal(true);
+  };
+
+  // Function to close modal
+  const handleCloseModal = () => {
+    setShowModal(false);
+    setCurrentVideoSrc('');
+  };
 
 
   const [visible, setVisible] = useState({});
@@ -29,35 +30,35 @@ const FeaturePage = () => {
     <>
       {/* Hello world */}
       <div className="container text-center mt-5">
-      {showModal && (
-        <div className="modal-backdrop" onClick={handleCloseModal}>
-          <div 
-            className="video-modal-content" 
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button className="close-modal-btn" onClick={handleCloseModal}>×</button>
-            <div className="modal-video-container">
-              <video
-                ref={videoRef}
-                className="w-100 h-100"
-                controls
-                autoPlay
-                playsInline
-              >
-                <source src={currentVideoSrc} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+        {showModal && (
+          <div className="modal-backdrop" onClick={handleCloseModal}>
+            <div
+              className="video-modal-content"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button className="close-modal-btn" onClick={handleCloseModal}>×</button>
+              <div className="modal-video-container">
+                <video
+                  ref={videoRef}
+                  className="w-100 h-100"
+                  controls
+                  autoPlay
+                  playsInline
+                >
+                  <source src={currentVideoSrc} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
         <div className="row">
           <div className="col">
             <h1 style={{ fontWeight: "bold", color: "black", fontSize: 70 }}>
               An easy new way to manage
             </h1>
             <h1 style={{ fontWeight: "bold", color: "black", fontSize: 70 }}>
-         
+
             </h1>
           </div>
         </div>
@@ -123,84 +124,58 @@ const FeaturePage = () => {
         </div>
         {/* Image Section */}
         <div className="row justify-content-center mb-4">
-        
+
           <div className="col-md-10 shadow-sm border rounded">
-      
-      <div 
-        className=" video-thumbnail-container position-relative" 
-        onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0bac5df3e6054c01/TeamOne.mp4?Expires=1838883851&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=uSEOc0tsHEYn1YbleEtn2-iSYSyGAsY2OGdPHbOyOljWPs2DvHLUqnjzPxdDzFDtx3GGwWnC~yMJZdGbISRe921DjVBbMlHgTUN0b6066vqaxNH9XODn6CUBCN4EM4sIZJczeHgYrcGmvktQ94m8NlWY3B6iIcG9rJAx9-T8AyZm-zyXlDoamatk~N8qf7f1TNxlQb1T6JyAi8vDrRLm7ZFNh-4v3vqXMc1TWG1oN~Cyg1-ElyHap8DXclC7WbisHdU7tRtpseFQdtKbqCNzXI14DiuPd44ShnzNICo~J7GSmi9lSCNnkqFrNH1SbE7GAHn2AuT4vxtg3k03JTRyuA__")}
-        style={{ cursor: 'pointer' }}
-      >
-            <span className='visual__figure'>Hit Play to see TeamOne </span>
-        {/* Video thumbnail image */}
-        
-          <img 
-            src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
-            alt="Video thumbnail" 
-            className="w-100 h-100 rounded mb-8"
-          />
-        
-        
-        {/* Play button overlay */}
-        <div 
-          className="play-button-overlay position-absolute"
-          style={{
-            top: '50%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-            background: 'rgba(0,0,0,0.6)',
-            borderRadius: '50%',
-            width: '80px',
-            height: '80px',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}
-        >
-          <div 
-            style={{
-              width: '0',
-              height: '0',
-              borderTop: '20px solid transparent',
-              borderBottom: '20px solid transparent',
-              borderLeft: '30px solid white',
-              marginLeft: '8px'
-            }}
-          />
-        </div>
-      </div>
-    </div>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-md-12 shadow-sm border rounded overflow-hidden">
-         <div className="row">
-              <div className="col-md-3 img-transform">
-              <img className="video-thumbnail" src="https://i.ibb.co/KcxH1LbQ/image.png" alt="crm Dashboard" />
+
+            <div
+              className=" video-thumbnail-container position-relative"
+              onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0bac5df3e6054c01/TeamOne.mp4?Expires=1838883851&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=uSEOc0tsHEYn1YbleEtn2-iSYSyGAsY2OGdPHbOyOljWPs2DvHLUqnjzPxdDzFDtx3GGwWnC~yMJZdGbISRe921DjVBbMlHgTUN0b6066vqaxNH9XODn6CUBCN4EM4sIZJczeHgYrcGmvktQ94m8NlWY3B6iIcG9rJAx9-T8AyZm-zyXlDoamatk~N8qf7f1TNxlQb1T6JyAi8vDrRLm7ZFNh-4v3vqXMc1TWG1oN~Cyg1-ElyHap8DXclC7WbisHdU7tRtpseFQdtKbqCNzXI14DiuPd44ShnzNICo~J7GSmi9lSCNnkqFrNH1SbE7GAHn2AuT4vxtg3k03JTRyuA__")}
+              style={{ cursor: 'pointer' }}
+            >
+              <span className='visual__figure'>Hit Play to see TeamOne </span>
+              {/* Video thumbnail image */}
+
+              <img
+                src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png"
+                alt="Video thumbnail"
+                className="w-100 h-100 rounded mb-8"
+              />
+
+
+              {/* Play button overlay */}
+              <div
+                className="play-button-overlay position-absolute"
+                style={{
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%, -50%)',
+                  background: 'rgba(0,0,0,0.6)',
+                  borderRadius: '50%',
+                  width: '80px',
+                  height: '80px',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+              >
+                <div
+                  style={{
+                    width: '0',
+                    height: '0',
+                    borderTop: '20px solid transparent',
+                    borderBottom: '20px solid transparent',
+                    borderLeft: '30px solid white',
+                    marginLeft: '8px'
+                  }}
+                />
               </div>
-              <div className="col-md-6">
-  <div className="img-container">
-    <div className="image-wrapper">
-      <img 
-        className="img-transform" 
-        src="https://i.ibb.co/BHhCTzDk/image.png" 
-        alt="Main dashboard" 
-      />
-      <div className="img-caption">Dashboard View</div>
-    </div>
-  </div>
-</div>
-
-
-            <div className="col-md-3">
-            <img  className="video-thumbnail img-transform" src="https://i.ibb.co/0yH4cm4L/image.png" alt="image" border="0"/>
             </div>
-            </div>
-
-            </div>
-           
+          </div>
+        </div>
+       
 
         </div>
-      </div>
+     
       <div className="container text-center mt-5">
         {/* Heading */}
         <div className="container">
@@ -225,14 +200,14 @@ const FeaturePage = () => {
           </p>
           <div className="row">
             <div className="col-md-4">
-              <div className="discover-feature-box">
-                
+              <div className="discover-feature-box-1">
+
                 <div className="discover-feature-content">
-                  <div className="discover-feature-title d-flex align-items-center ">
-                  <div className="discover-feature-icon">
-                  <i className="bi bi-ticket-perforated" />
-                </div> Project Management
-                
+                  <div className="discover-feature-title  align-items-center ">
+                    <div className="discover-feature-icon">
+                      <i className="bi bi-ticket-perforated" />
+                    </div> Project Management
+
                   </div>
                   <small
                     style={{ cursor: "pointer", color: "blue", }}
@@ -242,16 +217,16 @@ const FeaturePage = () => {
                   </small>
                   {visible.serviceDesk && (
                     <div className="extra-details">
-                      <b>Plan Smart. Execute Faster.</b><br/>
-                      Manage multiple projects, assign tasks, <br/> track progress, and meet deadlines with ease.<br/>
-                      Visualize timelines, set priorities,<br/> and collaborate across teams in real-time.<br/>
+                      <b>Plan Smart. Execute Faster.</b><br />
+                      Manage multiple projects, assign tasks, <br /> track progress, and meet deadlines with ease.<br />
+                      Visualize timelines, set priorities,<br /> and collaborate across teams in real-time.<br />
                       Because great teams deliver great projects.
 
                     </div>
                   )}
                 </div>
               </div>
-              <div className="discover-feature-box">
+              <div className="discover-feature-box-1">
                 <div className="discover-feature-icon">
                   <i className="bi bi-lightning-fill" />
                 </div>
@@ -265,9 +240,9 @@ const FeaturePage = () => {
                   </small>
                   {visible.contracts && (
                     <div className="extra-details">
-                     <b> Build Stronger Client Relationships.</b><br/>
-                      Capture leads, track deals,<br/> manage contacts,<br/> and automate your follow-ups.<br/>
-                      Empower your sales team with<br/> structured pipelines and smart reminders.<br/>
+                      <b> Build Stronger Client Relationships.</b><br />
+                      Capture leads, track deals,<br /> manage contacts,<br /> and automate your follow-ups.<br />
+                      Empower your sales team with<br /> structured pipelines and smart reminders.<br />
                       Turn conversations into conversions.
 
                     </div>
@@ -276,7 +251,7 @@ const FeaturePage = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="discover-feature-box">
+              <div className="discover-feature-box-1">
                 <div className="discover-feature-icon">
                   <i className="bi bi-boxes" />
                 </div>
@@ -291,16 +266,16 @@ const FeaturePage = () => {
                   </small>
                   {visible.stockManagement1 && (
                     <div className="extra-details">
-                     <b> Simplify People Operations.</b><br/>
-                     Onboard new hires, track attendance,<br/> approve leaves, and manage <br/>employee lifecycle in one place.<br/>
-                      Performance reviews,<br/> department analytics,<br/> and employee profiles—made simple.<br/>
+                      <b> Simplify People Operations.</b><br />
+                      Onboard new hires, track attendance,<br /> approve leaves, and manage <br />employee lifecycle in one place.<br />
+                      Performance reviews,<br /> department analytics,<br /> and employee profiles—made simple.<br />
                       HR, the way it should be.
 
                     </div>
                   )}
                 </div>
               </div>
-              <div className="discover-feature-box">
+              <div className="discover-feature-box-1">
                 <div className="discover-feature-icon">
                   <i className="bi bi-clock" />
                 </div>
@@ -317,9 +292,9 @@ const FeaturePage = () => {
                   </small>
                   {visible.billableTimeTracking1 && (
                     <div className="extra-details">
-                     <b> Payroll That Runs Itself.</b><br/>
-                      Process salaries, reimbursements,<br/> and tax deductions without spreadsheets.<br/>
-                      Generate payslips, manage expenses,<br/> and sync finance data with HR in real time.<br/>
+                      <b> Payroll That Runs Itself.</b><br />
+                      Process salaries, reimbursements,<br /> and tax deductions without spreadsheets.<br />
+                      Generate payslips, manage expenses,<br /> and sync finance data with HR in real time.<br />
                       Transparent, compliant, and effortless.
 
                     </div>
@@ -328,7 +303,7 @@ const FeaturePage = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="discover-feature-box">
+              <div className="discover-feature-box-1">
                 <div className="discover-feature-icon">
                   <i className="bi bi-boxes" />
                 </div>
@@ -343,16 +318,16 @@ const FeaturePage = () => {
                   </small>
                   {visible.stockManagement2 && (
                     <div className="extra-details">
-                     <b> Know What’s In. Know What’s Out.</b><br/>
-                      Track stock levels, purchase orders,<br/> supplier info, and consumption rates.<br/>
-                      Perfect for managing IT assets,<br/> office supplies, or industry-specific <br/> materials.
+                      <b> Know What’s In. Know What’s Out.</b><br />
+                      Track stock levels, purchase orders,<br /> supplier info, and consumption rates.<br />
+                      Perfect for managing IT assets,<br /> office supplies, or industry-specific <br /> materials.
                       Inventory intelligence built in.
 
                     </div>
                   )}
                 </div>
               </div>
-              <div className="discover-feature-box">
+              <div className="discover-feature-box-1">
                 <div className="discover-feature-icon">
                   <i className="bi bi-clock" />
                 </div>
@@ -369,9 +344,9 @@ const FeaturePage = () => {
                   </small>
                   {visible.billableTimeTracking2 && (
                     <div className="extra-details">
-                     <b> Internal Helpdesk That Gets Things Done.</b><br/>
-                      Raise, assign, and resolve support<br/> tickets across departments.<br/>
-                      With status tracking, SLAs,<br/>and automated routing, resolution is just a <br/>few clicks away.
+                      <b> Internal Helpdesk That Gets Things Done.</b><br />
+                      Raise, assign, and resolve support<br /> tickets across departments.<br />
+                      With status tracking, SLAs,<br />and automated routing, resolution is just a <br />few clicks away.
                       Empower your team with faster support.
 
                     </div>
@@ -804,8 +779,8 @@ const FeaturePage = () => {
           Easy setup and everything as standard. Learn more about TeamOne.
         </p>
         <div className="row">
-       <div className="col-md-4">
-       <div className="discover-feature-box  ">
+          <div className="col-md-4">
+            <div className="discover-feature-box-1  ">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -821,8 +796,8 @@ const FeaturePage = () => {
                 </small>
                 {visible.Files && (
                   <div className="extra-details">
-                   <b> Smart Storage. Easy Access.</b><br/>
-                    Upload, manage, and share documents securely.<br/> Set permissions, track versions,<br/> and keep everything organized with tags and folders.<br/>
+                    <b> Smart Storage. Easy Access.</b><br />
+                    Upload, manage, and share documents securely.<br /> Set permissions, track versions,<br /> and keep everything organized with tags and folders.<br />
                     Your digital workspace, uncluttered.
 
 
@@ -830,9 +805,9 @@ const FeaturePage = () => {
                 )}
               </div>
             </div>
-       </div>
-       <div className="col-md-4">
-            <div className="discover-feature-box">
+          </div>
+          <div className="col-md-4">
+            <div className="discover-feature-box-1">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -848,8 +823,8 @@ const FeaturePage = () => {
                 </small>
                 {visible.Social && (
                   <div className="extra-details">
-                   <b> Keep the Culture Alive.</b><br/>
-                    Celebrate wins, share announcements,<br/> recognize peers, and spark engagement<br/> with a private social feed for your team.<br/>
+                    <b> Keep the Culture Alive.</b><br />
+                    Celebrate wins, share announcements,<br /> recognize peers, and spark engagement<br /> with a private social feed for your team.<br />
                     Where work meets community.
 
 
@@ -857,9 +832,9 @@ const FeaturePage = () => {
                 )}
               </div>
             </div>
-            </div>
-            <div className="col-md-4">
-            <div className="discover-feature-box  ">
+          </div>
+          <div className="col-md-4">
+            <div className="discover-feature-box-1  ">
               <div className="discover-feature-icon">
                 <i className="bi bi-ticket-perforated" />
               </div>
@@ -875,25 +850,25 @@ const FeaturePage = () => {
                 </small>
                 {visible.Administration && (
                   <div className="extra-details">
-                    <b>Plan Smart. Execute Faster.</b><br/>
-                    Manage multiple projects, assign tasks,<br/> track progress, and meet deadlines <br/>with ease.
-                    Visualize timelines, <br/>set priorities, and collaborate across <br/>teams in real-time.<br/>
+                    <b>Plan Smart. Execute Faster.</b><br />
+                    Manage multiple projects, assign tasks,<br /> track progress, and meet deadlines <br />with ease.
+                    Visualize timelines, <br />set priorities, and collaborate across <br />teams in real-time.<br />
                     Because great teams deliver great projects.
 
                   </div>
                 )}
               </div>
             </div>
-            </div>
-           
           </div>
-       
-      
-     
+
+        </div>
+
+
+
       </div>
 
 
-      
+
 
 
     </>

@@ -783,7 +783,7 @@ const Pricing = () => {
             <i>✔</i> <strong> Social Media </strong> Posts, comments, likes, shares (Facebook, Twitter/X, Instagram, TikTok).{" "}
             <span className="highlight-question">Connections between individuals (friends, family, professional networks).
 
-</span>
+  </span>
           </div>
           
         </div>
