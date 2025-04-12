@@ -50,17 +50,18 @@ const SalesMain = () => {
               </p>
             </div>
           </div>
+      
+{/* Home se copy */}
         <div className="row">
           
-          
-                   <div className="col-md-7 shadow-sm border rounded">
+          <div className="col-md-8 ">
          
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0f737392eecc4dc2/CRM.mp4?Expires=1838890309&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=t7xxybAtzUS3Ans4i5ufUax2EB3MMXw1J2egx7r-vRgovujmhZcBHRJruU-DSCHll657YpGZJOjkGGzGIPwHJ7yaEwy92Hc0Edw-Jy8Wn2v-VVk0qqouD~wb~lEW0Nol77xBwKotHG0sa~Ft9TJ5IgFXUJNDeBPtt-XDo0iD8BeIfrNhiWIBQB9wX0-yK7ZqAJxtwyo26PtEdYz397Rqj3MrapJWdH427iY~7vkm0dKayz2MAJ5nl7ye72407nXJnAm15E34YHDbz-1x7gkHES-FmnoEdkCqWmgyEmjFq4~2cPuf4tndnGIz0I3sdtQNYBCG6c8jOshRM40~5SyTXg__")}
               style={{ cursor: 'pointer' }}
             >
-               <span className='visual__figure'>Have a Look At CRM  </span>
+               <span className='visual__figure'>Home </span>
               {/* Video thumbnail image */}
               
                 <img 
@@ -100,27 +101,23 @@ const SalesMain = () => {
             </div>
           </div>
 
-          <div className='col-md-5 '>
-        <div className="row g-4">
+          <div className="col-md-4  rounded">
+          <div className="row g-4">
           {/* Calendar Section - Left Column */}
-
-
-
-
           <div className="col-md-12 shadow-sm border rounded">
-          
+        
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0f737392eecc4dc2/CRM.mp4?Expires=1838890309&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=t7xxybAtzUS3Ans4i5ufUax2EB3MMXw1J2egx7r-vRgovujmhZcBHRJruU-DSCHll657YpGZJOjkGGzGIPwHJ7yaEwy92Hc0Edw-Jy8Wn2v-VVk0qqouD~wb~lEW0Nol77xBwKotHG0sa~Ft9TJ5IgFXUJNDeBPtt-XDo0iD8BeIfrNhiWIBQB9wX0-yK7ZqAJxtwyo26PtEdYz397Rqj3MrapJWdH427iY~7vkm0dKayz2MAJ5nl7ye72407nXJnAm15E34YHDbz-1x7gkHES-FmnoEdkCqWmgyEmjFq4~2cPuf4tndnGIz0I3sdtQNYBCG6c8jOshRM40~5SyTXg__")}
               style={{ cursor: 'pointer' }}
             >
-              <span className='visual__figure'>Analytics </span>
+                <span className='visual__figure'>Analytics</span>
               {/* Video thumbnail image */}
               
                 <img 
-                  src="https://media-hosting.imagekit.io/e9cef1553f824624/screenshot_1744292670740.png?Expires=1838900677&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ze9u4HKff366lKpA4smkTiY-MPdDqlkZX1~7YuUDbb785Nn6aVKBnWBKrkSwtBdQREQiPYpOtGPMX0SBEuOld7p~7G5uKBbMwFbasMQQwRO8s9D~Z2grXeiTpiVSHIUiV3RaFKWmg8dPzMz3l4jSj6elvzGcYU1CoDAeLUvf6o9e-eRWtDRwtMKkwauAhpO4z8T5A6791cjOHM5G6-Jk327f4d0XhGFqFWCVw3LuYccsN6sfdAKkPYiyLVTe7DBmZYb5jfTIv1opGuaCgBYvW9W1ZQUGQVJvYPyNbmfHnKULixH5N4nsFIq3zSVcSSu~ox1vNijjum5Xo4n8XBbduw__" 
+                 src="https://media-hosting.imagekit.io/e9cef1553f824624/screenshot_1744292670740.png?Expires=1838900677&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ze9u4HKff366lKpA4smkTiY-MPdDqlkZX1~7YuUDbb785Nn6aVKBnWBKrkSwtBdQREQiPYpOtGPMX0SBEuOld7p~7G5uKBbMwFbasMQQwRO8s9D~Z2grXeiTpiVSHIUiV3RaFKWmg8dPzMz3l4jSj6elvzGcYU1CoDAeLUvf6o9e-eRWtDRwtMKkwauAhpO4z8T5A6791cjOHM5G6-Jk327f4d0XhGFqFWCVw3LuYccsN6sfdAKkPYiyLVTe7DBmZYb5jfTIv1opGuaCgBYvW9W1ZQUGQVJvYPyNbmfHnKULixH5N4nsFIq3zSVcSSu~ox1vNijjum5Xo4n8XBbduw__" border="0" 
                   alt="Video thumbnail" 
-                  className="w-100 h-100 rounded mt-8"
+                  className="w-100 h-100 rounded "
                 />
               
               
@@ -154,20 +151,16 @@ const SalesMain = () => {
             </div>
           </div>
 
-
-
-
           {/* Events Section - Right Column */}
-
           <div className="col-md-12 shadow-sm border rounded">
-         
+        
             <div 
-              className=" video-thumbnail-container position-relative" 
-              onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/0f737392eecc4dc2/CRM.mp4?Expires=1838890309&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=t7xxybAtzUS3Ans4i5ufUax2EB3MMXw1J2egx7r-vRgovujmhZcBHRJruU-DSCHll657YpGZJOjkGGzGIPwHJ7yaEwy92Hc0Edw-Jy8Wn2v-VVk0qqouD~wb~lEW0Nol77xBwKotHG0sa~Ft9TJ5IgFXUJNDeBPtt-XDo0iD8BeIfrNhiWIBQB9wX0-yK7ZqAJxtwyo26PtEdYz397Rqj3MrapJWdH427iY~7vkm0dKayz2MAJ5nl7ye72407nXJnAm15E34YHDbz-1x7gkHES-FmnoEdkCqWmgyEmjFq4~2cPuf4tndnGIz0I3sdtQNYBCG6c8jOshRM40~5SyTXg__")}
+              className=" video-thumbnail-container position-relative " 
+              onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/27be9228848d42f5/Notes.mp4?Expires=1838893667&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EOrmHZuj~mrlrvfI5t-8YG1vaciiM-Z3XFJlEVuSQZLcpWUTvHQ~i9qWU5zkEHa0dVPsdkL1t0uabViLk2Wn2R91MbODRpHH~KE~9kcX1vyAe3jC3ypyESpwiBMOEZAmgKI1-gURaUUePL39PqXkeZdBUNW5ENi2cnEr05H-QQPxZq0GdP4qbv0zZj30bmcNVCwqaztLyCxkKjN8J8UTkqiyjMGDmaVlihEOxvIynlYoBlmFHYrbq6zAr0bTk9Ad-dKIcW~Wa2~UFGUka4qACQgTxH62tUVqtVTtCR9n1HP-8B1rqvLns4DT~ZC5JdouhZIYJSjW9W9vzV6Fy3RSQA__")}
               style={{ cursor: 'pointer' }}
             >
-               <span className='visual__figure'>StreamLine Your Sales  </span>
-              {/* Video thumbnail image */}
+                <span className='visual__figure'>StreamLine Your Sales </span>
+              {/* Video thumbnail image */}-
               
                 <img 
                   src="https://media-hosting.imagekit.io/008802e5eb434fb6/screenshot_1744292842042.png?Expires=1838900850&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=afS3iRyBh3ZrMEOHbrfPHPI3FryPCdUp9ayG~8zjB~iZWvBCzhOGjPancPQXyI7nFW7pb~0RMxdrH0EZHB7q6gVBiIt7MIZCWQnzM42XvnSEBpFBvS1MDAYr4Mdh6NSvxYLN2ypj1vqf3ob86~aAsbY312JHLbeCXflZluKnhdTO2ZOx7jN6rOO1UU2N5V9tfEJHaA5OIUteYtzSeyFsK5vleSrliR-V5llxhjzpeRl7iiPGBH~hGM5uOIpQv2f622EoIe~4Rq8oe5JoFOSzjWN5BxekoBor4iuKN6uvzMzWUAaaA60G0-IjhcufOfImiboM3X-bw7M06Q01T3gBiQ__" 
@@ -206,16 +199,12 @@ const SalesMain = () => {
             </div>
           </div>
         </div>
-        </div>
+         
+            </div>
+          
         </div>
       </div>
-      <div
-        className="base container shadow-sm pb-4 pt-4 border mt-5 rounded"
-        style={{ backgroundColor: "#faf8f4" }}
-      >
-     
-
-      </div>
+  
     </>
   )
 }

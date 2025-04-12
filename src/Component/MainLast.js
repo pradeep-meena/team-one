@@ -19,7 +19,7 @@ const MainLast = () => {
 
   return (
    
-    <div class="container mt-5">
+    <div class="container mt-5 mb-4">
        {showModal && (
         <div className="modal-backdrop" onClick={handleCloseModal}>
           <div 
@@ -43,6 +43,15 @@ const MainLast = () => {
         </div>
       )}
         <div class="row">
+
+        <div className="col-md-6 d-flex align-items-center">
+            <div className="text">
+              <h1 className="fw-bold">Files</h1>
+              <p className="fs-5">
+              Upload, manage, and share documents securely. Set permissions, track versions, and keep everything organized with tags and folders.
+              </p>
+            </div>
+          </div>
         <div className='col-md-6 shadow-sm border rounded gap-2'>
                 
                 <div className="col-md-12 shadow-sm border rounded">
@@ -92,14 +101,7 @@ const MainLast = () => {
             </div>
           </div>
                 </div>
-                <div className="col-md-6 d-flex align-items-center">
-            <div className="text">
-              <h1 className="fw-bold">Files</h1>
-              <p className="fs-5">
-              Upload, manage, and share documents securely. Set permissions, track versions, and keep everything organized with tags and folders.
-              </p>
-            </div>
-          </div>
+              
         </div>
     </div>
   )

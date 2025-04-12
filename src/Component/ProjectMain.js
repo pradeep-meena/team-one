@@ -99,13 +99,13 @@ const ProjectMain = () => {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         className="base container shadow-sm pb-4 pt-4 border mt-5 rounded"
         style={{ backgroundColor: "#faf8f4" }}
       >
 
         <div className="row g-4">
-          {/* Calendar Section - Left Column */}
+
 
 
 
@@ -113,10 +113,10 @@ const ProjectMain = () => {
 
 
 
-          {/* Events Section - Right Column */}
+          
          
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

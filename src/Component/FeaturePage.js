@@ -54,10 +54,10 @@ const FeaturePage = () => {
         <div className="row">
           <div className="col">
             <h1 style={{ fontWeight: "bold", color: "black", fontSize: 70 }}>
-              An easy new way to
+              An easy new way to manage
             </h1>
             <h1 style={{ fontWeight: "bold", color: "black", fontSize: 70 }}>
-              manage
+         
             </h1>
           </div>
         </div>
@@ -172,12 +172,12 @@ const FeaturePage = () => {
     </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-10">
-            <img
-              src="https://i.ibb.co/4ZYkx5fQ/Whats-App-Image-2025-04-11-at-3-10-16-PM.png"
-              alt="PSA Dashboard"
-              style={{ width: "100%", height: "100%", borderRadius: 10, backgroundColor: "#e2edf7" }}
-            />
+          <div className="col-md-12 shadow-sm border rounded">
+              
+          <img src="https://i.ibb.co/KcxH1LbQ/image.png" alt="image" />
+          <img src="https://i.ibb.co/BHhCTzDk/image.png" alt="image" border="0"></img>
+
+           
            
           </div>
         </div>

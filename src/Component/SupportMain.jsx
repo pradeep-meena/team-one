@@ -43,7 +43,7 @@ const SupportMain = () => {
           </div>
         </div>
       )}
-  <div className="container mt-5">
+  <div className="container mt-5 mb-8">
     <div className="row">
     <div className="col-md-6 shadow-sm border rounded gap-2">
          
@@ -105,13 +105,13 @@ const SupportMain = () => {
       
     </div>
   </div>
-  <div
+  {/* <div
     className="base container shadow-sm pb-4 pt-4 border mt-5 rounded"
     style={{ backgroundColor: "#faf8f4" }}
   >
             
  
-  </div>
+  </div> */}
 </>
   )
 }
