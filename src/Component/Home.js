@@ -12,6 +12,7 @@ import SupportInboxMain from './SupportInboxMain';
 import MainLast from './MainLast';
 import { Link } from 'react-router-dom';
 import NewSection from './NewSection.js'
+import ProjectNewSection from './Project/ProjectNewSection.jsx';
 import NewSection1 from './NewSection1.js';
 const Home = () => {
   // State for modal
@@ -275,7 +276,7 @@ const Home = () => {
           <button className="btn btn-img-color rounded-pill btn-custom mt-4 ">
             Make a new project
           </button>
-          <button className="btn btn-success rounded-pill btn-custom ms-2 mt-4">
+          <button className="btn  btn-img-color btn-success  rounded-pill btn-custom ms-2 mt-4">
             Assign people
           </button>
           <p className="mt-3">
@@ -473,6 +474,7 @@ const Home = () => {
       <NewSection1/>
       <SalesMain />
       <ProjectMain />
+      <ProjectNewSection />
       {/* <DispatchMain /> */}
       <SupportMain />
       <InventoryMAin />

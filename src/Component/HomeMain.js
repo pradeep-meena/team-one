@@ -55,7 +55,7 @@ const HomeMain = () => {
           </div>
         <div className="row">
           
-          <div className="col-md-6 shadow-sm border rounded">
+          <div className="col-md-8 shadow-sm border rounded">
          
             <div 
               className=" video-thumbnail-container position-relative" 
@@ -101,16 +101,11 @@ const HomeMain = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div
-        className="base container shadow-sm pb-4 pt-4 border mt-5 rounded"
-        style={{ backgroundColor: "#faf8f4" }}
-      >
 
-        <div className="row g-4">
+          <div className="col-md-4 shadow-sm border rounded">
+          <div className="row g-4">
           {/* Calendar Section - Left Column */}
-          <div className="col-md-6 shadow-sm border rounded">
+          <div className="col-md-12 shadow-sm border rounded">
         
             <div 
               className=" video-thumbnail-container position-relative" 
@@ -158,10 +153,10 @@ const HomeMain = () => {
           </div>
 
           {/* Events Section - Right Column */}
-          <div className="col-md-6 shadow-sm border rounded">
+          <div className="col-md-12 shadow-sm border rounded">
         
             <div 
-              className=" video-thumbnail-container position-relative" 
+              className=" video-thumbnail-container position-relative " 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/27be9228848d42f5/Notes.mp4?Expires=1838893667&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EOrmHZuj~mrlrvfI5t-8YG1vaciiM-Z3XFJlEVuSQZLcpWUTvHQ~i9qWU5zkEHa0dVPsdkL1t0uabViLk2Wn2R91MbODRpHH~KE~9kcX1vyAe3jC3ypyESpwiBMOEZAmgKI1-gURaUUePL39PqXkeZdBUNW5ENi2cnEr05H-QQPxZq0GdP4qbv0zZj30bmcNVCwqaztLyCxkKjN8J8UTkqiyjMGDmaVlihEOxvIynlYoBlmFHYrbq6zAr0bTk9Ad-dKIcW~Wa2~UFGUka4qACQgTxH62tUVqtVTtCR9n1HP-8B1rqvLns4DT~ZC5JdouhZIYJSjW9W9vzV6Fy3RSQA__")}
               style={{ cursor: 'pointer' }}
             >
@@ -171,7 +166,7 @@ const HomeMain = () => {
                 <img 
                   src="https://media-hosting.imagekit.io/1e73622907184324/screenshot_1744290704174.png?Expires=1838898707&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nbo0jky1piLaw9QYviqo80HE6zjKatEP9t2iSTJX129VqEcESqU8X7gXqwPR8fKVPIrq7hadwOiDU5SXOWU0Xwc8~5nMvDZCyRlYnmnnQZrI~tyVFr8kUc0158krWx3282tIxh~~EGSSKXX4GlWASeia~o4GeVyPHDwFr~9CUflCWAT89uy6m7hzxDK0oY3UOSwGovnEImY69NT7jIRI03ocECc4UiII4bewnDkFF6EuE5PioR-0~m4KnZj64~PC6xYUmnZmmPenrDefwuI2OyALib10JKC1WkACgkgLC7ZdRqwLPi3tw0ZlXix2o6vlY8IoIf~SvJALRdP50SMbPQ__" 
                   alt="Video thumbnail" 
-                  className="w-100 h-100 rounded mt-8"
+                  className="w-100 h-100 rounded mt-8 ratio ratio-1*2"
                 />
               
               
@@ -205,12 +200,12 @@ const HomeMain = () => {
             </div>
           </div>
         </div>
+         
+            </div>
+          
+        </div>
       </div>
-
-      <>
-
-</>
-
+   
     </>
   )
 }

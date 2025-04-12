@@ -104,13 +104,13 @@ const InventoryMAin = () => {
         </div>
        
       </div>
-      <div
+      {/* <div
         className="base container shadow-sm pb-4 pt-4 border mt-5 rounded"
         style={{ backgroundColor: "#faf8f4" }}
       >
 
        
-      </div>
+      </div> */}
     </>
   )
 }
