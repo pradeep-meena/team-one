@@ -734,60 +734,86 @@ const Pricing = () => {
 
       {/* faq question end */}
       {/* feature-question */}
-      <section className="features-question-section">
-        <div className="container">
-          <h1 className="features-question-heading">
-            The same core features are included with every package.
-          </h1>
-          <p className="features-question-subheading">
-            From Free to Pro Unlimited, you get{" "}
-            <strong>all the essential fundamentals built in.</strong>
-          </p>
-          
-          <div className="feature-question-item gap-2">
-            <i>✔</i> <strong>To-dos</strong> for tracking work and accountability{" "}
-            <span className="highlight-question">replaces Asana, Jira, etc</span>
-          </div>
-          <div className="feature-question-item gap-2">
-            <i>✔</i> <strong>Campfires Pings</strong> for group chat and
-            direct messaging{""}
-            <span className="highlight-question">replaces Slack, Teams, etc</span>
-          </div>
-          <div className="feature-question-item gap-2">
-            <i>✔</i><strong>Scheduling</strong>for deadlines, milestones, and
-            events{" "}
-            <span className="highlight-question">
-              works with Google, Apple, and Outlook
-            </span>
-          </div>
-          <div className="feature-question-item gap-2">
-            <i>✔</i> <strong>Docs Files</strong>for storing assets{" "}
-            <span className="highlight">
-              replaces (or works with) Notion, Dropbox, Google Docs, etc
-            </span>
-          </div>
-          <div className="feature-question-item gap-2">
-            <i>✔</i> <strong>Reports  Automatic Check-ins</strong> for staying
-            up on things{" "}
-            <span className="highlight-question">replaces status meetings</span>
-          </div>
-          <div className="feature-question-item gap-2">
-            <i>✔</i> <strong>Smart Calendar</strong>  for deadlines, meetings & milestones{" "}
-            <span className="highlight-question">replaces Google Calendar, Outlook</span>
-          </div>
-          <div className="feature-question-item gap-2">
-            <i>✔</i> <strong>Quick Notes</strong> for capturing ideas instantly{" "}
-            <span className="highlight-question">replaces Sticky Notes, Evernote</span>
-          </div>
-          <div className="feature-question-item gap-2">
-            <i>✔</i> <strong> Social Media </strong> Posts, comments, likes, shares (Facebook, Twitter/X, Instagram, TikTok).{" "}
-            <span className="highlight-question">Connections between individuals (friends, family, professional networks).
+      <section className="features-question-section py-12 px-4 md:px-8 lg:px-16">
+  <div className="container max-w-5xl mx-auto">
+    <h1 className="features-question-heading text-2xl md:text-3xl font-bold mb-4 text-center">
+      The same core features are included with every package.
+    </h1>
 
-  </span>
-          </div>
-          
+    <p className="features-question-subheading text-base md:text-lg text-center mb-8">
+      From Free to Pro Unlimited, you get <strong>all the essential fundamentals built in.</strong>
+    </p>
+
+    <div className="space-y-4">
+      <div className="feature-question-item flex items-start gap-2">
+        <i>✔</i> 
+        <div>
+          <strong>To-dos</strong> for tracking work and accountability{" "}
+          <span className="highlight-question">replaces Asana, Jira, etc</span>
         </div>
-      </section>
+      </div>
+
+      <div className="feature-question-item flex items-start gap-2">
+        <i>✔</i> 
+        <div>
+          <strong>Campfires Pings</strong> for group chat and direct messaging{" "}
+          <span className="highlight-question">replaces Slack, Teams, etc</span>
+        </div>
+      </div>
+
+      <div className="feature-question-item flex items-start gap-2">
+        <i>✔</i> 
+        <div>
+          <strong>Scheduling</strong> for deadlines, milestones, and events{" "}
+          <span className="highlight-question">works with Google, Apple, and Outlook</span>
+        </div>
+      </div>
+
+      <div className="feature-question-item flex items-start gap-2">
+        <i>✔</i> 
+        <div>
+          <strong>Docs Files</strong> for storing assets{" "}
+          <span className="highlight">replaces (or works with) Notion, Dropbox, Google Docs, etc</span>
+        </div>
+      </div>
+
+      <div className="feature-question-item flex items-start gap-2">
+        <i>✔</i> 
+        <div>
+          <strong>Reports & Automatic Check-ins</strong> for staying up on things{" "}
+          <span className="highlight-question">replaces status meetings</span>
+        </div>
+      </div>
+
+      <div className="feature-question-item flex items-start gap-2">
+        <i>✔</i> 
+        <div>
+          <strong>Smart Calendar</strong> for deadlines, meetings & milestones{" "}
+          <span className="highlight-question">replaces Google Calendar, Outlook</span>
+        </div>
+      </div>
+
+      <div className="feature-question-item flex items-start gap-2">
+        <i>✔</i> 
+        <div>
+          <strong>Quick Notes</strong> for capturing ideas instantly{" "}
+          <span className="highlight-question">replaces Sticky Notes, Evernote</span>
+        </div>
+      </div>
+
+      <div className="feature-question-item flex items-start gap-2">
+        <i>✔</i> 
+        <div>
+          <strong>Social Media</strong> Posts, comments, likes, shares (Facebook, Twitter/X, Instagram, TikTok).{" "}
+          <span className="highlight-question">
+            Connections between individuals (friends, family, professional networks).
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* feature-question end */}
       {/* relatable-section */}
       <section className="reliability-section">
