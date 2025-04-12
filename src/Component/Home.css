@@ -230,7 +230,7 @@
   .video-thumbnail-container:hover {
     padding: 4;
     transform: scale(1.02);
-    border: 4px solid rgb(95, 128, 236);
+    border: 2px solid #beab8e;
     border-radius: 8px;
   }
   

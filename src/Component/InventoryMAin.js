@@ -41,23 +41,48 @@ const InventoryMAin = () => {
           </div>
         </div>
       )}
-      <div className="container mt-5">
-        <div className="row">
-          <div className="col-md-6 d-flex align-items-center">
-            <div className="text">
-              <h1 className="fw-bold">Inventory</h1>
-              <p className="fs-5">
-                Manage stock levels with ease. Inventory management and
-                equipment hire software to keep your warehouse on track, and
-                give your staff the overview they need over your goods in/out
-                process.Effortless Inventory Management—Stay in Control of Your Stock
-                Manage stock levels with ease using our comprehensive inventory management and equipment hire software. Keep your warehouse running smoothly while giving your staff the real-time visibility they need over stock movement, incoming orders, and outgoing shipments.
-              </p>
-            </div>
+    
+
+      <div className="container-fluid py-5" style={{ backgroundColor: "#fdf4ee" }}>
+    <div className="container">
+      <div className="row text-center">
+        <div className="col-lg-8 offset-lg-2">
+          <button
+            className="btn btn-gold py-2 rounded-5 mb-2"
+            style={{ borderRadius: 12 }}>
+      
+          </button>
+          <h1 className="fw-bold">
+          Inventory
+          </h1>
+          <p className="text-dark">
+          
+          Real-time inventory management software to optimize stock, reduce costs, and boost efficiency
+
+          </p>
+        </div>
+      </div>
+      <div className="row feature-cards">
+        <div className="col-md-4 col-lg-4 mb-4">
+          <div className="feature-card p-4 d-flex flex-column">
+           
+            <p style={{ fontSize: 18 }}>
+          Effortless Inventory Management Stay in Control of Your Stock
+                Manage stock levels with ease using our comprehensive inventory management and equipment hire software.<br /> Keep your warehouse running smoothly while giving your staff the real-time visibility they need over stock movement, incoming orders, and outgoing shipments.
+
+            </p>
           </div>
-          <div className="col-md-6 shadow-sm border rounded">
-  
-            <div 
+        </div>
+        <div className="col-lg-8 mb-4">
+          <div
+            className="feature-card"
+            style={{
+              background:
+                "linear-gradient(45deg, #E6B8AF 0%, #AF905B 99%, #AF905B 100%)",
+              height: 400
+            }}
+          >
+                <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/01064bd0fabb44a2/Inventory.mp4?Expires=1838891684&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=H10R3SMyUTpK-AbR2pKij6fLMC2SFpb1wbKp8bslECzU-F2fhV6UCtDrq-VQQYAQKPfV1A6rtrEKHDFczvN~4kxMxYOncqYBC8W32HBFp2PwJEV~AboluaSJDnD7K1qJg6d~4T266DlCa9BUkUKY~uSA-KwN-X-XmnDEITIJ9uO3ZYZruyoWNxpC-UkLT4btX70mf0RYiHEjTYZKa8Zh7B~TaCvF187E6mkkTBLw27rvc4sX1VjTGXYACaO~K1dXUEn7yZsNgOtYWxquKyWMerfgQuN0-gaDE6bHfVCgAEVDdziLp-16GJLcEn9qBG1T03mq9qYKOY~aTp7nTPGpEw__")}
               style={{ cursor: 'pointer' }}
@@ -102,15 +127,24 @@ const InventoryMAin = () => {
             </div>
           </div>
         </div>
-       
       </div>
+ 
+     
+    </div>
+  </div>
       {/* <div
         className="base container shadow-sm pb-4 pt-4 border mt-5 rounded"
         style={{ backgroundColor: "#faf8f4" }}
       >
 
        
+
       </div> */}
+
+      
+
+      
+
     </>
   )
 }

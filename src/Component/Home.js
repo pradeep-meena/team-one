@@ -3,7 +3,7 @@ import React, { useState, useRef } from 'react';
 import './Home.css';
 import HomeMain from './HomeMain';
 import SalesMain from './SalesMain';
-import ProjectMain from './ProjectMain';
+
 import DispatchMain from './DispatchMain';
 import SupportMain from './SupportMain';
 import InventoryMAin from './InventoryMAin';
@@ -12,8 +12,9 @@ import SupportInboxMain from './SupportInboxMain';
 import MainLast from './MainLast';
 import { Link } from 'react-router-dom';
 import NewSection from './NewSection.js'
-import ProjectNewSection from './Project/ProjectNewSection.jsx';
+import ProjectNewSection from './ProjectNewSection.jsx';
 import NewSection1 from './NewSection1.js';
+import ProjectMain from './ProjectNewSection.jsx';
 const Home = () => {
   // State for modal
   const [showModal, setShowModal] = useState(false);
@@ -472,9 +473,9 @@ const Home = () => {
       <HomeMain />
       <NewSection/>
       <NewSection1/>
-      <SalesMain />
+      {/* <SalesMain /> */}
       <ProjectMain />
-      <ProjectNewSection />
+
       {/* <DispatchMain /> */}
       <SupportMain />
       <InventoryMAin />
