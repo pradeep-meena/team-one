@@ -22,11 +22,11 @@ const Pricing = () => {
             <span className="text-dark">price</span>.
           </h1>
           <p className="text-muted">
-            No locked-away features or upgrade fees, just all-inclusive PSA
+            No locked-away features or upgrade fees, just all-inclusive 
             software.
           </p>
           <p className="text-secondary">Up to a yearly saving of 25%</p>
-          <p>Unlock the full potential of your business with a powerful, all-inclusive PSA (Professional Services Automation) solution that brings enterprise-level functionality without the enterprise-level expense. Our software is designed with your business needs in mind—combining a rich array of features, intuitive design, and uncompromising affordability.</p>
+          <p>Unlock the full potential of your business with a powerful, all-inclusive solution that brings enterprise-level functionality without the enterprise-level expense. Our software is designed with your business needs in mind—combining a rich array of features, intuitive design, and uncompromising affordability.</p>
           <div className="toggle-container">
             <button className={`${activeTab === 'annual' ? 'toggle-btn active' : 'toggle-btn'}  `} onClick={() => setActiveTab('annual')}>
               Annual
@@ -414,12 +414,12 @@ const Pricing = () => {
       {/* testemonial-section */}
       <section className="testimonial-section">
         <div className="container">
-          <div className="testimonial-quote text-black">“</div>
+          <div className="testimonial-quote ">“</div>
           <p className="testimonial-text">
-            <strong>TeamOne is what the future looks like.</strong>
+            <strong >TeamOne is what the future looks like.</strong>
             <br />
             The main drawcard for us was that TeamOne looks fresh. While a lot of other
-            PSA's on the market are old &amp; clunky looking. Support has been
+            on the market are old &amp; clunky looking. Support has been
             excellent and extremely responsive, something that can't be said for
             other competitors on the market.
           </p>
@@ -743,41 +743,49 @@ const Pricing = () => {
             From Free to Pro Unlimited, you get{" "}
             <strong>all the essential fundamentals built in.</strong>
           </p>
-          <div className="feature-question-item">
-            <i>✔</i> <strong>Message Boards</strong> for internal announcements{" "}
-            <span className="highlight-question">replaces email</span>
-          </div>
-          <div className="feature-question-item">
+          
+          <div className="feature-question-item gap-2">
             <i>✔</i> <strong>To-dos</strong> for tracking work and accountability{" "}
             <span className="highlight-question">replaces Asana, Jira, etc</span>
           </div>
-          <div className="feature-question-item">
-            <i>✔</i> <strong>Card Tables</strong> is our take on Kanban for process
-            tracking <span className="highligh-questiont">replaces Trello</span>
-          </div>
-          <div className="feature-question-item">
-            <i>✔</i> <strong>Campfires &amp; Pings</strong> for group chat and
-            direct messaging{" "}
+          <div className="feature-question-item gap-2">
+            <i>✔</i> <strong>Campfires Pings</strong> for group chat and
+            direct messaging{""}
             <span className="highlight-question">replaces Slack, Teams, etc</span>
           </div>
-          <div className="feature-question-item">
-            <i>✔</i> <strong>Scheduling</strong> for deadlines, milestones, and
+          <div className="feature-question-item gap-2">
+            <i>✔</i><strong>Scheduling</strong>for deadlines, milestones, and
             events{" "}
             <span className="highlight-question">
               works with Google, Apple, and Outlook
             </span>
           </div>
-          <div className="feature-question-item">
-            <i>✔</i> <strong>Docs &amp; Files</strong> for storing assets{" "}
+          <div className="feature-question-item gap-2">
+            <i>✔</i> <strong>Docs Files</strong>for storing assets{" "}
             <span className="highlight">
               replaces (or works with) Notion, Dropbox, Google Docs, etc
             </span>
           </div>
-          <div className="feature-question-item">
-            <i>✔</i> <strong>Reports &amp; Automatic Check-ins</strong> for staying
+          <div className="feature-question-item gap-2">
+            <i>✔</i> <strong>Reports  Automatic Check-ins</strong> for staying
             up on things{" "}
             <span className="highlight-question">replaces status meetings</span>
           </div>
+          <div className="feature-question-item gap-2">
+            <i>✔</i> <strong>Smart Calendar</strong>  for deadlines, meetings & milestones{" "}
+            <span className="highlight-question">replaces Google Calendar, Outlook</span>
+          </div>
+          <div className="feature-question-item gap-2">
+            <i>✔</i> <strong>Quick Notes</strong> for capturing ideas instantly{" "}
+            <span className="highlight-question">replaces Sticky Notes, Evernote</span>
+          </div>
+          <div className="feature-question-item gap-2">
+            <i>✔</i> <strong> Social Media </strong> Posts, comments, likes, shares (Facebook, Twitter/X, Instagram, TikTok).{" "}
+            <span className="highlight-question">Connections between individuals (friends, family, professional networks).
+
+</span>
+          </div>
+          
         </div>
       </section>
       {/* feature-question end */}
