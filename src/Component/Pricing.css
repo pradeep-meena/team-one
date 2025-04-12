@@ -309,6 +309,7 @@ a{
 }
 .discover-feature-title {
     font-weight: bold;
+    display: block;
 }
 i{
     color: yellow;

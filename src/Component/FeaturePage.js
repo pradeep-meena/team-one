@@ -228,10 +228,11 @@ const FeaturePage = () => {
               <div className="discover-feature-box">
                 
                 <div className="discover-feature-content">
-                  <div className="discover-feature-title">
+                  <div className="discover-feature-title d-flex align-items-center ">
                   <div className="discover-feature-icon">
                   <i className="bi bi-ticket-perforated" />
                 </div> Project Management
+                
                   </div>
                   <small
                     style={{ cursor: "pointer", color: "blue", }}
