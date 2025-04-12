@@ -125,7 +125,7 @@ const Home = () => {
                     src="https://media-hosting.imagekit.io/db66dec2bd5e431c/screenshot_1744291136685.png?Expires=1838899139&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EkoJQMBGsUbTKuchjezAdAMez7uUlKaAAc9e9y2-an~gau0p3N9AW7H15WWYgJZFkNGU2gVM1yW5s8bLCyYq4~RU6ITCzlEbFKSYD8fCXj0Ya3DTUq~7vZMA0E6UG75jAxlbWd21GccQIyNsCS4-ajhnWnkR3dzA7tPDHtI~aD-1akP0Y5OQaxJfNYyuwXyOm1ZgOiGb1j9gdCrPTNt1ebHdpScgqDu2imZWl-XrjM35BK6EoWxOhaGVJD7IKPqHtOwkmhJvyT~h9Qfml5xolEdNI8GLyn0T~1Z09RFNGuwFDVFI-hUBson9N2lWeYMRGGeY6svEx3CLmWU--GJJEw__" 
                     alt="Video thumbnail" 
                     className=" rounded ratio ratio-16x9"
-                    style={{width:"900px", height:"800px"}}
+                    style={{width:"800px", height:"400px"}}
                   />
                 </div>
                
@@ -158,13 +158,13 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className='row'>
+              <div className='row gap-3'>
                 <div className='col-md-12'>
               
                 <div className=" shadow-sm border rounded">
        
             <div 
-              className=" video-thumbnail-container position-relative" 
+              className=" video-thumbnail-container position-relative " 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/d0d27d3aff7e4b5f/Files.mp4?Expires=1838892048&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Uf0bJxRHZr7Uy4WDVRbZHH0Z0Glu5962kkMxmSm96VM8ZXFRCl6gDmHo8dhsnkKwcNpzH9emtJxNse2U~wpkD0tV~R-LVHXkK6gfVtftyXIA2s1XrGGM-sKeHZB0XneSjoHcy5wwhiqqvcJhsIfVV85aOauyVDFq1XomgGG-pc-aChuBua4PQ6J02zOH2091x9CGfk6HGhuBftJANNWGaRb-H0KL3tzyVEQmCqssktPFVysdCDyQ0AP1BSdYkbLPcGWSGDkamKWE2RtG1Ze9lLEXYrpr6IBviNcR6VaKF4L8ICE-auAfZCZpv3J2Gd1ZoSH1FLJI2wQ9QIp7oMHovA__")}
               style={{ cursor: 'pointer' }}
             >
