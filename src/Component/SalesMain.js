@@ -53,7 +53,7 @@ const SalesMain = () => {
         <div className="row">
           
           
-                   <div className="col-md-6 shadow-sm border rounded">
+                   <div className="col-md-7 shadow-sm border rounded">
          
             <div 
               className=" video-thumbnail-container position-relative" 
@@ -100,8 +100,8 @@ const SalesMain = () => {
             </div>
           </div>
 
-          <div className='col-md-6 '>
-        <div className="">
+          <div className='col-md-5 '>
+        <div className="row g-4">
           {/* Calendar Section - Left Column */}
 
 
