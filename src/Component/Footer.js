@@ -7,12 +7,12 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           {/* Products Section */}
-          <div className="col-md-3 mb-4">
+          {/* <div className="col-md-3 mb-4">
             <h6 className="footer-title">Products</h6>
             <p className="footer-item">
               <img
                 src="https://i.ibb.co/MDP5fFCz/image-removebg-preview.png"
-                alt="PSA"
+                alt="Teamone"
                 className="footer-icon"
               />
               <a href="#" className="footer-link"></a>
@@ -33,7 +33,21 @@ const Footer = () => {
               />
               <a href="#" className="footer-link">ITSM</a>
             </p>
-          </div>
+          </div> */}
+
+<div className="col-md-3 mb-4">
+            {/* <h6 className="footer-title">TeamOne </h6> */}
+            <img
+            // src="https://i.ibb.co/5Tq0pq6/Black-logo-no-background.png"
+            src="https://i.ibb.co/Qjm3yG7L/img.png"
+            alt="Logo"
+            className="me-2"
+            width="200"
+            height="50"
+          />
+
+            </div>
+
 
           {/* Company Section */}
           <div className="col-md-3 mb-4">
