@@ -50,7 +50,7 @@ const NewSection = () => {
           <button
             className="btn btn-gold py-2 rounded-5 mb-2"
             style={{ borderRadius: 12 }}>
-            Time and attendance system
+        
           </button>
           <h1 className="fw-bold">
             Home
@@ -65,16 +65,10 @@ const NewSection = () => {
       <div className="row feature-cards">
         <div className="col-md-4 col-lg-4 mb-4">
           <div className="feature-card p-4 d-flex flex-column">
-            <h3 style={{ fontSize: 32 }}>PayRoll Pro</h3>
+      
             <p style={{ fontSize: 18 }}>
-              Effortlessly manage payroll processing with PayRoll Pro, your
-              ultimate solution for accurate and efficient salary calculations.
-              Automate the entire process, including salaries, deductions, and
-              taxes, to save time and reduce errors. Designed for businesses of
-              all sizes, this tool streamlines payroll operations, ensuring
-              compliance with tax regulations and simplifying reporting. With
-              PayRoll Pro, you can focus on growing your business while leaving
-              the payroll complexities to us.
+
+            The home screen is your central hub, helping you organize, prioritize, and stay on track throughout your day. With a clear overview of tasks, schedules, and workload, you can focus on what truly matters—getting things done efficiently.
             </p>
           </div>
         </div>
@@ -83,12 +77,12 @@ const NewSection = () => {
             className="feature-card"
             style={{
               background:
-                "linear-gradient(45deg, #E6B8AF 0%, #AF905B 99%, #AF905B 100%)",
+                "linear-gradient(45deg,rgb(157, 207, 230) 0%,rgb(91, 118, 175) 99%,rgb(104, 136, 194) 100%)",
               height: 400
             }}
           >
             <div 
-              className=" video-thumbnail-container position-relative" 
+              className=" video-thumbnail-container position-relative " 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/4ce6bf08c91c4e10/calendar.mp4?Expires=1838890092&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GDBeocg~UhQe49EMXsLLwKhrwNQRQrEy7lSTxdl~X1BtCPLHmFq7WIfFBncEAN1IQI~6MVXcHu4s46EYX-cRuyGtlLakQ90hO4YwPyCtw5PNcLIwOMJtC1md1Z3tLFGrcGpj0JdpPHAzLTkOdq3EvT824U5sVNjXdZfT08F22Ifqg91slAyldeGesMEXjRuFfVNk4TIPXsjh1iAfK34OJiH6C6obiYsrXqLseUdBNzmF0hEy5aSO52HmCsQetGK4mf1LsAjY4uYNYHe1jpMyWflUU6C-Drg7f13EOUSFNo~R5ycevHwj0h1sd92UOmZ0lIx3xL8qgG1aZSzc834Qqw__")}
               style={{ cursor: 'pointer' }}
             >

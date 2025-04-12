@@ -166,10 +166,10 @@ Files Manager
      <div
        className="feature-card"
        style={{
-         background:
-           "linear-gradient(45deg, #E6B8AF 0%, #AF905B 99%, #AF905B 100%)",
-         height: 400
-       }}
+        background:
+          "linear-gradient(45deg,rgb(157, 207, 230) 0%,rgb(91, 118, 175) 99%,rgb(104, 136, 194) 100%)",
+        height: 400
+      }}
      >
            <div 
               className=" video-thumbnail-container position-relative" 

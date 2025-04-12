@@ -470,7 +470,7 @@ const Home = () => {
       </div>
 
       {/* Include other components */}
-      <HomeMain />
+      {/* <HomeMain /> */}
       <NewSection/>
       <NewSection1/>
       {/* <SalesMain /> */}
