@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="/features">
+              <a className="nav-link fw-bold" href="/features">
                 Features
               </a>
             </li>

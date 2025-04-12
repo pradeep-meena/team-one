@@ -1,6 +1,4 @@
 
-
-
 import React, { useState, useRef } from 'react';
 import './Home.css';
 import HomeMain from './HomeMain';
@@ -12,7 +10,9 @@ import InventoryMAin from './InventoryMAin';
 import Finance from './Finance';
 import SupportInboxMain from './SupportInboxMain';
 import MainLast from './MainLast';
-
+import { Link } from 'react-router-dom';
+import NewSection from './NewSection.js'
+import ProjectNewSection from './Project/ProjectNewSection.jsx';
 const Home = () => {
   // State for modal
   const [showModal, setShowModal] = useState(false);
@@ -36,89 +36,109 @@ const Home = () => {
       {/* Video Modal */}
       {showModal && (
         <div className="modal-backdrop" onClick={handleCloseModal}>
-          <div 
-            className="video-modal-content" 
-            onClick={(e) => e.stopPropagation()}
-          >
+          <div className="video-modal-content" 
+            onClick={(e) => e.stopPropagation()}>
             <button className="close-modal-btn" onClick={handleCloseModal}>×</button>
             <div className="modal-video-container">
-              <video
-                ref={videoRef}
+              <video ref={videoRef}
                 className="w-100 h-100"
                 controls
                 autoPlay
-                playsInline
-              >
+                playsInline>
                 <source src={currentVideoSrc} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
           </div>
         </div>
-      )}
+      )} 
 
-      <div className="container mt-5 ">
-        <div className="row">
-          <div className="col-md-5">
-            <div className='text-center mt-5'>
-            <h1 className="fw-bold text-blue">TeamOne Ops</h1>
+<div className="container mt-5 mb-4">
+  <div className="row align-items-center">
+    {/* Text Section */}
+    <div className="col-md-6">
+      <div className="text-center mt-3 animate__animated animate__fadeInLeft">
+        <h1 className="fw-bold text-blue mb-3">TeamOne Ops</h1>
+        <h3 className="mt-2 text-dark">
+          One Platform, All Solutions
+          <br /> Projects, HR, CRM, Finance & More
+        </h3>
 
-            <h3 className='mt-2'> One Platform, All Solutions
-              <br /> Projects, HR, CRM, Finance & More</h3>
-            <p className="fs-9 my-auto">
-             No Switching Between Various  App,
-             <br/>
-             All in One Place
-            </p>
+        <p className="mt-3 fs-6">
+          Whether you're managing projects, onboarding new team members,
+          generating invoices, or analyzing performance metrics —
+          <br /> it's all seamlessly connected in <strong>TeamOne Ops</strong>.
+        </p>
 
-           </div>           
-          </div>
-          <div className="col-md-7 " >
-            <div className="bg-yellow rounded shadow-sm border">
-            <img src="https://i.ibb.co/35VwgVLN/image.png" alt="TeamOne Ops" className="w-100 h-100" />  
-            </div>
-          </div>
-        </div>
+        <p className=" mt-3">
+          Your entire organization — simplified, synced, and supercharged.
+        </p>
+
+      <Link to="/features"> <button className="btn btn-dark mt-4 px-4 py-2 rounded-pill shadow-sm">
+          Explore Features
+        </button></Link>
       </div>
+    </div>
 
-      <div className="container mt-5 mx-auto">
+    {/* Image Section */}
+    <div className="col-md-6">
+      <div className="bg-yellow rounded shadow-sm border animate__animated animate__zoomIn">
+        <img
+          src="https://i.ibb.co/4ZYkx5fQ/Whats-App-Image-2025-04-11-at-3-10-16-PM.png"
+          alt="TeamOne Ops"
+          className="w-100 h-100 rounded hover-scale"
+          style={{ transition: 'transform 0.5s ease-in-out' }}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<style jsx>{`
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+
+  .text-blue {
+    color: #2a4dff;
+  }
+
+  .bg-yellow {
+    background-color: #fffbea;
+  }
+`}</style>
+
+
+<div className="container mt-5 mx-auto"> 
+  <div className="text-center animate__animated animate__fadeInDown">
+    <h2 className="fw-bold mt-5">The All In One Business Management</h2>
+    <p>
+      TeamOne brings together the most vital enterprise tools into one <br />
+      operating system allowing businesses to stay efficient, stay productive, and <br />
+      stay on target.
+    </p>
+    <p>
+      Get a demo of our software, or get started with free forever tools.
+    </p>
+    <div className="mb-5">
+      <button className="btn btn-custom btn-img-color me-2">Get a demo</button>
+      <button className="btn btn-custom btn-start rounded-3">Get started free</button>
+    </div>
+  </div>
+</div>
+
+
        
-
-
-          <div className='text-center'>
-            <h2 className="fw-bold mt-4">The All In One Business Management</h2>
-            <p>
-              TeamOne  brings together the most vital enterprise tools into one{" "}
-              <br />
-              operating system allowing businesses to stay efficient, stay
-              productive, and <br />
-              stay on target.
-            </p>
-            <p>
-              Get a demo of our software, or get started with free forever tools.
-            </p>
-            <div className="mb-5">
-              <button className="btn btn-custom btn-img-color me-2">Get a demo</button>
-              <button className="btn btn-custom btn-img-color ">Get started free</button>
-            </div>
-            </div>
-            </div>
-       
-        
-
       {/* Features Page  */}
-      <div
-        className="base container shadow-sm pb-4 border mt-5 rounded"
-        style={{ backgroundColor: "#faf8f4" }}
-      >
+      <div className="base container shadow-sm pb-4 border mt-5 rounded"
+         style={{ backgroundColor: "#faf8f4" }}>
         <div className="container mt-5 mb-4 text-center">
           <div className="row g-4 mt-3 justify-content-between">
             <div className="col-md-8 shadow-sm border rounded">
               <div 
                 className="video-thumbnail-container position-relative" 
                 onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/c2f660d48c974645/PRoject.mp4?Expires=1838812340&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=vz3DtuQjK8-pPYxAZ-A4cueAshegmpd~YNCsRbD7U2QCVwOm55ag2zHMcanY13mq9gEUSOjobD88fWQ4fIcuWX8HGcbFoNMufoTV57wJMhVTeJVJ4v9n~0UwJMt7PIaHDaxqkZ1twCv4S6wFu1PNurbTwmY2pFrI-LUuDr0a8wfICC8kk62HY7eK42AAopUnoUNzmbsuugKo-BL2klHQdEKNvB7N6LY5vxIZMXWvQRgue3g-pm7iFVf-dYWv6oNUHuwknSLRBpHenst0dEkwRx0eLAoamZk6cRg0F~ogzuwye8Ya1BlI~XldsUxf1A41EMdudTxFWPcBTczgHdhWpQ__")}
-                style={{ cursor: 'pointer' }}
-              >
+                style={{ cursor: 'pointer' }}>
               
                 <div className="video-thumbnail w-100 h-100">
                   <img 
@@ -129,8 +149,7 @@ const Home = () => {
                   />
                 </div>
                
-                <div 
-                  className="play-button-overlay position-absolute"
+                <div  className="play-button-overlay position-absolute"
                   style={{
                     top: '50%',
                     left: '50%',
@@ -142,8 +161,7 @@ const Home = () => {
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center'
-                  }}
-                >
+                  }}>
                   <div 
                     style={{
                       width: '0',
@@ -152,30 +170,26 @@ const Home = () => {
                       borderBottom: '20px solid transparent',
                       borderLeft: '30px solid white',
                       marginLeft: '8px'
-                    }}
-                  />
+                    }}/>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className='row gap-3'>
                 <div className='col-md-12'>
-              
                 <div className=" shadow-sm border rounded">
        
             <div 
               className=" video-thumbnail-container position-relative " 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/d0d27d3aff7e4b5f/Files.mp4?Expires=1838892048&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Uf0bJxRHZr7Uy4WDVRbZHH0Z0Glu5962kkMxmSm96VM8ZXFRCl6gDmHo8dhsnkKwcNpzH9emtJxNse2U~wpkD0tV~R-LVHXkK6gfVtftyXIA2s1XrGGM-sKeHZB0XneSjoHcy5wwhiqqvcJhsIfVV85aOauyVDFq1XomgGG-pc-aChuBua4PQ6J02zOH2091x9CGfk6HGhuBftJANNWGaRb-H0KL3tzyVEQmCqssktPFVysdCDyQ0AP1BSdYkbLPcGWSGDkamKWE2RtG1Ze9lLEXYrpr6IBviNcR6VaKF4L8ICE-auAfZCZpv3J2Gd1ZoSH1FLJI2wQ9QIp7oMHovA__")}
-              style={{ cursor: 'pointer' }}
-            >
+              style={{ cursor: 'pointer' }}>
                 <span className='visual__figure'>Manage Docs and Files   </span>
               {/* Video thumbnail image */}
               
                 <img 
                   src="https://i.ibb.co/k21DnXgR/Screenshot-2025-04-10-144707.png" 
                   alt="Video thumbnail" 
-                  className="w-100 h-100 rounded mt-8"
-                />
+                  className="w-100 h-100 rounded mt-8"/>
               
               
               {/* Play button overlay */}
@@ -215,17 +229,13 @@ const Home = () => {
             <div 
               className=" video-thumbnail-container position-relative" 
               onClick={() => handleOpenVideoModal("https://media-hosting.imagekit.io/e91eb030aabe4dd6/Notess.mp4?Expires=1838892129&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Dv~SDnrWQ3kbJano96iNo1z-KZneKuKxGlOpoZvGFkD0SwA9xjX4OaUC3WeeGoRCNXtv1JGx~Wvtd5lNQV9bmNz6rHuEPiyn6TuXjI0kiekhOBAynwMqN7kankEad2D4zAAz8HYB4fb8c4~sGLfhwPq8gYWx2xIzjg4sLpviqOEA0GwuhxRrWgym1QNeQB48UAo3bHeTqYn-ScyQ00nXGq3Mgl71b9I-~Zq8-X3C93nMO1UPH9-nX1zFDvA-Npm3fB2X8KR6nk9L1g1c9HH7KOKoECcoboDndK18eOwgZGeT6vpP2W967dakfKlZiO2CM6y5dSgti6qp6O8Txztb-w__")}
-              style={{ cursor: 'pointer' }}
-            >
+              style={{ cursor: 'pointer' }}>
               <span className='visual__figure'>What To-Do </span>
               {/* Video thumbnail image */}
               
-                <img 
-                  src="https://i.ibb.co/zV53pnBt/image.png" 
-                  
+                <img  src="https://i.ibb.co/zV53pnBt/image.png" 
                   alt="Video thumbnail" 
-                  className="w-100 h-100 rounded mt-8"
-                />
+                  className="w-100 h-100 rounded mt-8"/>
               
               
               {/* Play button overlay */}
@@ -269,7 +279,7 @@ const Home = () => {
             Assign people
           </button>
           <p className="mt-3">
-         Schedule . 
+            Schedule . 
             <a href="#" className="text-decoration-none text-dark">
               View all in a list
             </a>{" "}
@@ -459,8 +469,10 @@ const Home = () => {
 
       {/* Include other components */}
       <HomeMain />
+      <NewSection/>
       <SalesMain />
       <ProjectMain />
+      <ProjectNewSection />
       {/* <DispatchMain /> */}
       <SupportMain />
       <InventoryMAin />

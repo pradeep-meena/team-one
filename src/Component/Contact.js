@@ -140,10 +140,8 @@ const Contact = () => {
         {/* Testimonial Section */}
         <div className="container mt-5">
           <div className="row ">
-            <div
-              className="col-12 contact-section-img"
-              style={{ marginTop: 100 }}
-            >
+            <div className="col-12 contact-section-img"
+              style={{ marginTop: 100 }}>
               <div className="d-flex flex-column flex-md-row align-items-center">
                 {/* Circular Image */}
                 <img
@@ -151,8 +149,7 @@ const Contact = () => {
                   alt="Testimonial"
                   className="rounded-circle flex-shrink-0 mb-3 mb-md-0 me-md-4"
                   width={75}
-                  height={75}
-                />
+                  height={75}/>
                 <div className="flex-grow-1">
                   <h4 className="h5 font-weight-bold mb-1">--Amine W</h4>
                 </div>
@@ -174,92 +171,91 @@ const Contact = () => {
         </div>
       </div>
       <div className="col-md-6">
-        <div className="">
-          <div className=" borderless">
-            <h4 className="card-title mb-2">Connect Sales about Pipedrive</h4>
-            <form>
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="name"
-                  placeholder="Enter your name"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="email"
-                  placeholder="Enter your email"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="phone">Phone</label>
-                <input
-                  type="tel"
-                  className="form-control"
-                  id="phone"
-                  placeholder="Enter your phone number"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="country">Country</label>
-                <select className="form-control" id="country">
-                  <option>Select from dropdown</option>
-                  <option>United States</option>
-                  <option>Canada</option>
-                  <option>United Kingdom</option>
-                  {/* Add more countries as needed */}
-                </select>
-              </div>
-              <div className="form-group">
-                <label htmlFor="company">Company name</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="company"
-                  placeholder="Enter your company name"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="size">Company size?</label>
-                <select className="form-control" id="size">
-                  <option>Select from dropdown</option>
-                  <option>1-10 employees</option>
-                  <option>11-50 employees</option>
-                  <option>51-200 employees</option>
-                  {/* Add more options as needed */}
-                </select>
-              </div>
-              <div className="form-group">
-                <small className="form-text text-muted">
-                  *We’re committed to your privacy. Pipedrive uses the
-                  information you provide to us to contact you about our
-                  relevant content, products, and services. You may unsubscribe
-                  from these communications at any time. For more information,
-                  check out our Privacy Notice.
-                </small>
-              </div>
-              <button type="submit" className="btn btn-primary my-1 btn-block">
-                Submit
-              </button>
-            </form>
-            <small className="text-muted mt-3">
-              Never share sensitive information (credit card numbers, social
-              security numbers, passwords) through this form.
-            </small>
-            <small className="text-muted">
-              This site is protected by reCAPTCHA and the Google
-              <a href="#">Privacy Policy</a> and
-              <a href="#">Terms of Service</a> apply.
-            </small>
-          </div>
-        </div>
+  <div className="p-4 shadow-sm rounded bg-white">
+    <h4 className="card-title mb-4 text-primary">Connect Sales about Pipedrive</h4>
+    <form>
+      <div className="form-group mb-3">
+        <label htmlFor="name" className="font-weight-bold mb-2">Name</label>
+        <input
+          type="text"
+          className="form-control py-2"
+          id="name"
+          placeholder="Enter your name"
+        />
       </div>
-    </div>
+
+      <div className="form-group mb-3">
+        <label htmlFor="email" className="font-weight-bold mb-2">Email</label>
+        <input
+          type="email"
+          className="form-control py-2"
+          id="email"
+          placeholder="Enter your email"
+        />
+      </div>
+
+      <div className="form-group mb-3">
+        <label htmlFor="phone" className="font-weight-bold mb-2">Phone</label>
+        <input
+          type="tel"
+          className="form-control py-2"
+          id="phone"
+          placeholder="Enter your phone number"
+        />
+      </div>
+
+      <div className="form-group mb-3">
+        <label htmlFor="country" className="font-weight-bold mb-2">Country</label>
+        <select className="form-control py-2" id="country">
+          <option>Select from dropdown</option>
+          <option>United States</option>
+          <option>Canada</option>
+          <option>United Kingdom</option>
+        </select>
+      </div>
+
+      <div className="form-group mb-3">
+        <label htmlFor="company" className="font-weight-bold mb-2">Company Name</label>
+        <input
+          type="text"
+          className="form-control py-2"
+          id="company"
+          placeholder="Enter your company name"
+        />
+      </div>
+
+      <div className="form-group mb-3">
+        <label htmlFor="size" className="font-weight-bold mb-2">Company Size</label>
+        <select className="form-control py-2" id="size">
+          <option>Select from dropdown</option>
+          <option>1-10 employees</option>
+          <option>11-50 employees</option>
+          <option>51-200 employees</option>
+        </select>
+      </div>
+
+      <div className="form-group mb-3">
+        <small className="form-text text-muted">
+          *We’re committed to your privacy. Pipedrive uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information, check out our Privacy Notice.
+        </small>
+      </div>
+
+      <button type="submit" className="btn btn-primary btn-block py-2">
+        Submit
+      </button>
+    </form>
+
+    <small className="text-muted d-block mt-4">
+      Never share sensitive information (credit card numbers, social security numbers, passwords) through this form.
+    </small>
+    <small className="text-muted d-block mt-2">
+      This site is protected by reCAPTCHA and the Google
+      <a href="#" className="ml-1">Privacy Policy</a> and
+      <a href="#" className="ml-1">Terms of Service</a> apply.
+    </small>
+  </div>
+</div>
+    </div>  
   </div>
 </>
 

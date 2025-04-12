@@ -1,0 +1,71 @@
+.features{
+    background-color: #06223a;
+  }
+  .feature-cards {
+    margin-top: 30px;
+  }
+
+  .feature-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #092F2A;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .feature-card h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .feature-card p {
+    /* margin-top: 10px; */
+    font-size: 0.95rem;
+    color: #555;
+  }
+  .feature-cards {
+display: flex;
+flex-wrap: wrap;
+}
+
+.feature-card {
+background-color: #fff;
+border-radius: 10px;
+color: #092F2A;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+display: flex;
+flex-direction: column;
+/* justify-content: space-between;  */
+height: 100%;
+}
+
+.feature-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card h3 {
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+.feature-card p {
+font-size: 0.95rem;
+color: #555;
+margin-top: 10px;
+}
+
+/* Ensure all cards are of equal height */
+.feature-cards .col-md-6,
+.feature-cards .col-lg-6,
+.feature-cards .col-lg-4 {
+display: flex;
+align-items: stretch;
+}
