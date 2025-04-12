@@ -43,7 +43,7 @@ const NewSection = () => {
     )}
  
         {/* section-start */}
-  <div className="container-fluid py-5" style={{ backgroundColor: "#fdf4ee" }}>
+  <div className="container-fluid " style={{ backgroundColor: "#fdf4ee" }}>
     <div className="container">
       <div className="row text-center">
         <div className="col-lg-8 offset-lg-2">
@@ -78,7 +78,7 @@ const NewSection = () => {
             style={{
               background:
                 "linear-gradient(45deg,rgb(157, 207, 230) 0%,rgb(91, 118, 175) 99%,rgb(104, 136, 194) 100%)",
-              height: 400
+             
             }}
           >
             <div 

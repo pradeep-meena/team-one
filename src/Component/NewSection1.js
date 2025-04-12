@@ -43,7 +43,7 @@ const NewSection1 = () => {
       )}
   {/* section-start */}
   <div
-    className="container-fluid py-5"
+    className="container-fluid "
     style={{ backgroundColor: "#fdf4ee", color: "black" }}
   >
     <div className="container">
