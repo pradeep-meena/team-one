@@ -13,6 +13,7 @@ import MainLast from './MainLast';
 import { Link } from 'react-router-dom';
 import NewSection from './NewSection.js'
 import ProjectNewSection from './Project/ProjectNewSection.jsx';
+import NewSection1 from './NewSection1.js';
 const Home = () => {
   // State for modal
   const [showModal, setShowModal] = useState(false);
@@ -470,6 +471,7 @@ const Home = () => {
       {/* Include other components */}
       <HomeMain />
       <NewSection/>
+      <NewSection1/>
       <SalesMain />
       <ProjectMain />
       <ProjectNewSection />
