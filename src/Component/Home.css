@@ -399,3 +399,16 @@
   
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 } */
+
+.img-transform {
+    transition: transform 0.3s ease;
+}
+.img-transform:hover {
+    transform: scale(1.25);
+    z-index: 99999;
+    position: absolute;  
+    overflow: visible;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+

@@ -414,7 +414,7 @@ const Pricing = () => {
       {/* testemonial-section */}
       <section className="testimonial-section">
         <div className="container">
-          <div className="testimonial-quote">“</div>
+          <div className="testimonial-quote text-black">“</div>
           <p className="testimonial-text">
             <strong>TeamOne is what the future looks like.</strong>
             <br />

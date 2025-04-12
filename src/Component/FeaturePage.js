@@ -172,14 +172,33 @@ const FeaturePage = () => {
     </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-12 shadow-sm border rounded">
-              
-          <img src="https://i.ibb.co/KcxH1LbQ/image.png" alt="image" />
-          <img src="https://i.ibb.co/BHhCTzDk/image.png" alt="image" border="0"></img>
+          <div className="col-md-12 shadow-sm border rounded overflow-hidden">
+         <div className="row">
+              <div className="col-md-3 img-transform">
+              <img className="video-thumbnail" src="https://i.ibb.co/KcxH1LbQ/image.png" alt="crm Dashboard" />
+              </div>
+              <div className="col-md-6">
+  <div className="img-container">
+    <div className="image-wrapper">
+      <img 
+        className="img-transform" 
+        src="https://i.ibb.co/BHhCTzDk/image.png" 
+        alt="Main dashboard" 
+      />
+      <div className="img-caption">Dashboard View</div>
+    </div>
+  </div>
+</div>
 
+
+            <div className="col-md-3">
+            <img  className="video-thumbnail img-transform" src="https://i.ibb.co/0yH4cm4L/image.png" alt="image" border="0"/>
+            </div>
+            </div>
+
+            </div>
            
-           
-          </div>
+
         </div>
       </div>
       <div className="container text-center mt-5">
