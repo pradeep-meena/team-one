@@ -41,17 +41,14 @@ const calender = () => {
 
                 <div className="d-flex flex-wrap justify-content-start mt-2">
                   {[29, 30, 31, ...Array(30).keys()].map((day, index) => (
-                    <div
-                      key={index}
-                      className={`day ${day === 13 ? "current-day" : ""}`}
-                    >
+                    <div  key={index}
+                      className={`day ${day === 13 ? "current-day" : ""}`}>
                       {day}
                     </div>
                   ))}
                 </div>
               </div>
             </div>
-          
         </div>
 
         {/* Events Section - Right Column */}

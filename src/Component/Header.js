@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import AuthForm from "./auth/AuthPage";
-
 const Header = () => {
   const [isModal, setIsModal] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -26,9 +25,7 @@ const Header = () => {
             width="200"
             height="50"
           />
-        
-        </Link>
-
+              </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -41,7 +38,7 @@ const Header = () => {
         <div className={`collapse navbar-collapse justify-content-end ${isOpen ? "show" : ""}`}>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" to="/features">
+              <Link className="nav-link fw-500" to="/features">
                 Features
               </Link>
             </li>
