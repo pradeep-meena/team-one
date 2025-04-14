@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div className='footer-section   text-white py-4'>
+    <div className='footer-section  py-4'>
       <div className="container">
         <div className="row">
           {/* Products Section */}
@@ -52,7 +56,7 @@ const Footer = () => {
 
           {/* Company Section */}
           <div className="col-md-3 mb-4">
-            <h6 className="footer-title">Company</h6>
+            {/* <h6 className="footer-title">Company</h6> */}
           
             <div>  <Link to="/contact" className="footer-link">Contact us</Link></div>
       
@@ -60,17 +64,17 @@ const Footer = () => {
 
           {/* Services Section */}
           <div className="col-md-3 mb-4">
-            <h6 className="footer-title">Our Services</h6>
-            <div>   <a href="#" className="footer-link">Features</a></div>
-           <div>  <a href="#" className="footer-link">Integrations</a></div>
-            <div><a href="#" className="footer-link">Pricing</a></div>
+            {/* <h6 className="footer-title">Our Services</h6> */}
+            <div>   <Link to="/features" className="footer-link">Features</Link></div>
+           {/* <div>  <a href="#" className="footer-link">Integrations</a></div> */}
+            <div><Link to="/pricing" className="footer-link">Pricing</Link></div>
           </div>
 
           {/* Share Section */}
           <div className="col-md-3 mb-2">
-            <p className="footer-title">Share</p>
-            <label htmlFor="email" className="footer-label">Enter your email:</label>
-            <input type="email" id="email" name="email" className="footer-input"/>
+            {/* <p className="footer-title">Share</p> */}
+            {/* <label htmlFor="email" className="footer-label">Enter your email:</label>
+            <input type="email" id="email" name="email" className="footer-input"/> */}
             <div className='footer-share-icon d-flex mt-3'>
               <a href="#" className="footer-icon-link">
                 <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" className="footer-social-icon"/>
