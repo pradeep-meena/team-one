@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -53,12 +54,8 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
             <h6 className="footer-title">Company</h6>
           
-            <div>  <a href="#" className="footer-link">Contact us</a></div>
-           <div>  <a href="#" className="footer-link">Events</a></div>
-            <div><a href="#" className="footer-link">Channel Partners</a></div>
-            <div><a href="#" className="footer-link">Technology Partners</a></div>
-            <div> <a href="#" className="footer-link">Distributors</a></div>
-            <div>  <a href="#" className="footer-link">Referral Program</a> </div>
+            <div>  <Link to="/contact" className="footer-link">Contact us</Link></div>
+      
           </div>
 
           {/* Services Section */}
@@ -71,7 +68,7 @@ const Footer = () => {
 
           {/* Share Section */}
           <div className="col-md-3 mb-2">
-            <h6 className="footer-title">Share</h6>
+            <p className="footer-title">Share</p>
             <label htmlFor="email" className="footer-label">Enter your email:</label>
             <input type="email" id="email" name="email" className="footer-input"/>
             <div className='footer-share-icon d-flex mt-3'>
