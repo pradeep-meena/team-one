@@ -1,5 +1,4 @@
-import React, { useRef, useState } from "react";
-import "./Feature.css";
+import React, { useRef, useState } from "react";import "./Feature.css"
 
 
 const FeaturePage = () => {
@@ -172,10 +171,10 @@ const FeaturePage = () => {
             </div>
           </div>
         </div>
+       
 
-
-      </div>
-
+        </div>
+     
       <div className="container text-center mt-5">
         {/* Heading */}
         <div className="container">
@@ -774,17 +773,9 @@ const FeaturePage = () => {
       {/* There's More To Dic\scover */}
       <div className="container text-center mt-5">
 
-        <h1 className="discover-heading">✨ There's More to Discover</h1>
+        <h1 className="discover-heading">There's more to discover</h1>
         <p className="discover-subheading">
-          Easy setup, powerful tools, and everything you need—right out of the box.
-
-          TeamOne helps you streamline your workflow, stay connected, and focus on what matters most.
-
-           Zero learning curve – get started in minutes
-           Smart automation – reduce busywork and save time
-           Built-in collaboration – chat, share, and update in one place
-           Customizable dashboards – tailor it to your team’s needs
-           Secure and scalable – trusted by teams of all sizes
+          Easy setup and everything as standard. Learn more about TeamOne.
         </p>
         <div className="row">
           <div className="col-md-4">

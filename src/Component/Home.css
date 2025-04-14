@@ -400,3 +400,160 @@
   
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 } */
+/* Feature Box Styles with enhanced animations */
+
+.discover-feature-box-1 {
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  /* height: 100%; */
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.discover-feature-box-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #26c7cd, #3a7bd5);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.discover-feature-box-1:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-color: rgba(38, 199, 205, 0.3);
+}
+
+.discover-feature-box-1:hover::before {
+  transform: scaleX(1);
+}
+
+.discover-feature-icon {
+  font-size: 36px;
+  color: #26c7cd;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.discover-feature-box-1:hover .discover-feature-icon {
+  transform: scale(1.1);
+  color: #3a7bd5;
+}
+
+.discover-feature-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #2c3e50;
+  transition: color 0.3s ease;
+}
+
+.discover-feature-box-1:hover .discover-feature-title {
+  color: #26c7cd;
+}
+
+.discover-feature-content small {
+  color: #26c7cd;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+  position: relative;
+}
+
+.discover-feature-content small::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #3a7bd5;
+  transition: width 0.3s ease;
+}
+
+.discover-feature-content small:hover {
+  color: #3a7bd5;
+}
+
+.discover-feature-content small:hover::after {
+  width: 100%;
+}
+
+.extra-details {
+  margin-top: 15px;
+  padding: 20px;
+  background: linear-gradient(to right, #f8f9fa, #ffffff);
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+  border-left: 4px solid #26c7cd;
+  animation: slideDown 0.4s ease-out;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Headings with animation */
+.discover-heading {
+  font-size: 42px;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.discover-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #26c7cd, #3a7bd5);
+  border-radius: 2px;
+}
+
+.discover-subheading {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+  animation: fadeInUp 0.6s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

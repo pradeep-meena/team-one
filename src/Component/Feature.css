@@ -6,74 +6,58 @@ body {
   background-color: #f9fbfd;
 }
 
-/* Modal Styles with enhanced animation */
 .modal-backdrop {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
-  opacity: 0;
-  animation: fadeIn 0.3s ease forwards;
+  z-index: 1050;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
+/* Modal content */
 .video-modal-content {
   position: relative;
-  width: 80%;
-  max-width: 900px;
-  background: white;
+  width: 90%;
+  max-width: 1000px;
+  background-color: #000;
   border-radius: 8px;
-  padding: 20px;
-  transform: scale(0.9);
-  animation: scaleUp 0.3s ease forwards;
+  overflow: hidden;
 }
 
-@keyframes scaleUp {
-  from { transform: scale(0.9); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
-}
-
+/* Close button */
 .close-modal-btn {
   position: absolute;
-  top: -15px;
-  right: -15px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #ff4757;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
   font-size: 24px;
-  cursor: pointer;
-  z-index: 1001;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+  z-index: 1060;
 }
 
 .close-modal-btn:hover {
-  background: #ff6b81;
-  transform: rotate(90deg) scale(1.1);
+  background-color: rgba(61, 50, 50, 0.849);
 }
 
+/* Modal video container */
 .modal-video-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  width: 100%;
   height: 0;
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  position: relative;
 }
 
 .modal-video-container video {
@@ -82,40 +66,27 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 8px;
 }
 
-/* Video Thumbnail Styles with enhanced hover */
+
+/* Video thumbnail container */
 .video-thumbnail-container {
-  position: relative;
+  width: 100%;
+  height: 100%;
+ 
+  cursor: pointer;
   overflow: hidden;
-  border-radius: 12px;
-  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: transform 0.3s ease;
 }
 
 .video-thumbnail-container:hover {
-  transform: translateY(-5px) scale(1.01);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  padding: 4;
+  transform: scale(1.02);
+  border: 2px solid #beab8e;
+  border-radius: 8px;
 }
 
-.video-thumbnail-container img {
-  transition: transform 0.5s ease;
-}
-
-.video-thumbnail-container:hover img {
-  transform: scale(1.05);
-}
-
-.play-button-overlay {
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.play-button-overlay:hover {
-  background: rgba(0, 0, 0, 0.9) !important;
-  transform: translate(-50%, -50%) scale(1.15);
-  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
-}
 
 /* Feature Box Styles with enhanced animations */
 .discover-feature-box-1 {
@@ -339,10 +310,7 @@ body {
     font-size: 16px;
   }
   
-  .video-modal-content {
-    width: 95%;
-    padding: 15px;
-  }
+
   
   .discover-feature-box-1 {
     padding: 20px;

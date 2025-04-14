@@ -75,10 +75,10 @@ const Home = () => {
         <p className=" mt-3">
           Your entire organization — simplified, synced, and supercharged.
         </p>
-
-      <Link to="/features"> <button className="btn btn-dark mt-4 px-4 py-2 rounded-pill shadow-sm">
+{/* 
+      <Link to="/features"> <button className="btn btn-dark mt-4 px-4 py-2 rounded-pill shadow-sm ">
           Explore Features
-        </button></Link>
+        </button></Link> */}
       </div>
     </div>
 

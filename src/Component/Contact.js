@@ -37,17 +37,17 @@ const Contact = () => {
           <div className="card h-100 text-center p-4 shadow-sm">
             <h3 className="card-title fw-bold">Talk to Sales</h3>
             <p className="card-text">
-              Interested in HubSpot's software? Just pick up the phone to chat
+              Interested in TeamOne? Just pick up the phone to chat
               with a member of our sales team.
             </p>
             <p className="card-text">
               <a href="#">+44 20 7324 3700</a>
             </p>
-            <p className="card-text">
+            {/* <p className="card-text">
               <a href="#" className="text-decoration-none">
                 View all global numbers
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
         {/* Contact Customer Support Card */}
@@ -55,7 +55,7 @@ const Contact = () => {
           <div className="card h-100 text-center p-4 shadow-sm">
             <h3 className="card-title fw-bold">Contact Customer Support</h3>
             <p className="card-text">
-              Sometimes you need a little help from your friends. Or a HubSpot
+              Sometimes you need a little help from your friends. Or a TeamOne
               support rep. Don't worry... we're here for you.
             </p>
             <a href="#" className="btn btn-success w-50 mx-auto mt-3">
@@ -97,7 +97,7 @@ const Contact = () => {
               United States
             </p>
             <h5 className="my-2">Phone / Fax:</h5>
-            <a href="#">+1 888 HUBSPOT </a> <br />
+            <a href="#">+1 888 482 7768 </a> <br />
             <a href="#">(+1 888 482 7768)</a>
           </div>
           <div className="press-info mt-3">
@@ -117,8 +117,8 @@ const Contact = () => {
         <h2 className="mb-4 text-success">Get in touch with our sales team</h2>
         <p className="lead my-2">
           Ready to revolutionize your sales process? We’d love to show you what
-          Pipedrive can do – contact our sales experts and discover how
-          Pipedrive can help improve your team’s performance. Simply fill out
+          TeamOne can do – contact our sales experts and discover how
+          TeamOne can help improve your team’s performance. Simply fill out
           the form to the right, and a member of our team will contact you as
           soon as possible.
         </p>
@@ -130,7 +130,7 @@ const Contact = () => {
           </li>
           <li className="mb-3">
             <span className="text-success">✓</span> Understand how to best use
-            Pipedrive
+            TeamOne
           </li>
           <li className="mb-3">
             <span className="text-success">✓</span> Learn more about how to
@@ -155,7 +155,7 @@ const Contact = () => {
                 </div>
               </div>
               <p className="text-muted mb-0">
-                Loved the demo session. It set Pipedrive apart from its
+                Loved the demo session. It set TeamOne apart from its
                 competitors for me.
               </p>
               <div className="mt-2">
@@ -172,7 +172,7 @@ const Contact = () => {
       </div>
       <div className="col-md-6">
   <div className="p-4 shadow-sm rounded bg-white">
-    <h4 className="card-title mb-4 text-primary">Connect Sales about Pipedrive</h4>
+    <h4 className="card-title mb-4 text-primary">Connect Sales </h4>
     <form>
       <div className="form-group mb-3">
         <label htmlFor="name" className="font-weight-bold mb-2">Name</label>
@@ -207,7 +207,7 @@ const Contact = () => {
       <div className="form-group mb-3">
         <label htmlFor="country" className="font-weight-bold mb-2">Country</label>
         <select className="form-control py-2" id="country">
-          <option>Select from dropdown</option>
+          <option>Select Country</option>
           <option>United States</option>
           <option>Canada</option>
           <option>United Kingdom</option>
@@ -227,7 +227,7 @@ const Contact = () => {
       <div className="form-group mb-3">
         <label htmlFor="size" className="font-weight-bold mb-2">Company Size</label>
         <select className="form-control py-2" id="size">
-          <option>Select from dropdown</option>
+          <option>Select company size</option>
           <option>1-10 employees</option>
           <option>11-50 employees</option>
           <option>51-200 employees</option>
@@ -236,7 +236,7 @@ const Contact = () => {
 
       <div className="form-group mb-3">
         <small className="form-text text-muted">
-          *We’re committed to your privacy. Pipedrive uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information, check out our Privacy Notice.
+          *We’re committed to your privacy. TeamOne uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information, check out our Privacy Notice.
         </small>
       </div>
 
