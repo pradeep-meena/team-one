@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Conatct.css"
+import { Link } from 'react-router-dom'
 const Contact = () => {
   return (
 <>
@@ -58,9 +59,9 @@ const Contact = () => {
               Sometimes you need a little help from your friends. Or a TeamOne
               support rep. Don't worry... we're here for you.
             </p>
-            <a href="#" className="btn btn-success w-50 mx-auto mt-3">
+            <Link to="/contact-support" className="btn btn-success w-50 mx-auto mt-3">
               Contact Support
-            </a>
+            </Link>
           </div>
         </div>
       </div>

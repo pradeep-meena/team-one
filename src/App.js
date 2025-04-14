@@ -13,6 +13,7 @@ import Home from './Component/Home';
 import IntegrationPage from './Component/IntegrationPage';
 import Contact from './Component/Contact';
 import AuthForm from './Component/auth/AuthPage';
+import ContactSupport from './Component/ContactSupport';
 
 function Layout() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="business-banner" element={<BusinessBanner />} />
           <Route path="fearture" element={<Fearture />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="contact-support" element={<ContactSupport />} />
         </Route>
       </Routes>
    </Router>

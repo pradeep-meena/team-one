@@ -29,28 +29,30 @@ const FeaturePage = () => {
     <>
       {/* Hello world */}
       <div className="container text-center mt-5">
-        {showModal && (
-          <div className="modal-backdrop" onClick={handleCloseModal}>
-            <div
-              className="video-modal-content"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <button className="close-modal-btn" onClick={handleCloseModal}>×</button>
-              <div className="modal-video-container">
-                <video
-                  ref={videoRef}
-                  className="w-100 h-100"
-                  controls
-                  autoPlay
-                  playsInline
-                >
-                  <source src={currentVideoSrc} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
+      {showModal && (
+        <div className="modal-backdrop" onClick={handleCloseModal}>
+          <div
+            className="video-modal-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="close-modal-btn" onClick={handleCloseModal}>×</button>
+            <div className="modal-video-container">
+              <video
+                ref={videoRef}
+                className="w-100 h-100"
+                controls
+                autoPlay
+                playsInline
+                muted // Added muted for autoplay to work in most browsers
+              >
+                <source src={currentVideoSrc} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
-        )}
+        </div>
+      )}
+       
         <div className="row">
           <div className="col">
             <h1 style={{ fontWeight: "bold", color: "black", fontSize: 70 }}>

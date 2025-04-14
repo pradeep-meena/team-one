@@ -38,7 +38,8 @@ const Header = () => {
         <div className={`collapse navbar-collapse justify-content-end ${isOpen ? "show" : ""}`}>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link fw-500" to="/features">
+              <Link className="nav-link  font-weight-bold
+              " to="/features">
                 Features
               </Link>
             </li>
